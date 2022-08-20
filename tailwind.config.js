@@ -31,9 +31,11 @@ module.exports = {
 
     height: {
       fullscreen: "100vh",
+      navButton: "5vh",
       card: "30vh",
     },
     width: {
+      navButton: "5vh",
       card: "70vh",
       button: "20vh"
     },

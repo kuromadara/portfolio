@@ -15,7 +15,7 @@ const Navigation = () => {
             </div>
               <div className="md:hidden">
                 <button
-                  className="p-2 w-[7vh] h-[7vh] text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2 w-navButton h-navButton text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (

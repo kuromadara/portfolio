@@ -1,8 +1,8 @@
-import '../styles/globals.css'
+// import '../styles/globals.css'
 
 import Link from "next/link";
 
-const NavigationButtons = () => {
+function NavigationButtons()  {
 
     return(
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">

@@ -56,20 +56,20 @@ const Navigation = () => {
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                             }`}
                     >
-                        <ul className="flex flex-col p-4 items-center mt-4 bg-gray-50 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li >
                                 <Link href="/">
-                                    <a>&#127968;</a>
+                                    <a>Home</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/about-us">
-                                    <a>&#129412;</a>
+                                    <a>About Me</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/contact-us">
-                                    <a>&#128222;</a>
+                                    <a>Contacts</a>
                                 </Link>
                             </li>
                         </ul>

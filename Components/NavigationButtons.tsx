@@ -6,7 +6,7 @@ const NavigationButtons = () => {
     return(
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">
         <div className=" inline-block items-center">
-          <Link href="/">
+          <Link href="/" className="items-center">
             <button
               className="
                 box-border  
@@ -26,6 +26,26 @@ const NavigationButtons = () => {
                 <a>Home</a>
             </button>
           </Link>
+          <Link href="/about-us" className="items-center">
+            <button
+                className="
+                rounded-button 
+                h-[50px]
+                w-button 
+                m-2 
+                shadow-light-button 
+                text-light-font 
+                font-extrabold 
+                text-sm 
+                focus:outline-none 
+                active:shadow-none 
+                transition-shadow ease-in-out duration-100"
+            >
+                
+                    <a>About Me</a>
+            </button>
+        </Link>
+        <Link href="/contact-us" className="items-center">
           <button
             className="
               rounded-button 
@@ -40,28 +60,10 @@ const NavigationButtons = () => {
               active:shadow-none 
               transition-shadow ease-in-out duration-100"
           >
-            <Link href="/about-us">
-                <a>About Me</a>
-            </Link>
-          </button>
-          <button
-            className="
-              rounded-button 
-              h-[50px]
-              w-button 
-              m-2 
-              shadow-light-button 
-              text-light-font 
-              font-extrabold 
-              text-sm 
-              focus:outline-none 
-              active:shadow-none 
-              transition-shadow ease-in-out duration-100"
-          >
-            <Link href="/contact-us">
+            
                 <a>Contact Me</a>
-            </Link>
           </button>
+        </Link>
         </div>
       </div>
     );

@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 
-function NavigationButtons()  {
+const NavigationButtons = () => {
 
     return(
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">

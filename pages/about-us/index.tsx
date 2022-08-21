@@ -53,15 +53,24 @@ function AboutUsPage() {
               <br/>
               <ul className="px-4">
                 <li className="list-disc">
-                  <strong>Web Developer</strong>
+                  <strong>A.I Intern</strong>
                   <br/>
                   <small>
                     <em>
                       <strong className="font-about">
                         <a href="https://iasst.gov.in/">
-                          IASST, Guwahati (Internship)
+                            IASST, Guwahati (Internship)
                         </a>
-                        <br/>
+                      </strong>
+                    </em>
+                  </small>
+                </li>
+                <li className="list-disc">
+                  <strong>Web Developer</strong>
+                  <br/>
+                  <small>
+                    <em>
+                      <strong className="font-about">
                         <a href="https://webcomindia.biz/">
                           Webcom India Pvt. Ltd.
                         </a>

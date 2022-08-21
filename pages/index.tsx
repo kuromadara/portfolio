@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <Fragment>
       
-      <div className="bg-body w-auto h-auto lg:h-fullscreen">
+      <div className="bg-body w-auto lg:h-fullscreen">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-9xl font-bold text-center font-cursive">Hola!</h1>
           <div className="text-3xl text-center font-pixel">

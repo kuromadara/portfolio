@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <Fragment>
       
-      <div className="bg-body h-fullscreen">
+      <div className="bg-body h-auto">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-9xl font-bold text-center font-cursive">Hola!</h1>
           <div className="text-3xl text-center font-pixel">
@@ -27,8 +27,9 @@ function HomePage() {
               I also help in maintaining and developing Apps for our clients.
               <br/> 
               However I thought of doing something new this time around. So I used 
+              <br/>
               <strong>
-                Next.js and typescript and Tailwind css for the UI.
+                 Next.js and typescript and Tailwind css for the UI.
               </strong>
               Hope you will like this.
               

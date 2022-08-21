@@ -26,13 +26,13 @@ function HomePage() {
               <br/>
               I also help in maintaining and developing Apps for our clients.
               <br/> 
-              However I thought of doing something new this time around. So I used 
+              {/* However I thought of doing something new this time around. So I used 
               <br/>
               <strong>
                  Next.js and typescript and Tailwind css for the UI.
               </strong>
               <br/>
-              Hope you will like this.
+              Hope you will like this. */}
               
             </div>
           </div>

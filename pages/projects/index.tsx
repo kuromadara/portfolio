@@ -17,12 +17,12 @@ const PROJECTS = [
         title: 'Cervical Cancer Screening Web App',
         image: 'https://raw.githubusercontent.com/kuromadara/filehost/main/media/icons/cell.svg',
         description: "A Cervical cancer Screening app using Pap-Smear Slides",
-        detail: "Hello there, This was my Thesis for MCA at Cotton University. I developed this PoC as an Inter at IASST, Guwahati. The model for prediction was trained using Keras on top of tensorflow and the web app was built uising Django",
+        detail: "Hello there, This was my Thesis for MCA at Cotton University. I developed this PoC as an Intern at IASST, Guwahati. The model for prediction was trained using Keras on top of tensorflow and the web app was built uising Django",
         link: 'https://github.com/kuromadara/cervical_classifier_webapp'
     },
     {
         id: 3,
-        title: 'Tick-Tak-Toe',
+        title: 'Tick-Tac-Toe',
         image: '/static/images/tic-tac-toe1.png',
         description: "A 2-Player CLI game of Tic-Tac-Toe",
         detail: "Hello there, This is just a simple game of Tic-Tac-Toe. The game can be played using the terminal or the command line. This was built using Python and just one external library to color the output in the terminal. The interesting part is unlike other tick-tak-toe games, it can be played on a board of NxN size.",

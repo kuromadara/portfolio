@@ -17,7 +17,7 @@ const PROJECTS = [
         title: 'Cervical Cancer Screening Web App',
         image: 'https://raw.githubusercontent.com/kuromadara/filehost/main/media/icons/cell.svg',
         description: "A Cervical cancer Screening app using Pap-Smear Slides",
-        detail: "Hello there, This was my Thesis for MCA at Cotton University. The model for prediction was trained using Keras on top of tensorflow and the web app was built uising Django",
+        detail: "Hello there, This was my Thesis for MCA at Cotton University. I developed this PoC as an Inter at IASST, Guwahati. The model for prediction was trained using Keras on top of tensorflow and the web app was built uising Django",
         link: 'https://github.com/kuromadara/cervical_classifier_webapp'
     },
     {

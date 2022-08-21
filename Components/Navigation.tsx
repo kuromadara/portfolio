@@ -11,7 +11,9 @@ const Navigation = () => {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <div className="container flex flex-wrap justify-between items-center mx-auto">
-                            &#128512;
+                            <Link href="/">
+                                &#128512;
+                            </Link>
                         </div>
                         <div className="md:hidden">
                             <button
@@ -65,6 +67,11 @@ const Navigation = () => {
                             <li>
                                 <Link href="/about-us">
                                     <a>About Me</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/projects">
+                                    <a>Projects</a>
                                 </Link>
                             </li>
                             <li>

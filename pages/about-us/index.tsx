@@ -9,7 +9,7 @@ function AboutUsPage() {
       <Head>
         <title>About Us</title>
       </Head>
-      <div className="bg-body h-fullscreen">
+      <div className="bg-body w-auto h-fullscreen">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-7xl font-bold text-center font-pixel">About Me</h1>
           

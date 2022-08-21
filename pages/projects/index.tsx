@@ -31,9 +31,9 @@ const PROJECTS = [
     
 ]
   return (
-    <div className="bg-body h-auto">
+    <div className="bg-body h-auto w-auto">
         <div className="container mx-auto px-4 py-8 ">
-          <h1 className="text-7xl font-bold text-center font-pixel">Projects</h1>
+          <h1 className="text-5xl lg:text-7xl font-bold text-center font-pixel">Projects</h1>
         <div className="grid place-content-center grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-3">
           {     
                 PROJECTS.map(project => (

@@ -9,7 +9,7 @@ const PROJECTS = [
         title: 'Handwriting Recognition App',
         image: '/static/images/pngegg.png',
         description: "An Android app that can recognize on-screen handwriting and translate it to text.",
-        detail: "Hello there, This was my 5th Semester project for MCA at Cotton University. The app uses android Canvas API to draw on the screen and then uses android Digital Ink Recognition model to recognize the drawn handwriting and translate it to text. The app is built using Java and Android Studio.",
+        detail: "Hello there, This was my 5th Semester project for MCA at Cotton University. The app uses android Canvas API to draw on the screen and then uses android Digital Ink Recognition model to recognize the drawn handwriting and translate it to text. The app is built using Kotlin and Android Studio.",
         link: 'https://github.com/kuromadara/HandwrittingRecognition'
     },
     {

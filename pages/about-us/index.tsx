@@ -27,7 +27,7 @@ function AboutUsPage() {
                     <em>
                       <strong className="font-about">
                         <a href="https://cottonuniversity.ac.in/">
-                          Cotton University, Assam
+                        Dibrugarh University, Assam
                         </a>
                       </strong>
                     </em>
@@ -40,7 +40,7 @@ function AboutUsPage() {
                     <em>
                       <strong className="font-about">
                         <a href="https://dibru.ac.in/">
-                          Dibrugarh University, Assam
+                          Cotton University, Assam
                         </a>
                       </strong>
                     </em>

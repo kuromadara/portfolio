@@ -31,6 +31,7 @@ function HomePage() {
               <strong>
                  Next.js and typescript and Tailwind css for the UI.
               </strong>
+              <br/>
               Hope you will like this.
               
             </div>

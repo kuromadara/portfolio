@@ -31,7 +31,7 @@ module.exports = {
     },
 
     height: {
-      fullscreen: "100vh",
+      fullscreen: "150vh",
       navButton: "5vh",
       card: "30vh",
     },

@@ -21,7 +21,8 @@ function HomePage() {
               at <a href="https://webcomindia.biz/">Webcom India Pvt. Ltd.</a> Specializing in PHP and Laravel.        
             </div>
             <div className="text-center font-pixel">
-              I have been mostly developing HRMIS softwares and Management Systems for colleges and universities.
+              I have been mostly developing HRMS softwares for PSU's and Government Organizations and Management Systems for colleges and universities.
+              I mostly help in developing Loan Managements and other payroll related modules such as PF Registers, Tax Deductions Systems, etc.
               <br/>
               I also help in maintaining and developing Apps for our clients.
             </div>

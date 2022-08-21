@@ -15,7 +15,7 @@ function HomePage() {
           
         </div>
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">
-          <div className="box-border w-card shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
+          <div className="box-border lg:w-card w-auto shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
             <div className="text-center font-pixel">
               Hello I'm Dayananda Dowarah a Backend Developer 
               at <a href="https://webcomindia.biz/">Webcom India Pvt. Ltd.</a> Specializing in PHP and Laravel.        

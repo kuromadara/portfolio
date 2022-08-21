@@ -20,7 +20,8 @@ module.exports = {
     },
     borderRadius: {
       card: "10px",
-      button: "50px"
+      button: "50px",
+      image: "100px"
     },
     boxShadow: {
       "light-card":
@@ -37,7 +38,7 @@ module.exports = {
     width: {
       navButton: "5vh",
       card: "70vh",
-      button: "20vh"
+      button: "20vh",
     },
     
     

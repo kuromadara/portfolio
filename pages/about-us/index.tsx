@@ -15,7 +15,7 @@ function AboutUsPage() {
           
         </div>
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">
-          <div className="box-border w-card h-[30vh] shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
+          <div className="box-border lg:w-card w-auto h-auto lg:h-card shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
             <div className="text-left font-pixel">
               Education:
               <br/>

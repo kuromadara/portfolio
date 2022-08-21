@@ -25,7 +25,7 @@ const PROJECTS = [
         title: 'Tick-Tak-Toe',
         image: '/static/images/tic-tac-toe1.png',
         description: "A 2-Player CLI game of Tic-Tac-Toe",
-        detail: "Hello there, This is just a simple game of Tic-Tac-Toe. The game can be played using the terminal or the command line. This was built using Python and just one external library to color the output in the terminal. The interesting part is unlike other tick-tak-toe games, the game is can be played on a board of NxN size.",
+        detail: "Hello there, This is just a simple game of Tic-Tac-Toe. The game can be played using the terminal or the command line. This was built using Python and just one external library to color the output in the terminal. The interesting part is unlike other tick-tak-toe games, it can be played on a board of NxN size.",
         link: 'https://github.com/kuromadara/code4fun'
     },
     

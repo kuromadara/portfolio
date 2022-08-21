@@ -25,13 +25,13 @@ function HomePage() {
               I mostly help in developing Loan Managements and other payroll related modules such as PF Registers, Tax Deductions Systems, etc.
               <br/>
               I also help in maintaining and developing Apps for our clients.
-              <br> 
+              <br/> 
               However I thought of doing something new this time around. So I used 
               <strong>
                 Next.js and typescript and Tailwind css for the UI.
               </strong>
               Hope you will like this.
-              </br>
+              
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ function ProjectItem(props: any) {
     const { title, image, description, detail, link} = props;
     return(
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">
-          <div className="box-border flex flex-col items-center w-auto h-auto lg:h-[62vh] shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
+          <div className="box-border flex flex-col items-center w-auto h-auto lg:h-[70vh] shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
             <Link href={link}>
                 <img
                     src={image}

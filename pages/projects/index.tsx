@@ -28,6 +28,23 @@ const PROJECTS = [
         detail: "Hello there, This is just a simple game of Tic-Tac-Toe. The game can be played using the terminal or the command line. This was built using Python and just one external library to color the output in the terminal. The interesting part is unlike other tick-tak-toe games, it can be played on a board of NxN size.",
         link: 'https://github.com/kuromadara/code4fun'
     },
+    {
+        id: 4,
+        title: 'Direct Caller with Sim Choice',
+        image: '/static/images/phone.png',
+        description: "A Flutter library that allows you to make phone calls directly from your app.",
+        detail: "Makes Call Directly without user interaction. Ideal for application that has emergency call services. One example would be a distress app that makes phone call when phone is shaked three times.",
+        link: 'https://github.com/kuromadara/direct_caller_sim_choice'
+    },
+    {
+      id: 5,
+      title: 'Indian Currency to Word',
+      image: '/static/images/rupee.png',
+      description: "A Flutter library that convert number to words in Indian Currency",
+      detail: "A Flutter package for both iOS and Android that converts a given amount to word in Indian Locale. Currently it support conversion till Crore. The maximum number is (999999999). ",
+      link: 'https://github.com/kuromadara/indian_currency_to_word'
+  },
+    
     
 ]
   return (

@@ -1,11 +1,14 @@
 import { Fragment } from "react";
 import NavigationButtons from '../Components/NavigationButtons'
+import Head from "next/head";
 
 
 function HomePage() {
   return (
     <Fragment>
-      
+      <Head>
+        <title>Welcome</title>
+      </Head>
       <div className="bg-body w-auto lg:h-fullscreen">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-9xl font-bold text-center font-cursive">Hola!</h1>

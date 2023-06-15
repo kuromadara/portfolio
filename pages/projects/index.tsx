@@ -1,5 +1,7 @@
+import { Fragment } from "react";
 import NavigationButtons from "../../Components/NavigationButtons";
 import ProjectItem from "../../Components/ProjectItem/ProjectItem";
+import Head from "next/head";
 
 function ProjectsPage() {
 
@@ -48,6 +50,10 @@ const PROJECTS = [
     
 ]
   return (
+    <Fragment>
+      <Head>
+        <title>Projects</title>
+      </Head>
     <div className="bg-body h-auto w-auto">
         <div className="container mx-auto px-4 py-8 ">
           <h1 className="text-5xl lg:text-7xl font-bold text-center font-pixel">Projects</h1>
@@ -71,6 +77,7 @@ const PROJECTS = [
         
         <NavigationButtons />
     </div>
+    </Fragment>
   );
 }
 

@@ -24,8 +24,7 @@ function HomePage() {
               at <a href="https://webcomindia.biz/">Webcom India Pvt. Ltd.</a> Specializing in PHP and Laravel and Flutter.        
             </div>
             <div className="text-center font-pixel">
-              I have been mostly developing ERP softwares for PSU's, Government and Private Organizations and Management Systems for colleges and universities.
-              I mostly help in developing Loan Managements and other payroll related modules such as PF Registers, Tax Deductions Systems, etc.
+            Hello, I'm Dayananda Dowarah, a passionate Fullstack Developer with expertise in web and mobile technologies. With a strong foundation in PHP, Laravel, and Flutter, I specialize in creating robust and user-friendly applications. My experience spans across developing enterprise-level software solutions, including ERP systems and management platforms for various sectors. I'm dedicated to crafting efficient, scalable, and innovative digital solutions that make a real impact.
               <br/>
               I also help in maintaining and developing Apps for our clients.
               <br/> 

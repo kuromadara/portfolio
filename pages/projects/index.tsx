@@ -52,7 +52,7 @@ const PROJECTS = [
       image: '/static/images/chat.png',
       description: "Experience seamless, private, and offline AI-powered conversations with TinyChat, running TinyLLaMA locally on your device.",
       detail: "Unleash the power of AI on your device with TinyChat! Experience seamless, intelligent conversations with our app that runs TinyLLaMA locally, ensuring privacy, speed, and offline capability. Whether you need assistance, want to have a friendly chat, or seek information, TinyChat is here to help anytime, anywhere. ",
-      link: 'https://github.com/kuromadara/indian_currency_to_word'
+      link: 'https://github.com/kuromadara/tinychat/releases'
     },
     
     

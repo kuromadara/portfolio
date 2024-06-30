@@ -20,11 +20,11 @@ function HomePage() {
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">
           <div className="box-border lg:w-card w-auto shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
             <div className="text-center font-pixel">
-              Hello I'm Dayananda Dowarah a Backend Developer 
-              at <a href="https://webcomindia.biz/">Webcom India Pvt. Ltd.</a> Specializing in PHP and Laravel.        
+              Hello I'm Dayananda Dowarah a Fullstack Developer 
+              at <a href="https://webcomindia.biz/">Webcom India Pvt. Ltd.</a> Specializing in PHP and Laravel and Flutter.        
             </div>
             <div className="text-center font-pixel">
-              I have been mostly developing HRMS softwares for PSU's and Government Organizations and Management Systems for colleges and universities.
+              I have been mostly developing ERP softwares for PSU's, Government and Private Organizations and Management Systems for colleges and universities.
               I mostly help in developing Loan Managements and other payroll related modules such as PF Registers, Tax Deductions Systems, etc.
               <br/>
               I also help in maintaining and developing Apps for our clients.

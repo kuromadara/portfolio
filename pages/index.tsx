@@ -19,10 +19,7 @@ function HomePage() {
         </div>
         <div className="container mx-auto px-4 py-8 flex items-center justify-center">
           <div className="box-border lg:w-card w-auto shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
-            <div className="text-center font-pixel">
-              Hello I'm Dayananda Dowarah a Fullstack Developer 
-              at <a href="https://webcomindia.biz/">Webcom India Pvt. Ltd.</a> Specializing in PHP and Laravel and Flutter.        
-            </div>
+            
             <div className="text-center font-pixel">
             Hello, I'm Dayananda Dowarah, a passionate Fullstack Developer with expertise in web and mobile technologies. With a strong foundation in PHP, Laravel, and Flutter, I specialize in creating robust and user-friendly applications. My experience spans across developing enterprise-level software solutions, including ERP systems and management platforms for various sectors. I'm dedicated to crafting efficient, scalable, and innovative digital solutions that make a real impact.
               <br/>

@@ -45,7 +45,15 @@ const PROJECTS = [
       description: "A Flutter library that convert number to words in Indian Currency",
       detail: "A Flutter package for both iOS and Android that converts a given amount to word in Indian Locale. Currently it support conversion till Crore. The maximum number is (999999999). ",
       link: 'https://github.com/kuromadara/indian_currency_to_word'
-  },
+    },
+    {
+      id: 5,
+      title: 'TinyChat',
+      image: '/static/images/Chat.png',
+      description: "Experience seamless, private, and offline AI-powered conversations with TinyChat, running TinyLLaMA locally on your device.",
+      detail: "Unleash the power of AI on your device with TinyChat! Experience seamless, intelligent conversations with our app that runs TinyLLaMA locally, ensuring privacy, speed, and offline capability. Whether you need assistance, want to have a friendly chat, or seek information, TinyChat is here to help anytime, anywhere. ",
+      link: 'https://github.com/kuromadara/indian_currency_to_word'
+    },
     
     
 ]

@@ -47,7 +47,7 @@ const PROJECTS = [
       link: 'https://github.com/kuromadara/indian_currency_to_word'
     },
     {
-      id: 5,
+      id: 6,
       title: 'TinyChat',
       image: '/static/images/Chat.png',
       description: "Experience seamless, private, and offline AI-powered conversations with TinyChat, running TinyLLaMA locally on your device.",

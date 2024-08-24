@@ -57,36 +57,51 @@ const PROJECTS = [
     
     
 ]
-  return (
-    <Fragment>
-      <Head>
-        <title>Projects</title>
-      </Head>
-    <div className="bg-body h-auto w-auto">
-        <div className="container mx-auto px-4 py-8 ">
-          <h1 className="text-5xl lg:text-7xl font-bold text-center font-pixel">Projects</h1>
-        <div className="grid place-content-center grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-3">
-          {     
-                PROJECTS.map(project => (
-                    <div className="" key={project.id}>
-                    <ProjectItem 
-                        key={project.id} 
-                        title={project.title}
-                        image={project.image}
-                        description={project.description}
-                        detail={project.detail}
-                        link={project.link}
-                    />
-                    </div>
-                ))
+return (
+  <Fragment>
+    <Head>
+      <title>Dayananda's Projects</title>
+      <meta name="description" content="Explore Dayananda's portfolio projects" />
+      <link rel="icon" href="/favicon.ico" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+      <style>
+        {`
+          body {
+            font-family: 'Poppins', sans-serif;
           }
-          </div>
+        `}
+      </style>
+    </Head>
+    <div className="bg-gray-100 min-h-screen">
+      <div className="container mx-auto px-4 py-16">
+        <div className="text-center">
+          <h1 className="text-5xl font-bold text-gray-800 mb-4">Dayananda's Projects</h1>
+          <p className="text-gray-600 text-xl mb-8">
+            Explore the diverse range of projects I've worked on
+          </p>
         </div>
-        
-        <NavigationButtons />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {PROJECTS.map((project) => (
+            <div key={project.id}>
+              <ProjectItem
+                title={project.title}
+                image={project.image}
+                description={project.description}
+                detail={project.detail}
+                link={project.link}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+      <NavigationButtons />
     </div>
-    </Fragment>
-  );
+  </Fragment>
+);
+
 }
 
 export default ProjectsPage;

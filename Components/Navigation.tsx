@@ -1,82 +1,78 @@
-
 import Link from "next/link";
 import { useState } from 'react';
 
 const Navigation = () => {
     const [navbar, setNavbar] = useState(false);
-    return (
 
-        <nav className="bg-body border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-                <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <div className="container flex flex-wrap justify-between items-center mx-auto">
-                            <Link href="/">
-                                &#128512;
-                            </Link>
-                        </div>
-                        <div className="md:hidden">
-                            <button
-                                className="p-2 w-navButton h-navButton text-gray-700 rounded-md outline-none "
-                                onClick={() => setNavbar(!navbar)}
-                            >
-                                {navbar ? (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
-                                        viewBox="0 0 20 20"
-                                        fill="currentColor"
-                                    >
-                                        <path
-                                            fillRule="evenodd"
-                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                            clipRule="evenodd"
-                                        />
-                                    </svg>
-                                ) : (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        strokeWidth={2}
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M4 6h16M4 12h16M4 18h16"
-                                        />
-                                    </svg>
-                                )}
-                            </button>
-                        </div>
-                    </div>
+    return (
+        <nav className="bg-gray-800 text-white py-4">
+            <div className="container mx-auto flex justify-between items-center">
+                <div className="flex items-center">
+                    <Link href="/">
+                        <a className="text-2xl font-bold">
+                            &#128512; My Portfolio
+                        </a>
+                    </Link>
                 </div>
-                <div>
-                    <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
-                            }`}
+                <div className="md:flex md:items-center">
+                    <button
+                        className="md:hidden block p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                        onClick={() => setNavbar(!navbar)}
                     >
-                        <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                            <li >
+                        {navbar ? (
+                            <svg
+                                className="h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        ) : (
+                            <svg
+                                className="h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                />
+                            </svg>
+                        )}
+                    </button>
+                    <div
+                        className={`md:flex md:items-center ${navbar ? 'block' : 'hidden'}`}
+                    >
+                        <ul className="md:flex md:space-x-4">
+                            <li>
                                 <Link href="/">
-                                    <a>Home</a>
+                                    <a className="hover:text-gray-400">Home</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/about-us">
-                                    <a>About Me</a>
+                                    <a className="hover:text-gray-400">About Me</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/projects">
-                                    <a>Projects</a>
+                                    <a className="hover:text-gray-400">Projects</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/contact-us">
-                                    <a>Contacts</a>
+                                    <a className="hover:text-gray-400">Contacts</a>
                                 </Link>
                             </li>
                         </ul>

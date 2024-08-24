@@ -1,94 +1,89 @@
 import { Fragment } from "react";
 import Head from "next/head";
-
 import NavigationButtons from "../../Components/NavigationButtons";
 
 function AboutUsPage() {
   return (
     <Fragment>
       <Head>
-        <title>About Us</title>
+        <title>About Dayananda</title>
+        <meta name="description" content="Learn more about Dayananda Dowarah, a passionate Fullstack Developer" />
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <style>
+          {`
+            body {
+              font-family: 'Poppins', sans-serif;
+            }
+          `}
+        </style>
       </Head>
-      <div className="bg-body w-auto h-fullscreen">
-        <div className="container mx-auto px-4 py-8">
-          <h1 className="text-7xl font-bold text-center font-pixel">About Me</h1>
-          
-        </div>
-        <div className="container mx-auto px-4 py-8 flex items-center justify-center">
-          <div className="box-border lg:w-card w-auto h-auto shadow-light-card rounded-card mx-auto p-4 border-2 rounded">
-            <div className="text-left font-pixel">
-              Education:
-              <br/>
-              <ul className="px-4">
-                <li className="list-disc">
+      <div className="bg-gray-100 min-h-screen">
+        <div className="container mx-auto px-4 py-16">
+          <div className="text-center">
+            <h1 className="text-5xl font-bold text-gray-800 mb-4">About Dayananda</h1>
+            <p className="text-gray-600 text-xl mb-8">
+              Discover my educational and professional journey
+            </p>
+          </div>
+          <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8 mb-8">
+            <div className="text-gray-700 leading-relaxed">
+              <h2 className="text-2xl font-bold mb-4">Education</h2>
+              <ul className="list-disc pl-6 mb-4">
+                <li>
                   <strong>Bachelor in Computer Application</strong>
-                  <br/>
-                  <small>
-                    <em>
-                      <strong className="font-about">
-                        <a href="https://cottonuniversity.ac.in/">
-                        Dibrugarh University, Assam
-                        </a>
-                      </strong>
-                    </em>
-                  </small>
+                  <br />
+                  <a
+                    href="https://cottonuniversity.ac.in/"
+                    className="text-blue-500 hover:underline"
+                  >
+                    Dibrugarh University, Assam
+                  </a>
                 </li>
-                <li className="list-disc">
+                <li>
                   <strong>Masters in Computer Application</strong>
-                  <br/>
-                  <small>
-                    <em>
-                      <strong className="font-about">
-                        <a href="https://dibru.ac.in/">
-                          Cotton University, Assam
-                        </a>
-                      </strong>
-                    </em>
-                  </small>
+                  <br />
+                  <a
+                    href="https://dibru.ac.in/"
+                    className="text-blue-500 hover:underline"
+                  >
+                    Cotton University, Assam
+                  </a>
                 </li>
               </ul>
-            </div>
-            <div className="text-left font-pixel">
-              Work Experience:
-              <br/>
-              <ul className="px-4">
-                <li className="list-disc">
+              <h2 className="text-2xl font-bold mb-4">Work Experience</h2>
+              <ul className="list-disc pl-6 mb-4">
+                <li>
                   <strong>A.I Intern</strong>
-                  <br/>
-                  <small>
-                    <em>
-                      <strong className="font-about">
-                        <a href="https://iasst.gov.in/">
-                            IASST, Guwahati (Internship)
-                        </a>
-                      </strong>
-                    </em>
-                  </small>
+                  <br />
+                  <a
+                    href="https://iasst.gov.in/"
+                    className="text-blue-500 hover:underline"
+                  >
+                    IASST, Guwahati (Internship)
+                  </a>
                 </li>
-                <li className="list-disc">
+                <li>
                   <strong>Web Developer</strong>
-                  <br/>
-                  <small>
-                    <em>
-                      <strong className="font-about">
-                        <a href="https://webcomindia.biz/">
-                          Webcom India Pvt. Ltd.
-                        </a>
-                      </strong>
-                    </em>
-                  </small>
+                  <br />
+                  <a
+                    href="https://webcomindia.biz/"
+                    className="text-blue-500 hover:underline"
+                  >
+                    Webcom India Pvt. Ltd.
+                  </a>
                 </li>
-                
               </ul>
             </div>
           </div>
         </div>
-        <NavigationButtons/>
+        <NavigationButtons />
       </div>
     </Fragment>
   );
 }
 
 export default AboutUsPage;
-
-        

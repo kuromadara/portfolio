@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sanity/client": "^6.21.3",
     "autoprefixer": "^10.4.7",
     "next": "latest",
     "next-themes": "^0.3.0",

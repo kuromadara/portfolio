@@ -1,8 +1,14 @@
 import Link from "next/link";
 
-function ProjectItem(props: any) {
-  const { title, image, description, detail, link } = props;
+interface ProjectItemProps {
+  title: string;
+  image: string;
+  description: string;
+  detail: string;
+  link: string;
+}
 
+function ProjectItem({ title, image, description, detail, link }: ProjectItemProps) {
   return (
     <div className="container mx-auto px-4 py-8 flex items-center justify-center">
       <div className="box-border flex flex-col items-center w-full max-w-md h-auto lg:h-[70vh] shadow-light-card dark:shadow-dark-card rounded-card mx-auto p-6 border-2 rounded bg-white dark:bg-gray-800">

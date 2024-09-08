@@ -7,11 +7,7 @@ import { GetStaticProps } from 'next';
 interface Project {
   _id: string;
   title: string;
-  image: {
-    asset: {
-      url: string;
-    };
-  };
+  image: string;
   description: string;
   detail: string;
   link: string;
@@ -81,7 +77,7 @@ function ProjectsPage({ projects }: ProjectsPageProps) {
               <div key={project._id} className="transform hover:scale-105 transition duration-300">
                 <ProjectItem
                   title={project.title}
-                  image={project.image}
+                  image={project.image || ''}
                   description={project.description}
                   detail={project.detail}
                   link={project.link}

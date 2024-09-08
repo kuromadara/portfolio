@@ -23,10 +23,10 @@ const Footer = () => {
             </Link>
           </div>
           <div className="mt-4 md:mt-0">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gray-300">
+            <a href="https://github.com/kuromadara" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gray-300">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="ml-4 text-sm hover:text-gray-300">
+            <a href="https://linkedin.com/in/dayd" target="_blank" rel="noopener noreferrer" className="ml-4 text-sm hover:text-gray-300">
               LinkedIn
             </a>
           </div>

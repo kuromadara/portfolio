@@ -96,3 +96,5 @@ function ProjectsPage({ projects }: ProjectsPageProps) {
 }
 
 export default ProjectsPage;
+
+// empty comit

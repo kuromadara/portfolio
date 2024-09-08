@@ -1,17 +1,15 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { Fragment } from 'react'
-
-import Navigation from '../Components/Navigation'
-import HeaderPage from '../Components/Header'
+import Layout from '../Components/Layout'
+import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Fragment>
-        <Navigation />
-        <HeaderPage />
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
+      <Layout>
         <Component {...pageProps} />
-    </Fragment>
+      </Layout>
+    </ThemeProvider>
   )
 }
 

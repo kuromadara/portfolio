@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import NavigationButtons from "../Components/NavigationButtons";
 import Head from "next/head";
 
 function HomePage() {
@@ -13,26 +12,22 @@ function HomePage() {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <style>
-          {`
-            body {
-              font-family: 'Poppins', sans-serif;
-            }
-          `}
-        </style>
       </Head>
-      <div className="bg-gray-100 min-h-screen">
+      <div className="bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-gray-900 min-h-screen">
         <div className="container mx-auto px-4 py-16">
-          <div className="text-center">
-            <h1 className="text-5xl font-bold text-gray-800 mb-4">
-              Welcome to Dayananda's Portfolio
+          <div className="text-center mb-16">
+            <h1 className="text-6xl font-bold text-gray-800 dark:text-white mb-4">
+              Welcome to My Portfolio
             </h1>
-            <p className="text-gray-600 text-xl mb-8">
-              Discover my journey as a Fullstack Developer
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+              Fullstack Developer | Web & Mobile Specialist
             </p>
+            <a href="/projects" className="bg-primary text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300">
+              View My Projects
+            </a>
           </div>
-          <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8 mb-8">
-            <div className="text-gray-700 leading-relaxed">
+          <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-xl rounded-lg p-8 mb-8">
+            <div className="text-gray-700 dark:text-gray-300 leading-relaxed">
               <p className="mb-4">
                 Hello, I'm Dayananda Dowarah, a passionate Fullstack Developer with expertise in web and
                 mobile technologies. With a strong foundation in PHP, Laravel, and Flutter, I specialize
@@ -44,14 +39,12 @@ function HomePage() {
                 efficient, scalable, and innovative digital solutions that make a real impact.
               </p>
               <p className="mb-4">
-                I also help in maintaining and developing Apps for our clients. For this portfolio
-                website, I've used Next.js, TypeScript, and Tailwind CSS to create a modern and
-                responsive user interface.
+                This portfolio website is built using Next.js, TypeScript, and Tailwind CSS, showcasing
+                my commitment to modern and responsive web development.
               </p>
             </div>
           </div>
         </div>
-        <NavigationButtons />
       </div>
     </Fragment>
   );

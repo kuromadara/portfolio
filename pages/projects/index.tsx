@@ -1,9 +1,6 @@
 import { Fragment } from "react";
-import NavigationButtons from "../../Components/NavigationButtons";
 import ProjectItem from "../../Components/ProjectItem/ProjectItem";
 import Head from "next/head";
-
-function ProjectsPage() {
 
 const PROJECTS = [
     {
@@ -57,6 +54,8 @@ const PROJECTS = [
     
     
 ]
+function ProjectsPage() {
+
 return (
   <Fragment>
     <Head>
@@ -67,25 +66,18 @@ return (
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet"
       />
-      <style>
-        {`
-          body {
-            font-family: 'Poppins', sans-serif;
-          }
-        `}
-      </style>
     </Head>
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gradient-to-b from-background-light to-white dark:from-background-dark dark:to-gray-900 min-h-screen">
       <div className="container mx-auto px-4 py-16">
-        <div className="text-center">
-          <h1 className="text-5xl font-bold text-gray-800 mb-4">Dayananda's Projects</h1>
-          <p className="text-gray-600 text-xl mb-8">
+        <div className="text-center mb-16">
+          <h1 className="text-5xl font-bold text-gray-800 dark:text-white mb-4">My Projects</h1>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
             Explore the diverse range of projects I've worked on
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {PROJECTS.map((project) => (
-            <div key={project.id}>
+            <div key={project.id} className="transform hover:scale-105 transition duration-300">
               <ProjectItem
                 title={project.title}
                 image={project.image}
@@ -97,7 +89,6 @@ return (
           ))}
         </div>
       </div>
-      <NavigationButtons />
     </div>
   </Fragment>
 );

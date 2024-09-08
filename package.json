@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "tsc && next build"
   },
   "dependencies": {
     "@sanity/client": "^6.21.3",

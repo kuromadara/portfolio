@@ -6,27 +6,34 @@ const Navigation = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<nav className="bg-white dark:bg-gray-800 shadow-md">
+		<nav className="fixed top-0 left-0 right-0 z-50 glass-panel">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex justify-between h-16">
 					<div className="flex">
 						<Link href="/">
-							<a className="flex-shrink-0 flex items-center">
-								<span className="text-2xl font-bold text-primary">Portfolio</span>
+							<a className="flex-shrink-0 flex items-center group">
+								<span className="text-2xl font-heading font-bold gradient-text group-hover:scale-105 transition-transform">
+									Portfolio
+								</span>
 							</a>
 						</Link>
 					</div>
-					<div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-						<NavLink href="/">Home</NavLink>
-						<NavLink href="/about-us">About</NavLink>
-						<NavLink href="/projects">Projects</NavLink>
-						<NavLink href="/contact-us">Contact</NavLink>
-						<DarkModeToggle />
+					<div className="hidden sm:ml-6 sm:flex sm:space-x-1 items-center">
+						<ScrollLink href="#home">Home</ScrollLink>
+						<ScrollLink href="#experience">Experience</ScrollLink>
+						<ScrollLink href="#education">Education</ScrollLink>
+						<ScrollLink href="#skills">Skills</ScrollLink>
+						<ScrollLink href="#achievements">Work</ScrollLink>
+						<ScrollLink href="#projects">Projects</ScrollLink>
+						<ScrollLink href="#contact">Contact</ScrollLink>
+						<div className="ml-4">
+							<DarkModeToggle />
+						</div>
 					</div>
 					<div className="-mr-2 flex items-center sm:hidden">
 						<button
 							onClick={() => setIsOpen(!isOpen)}
-							className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
+							className="inline-flex items-center justify-center p-2 rounded-xl text-foreground-muted hover:text-primary transition-all duration-200"
 						>
 							<span className="sr-only">Open main menu</span>
 							{isOpen ? (
@@ -43,12 +50,15 @@ const Navigation = () => {
 				</div>
 			</div>
 			{isOpen && (
-				<div className="sm:hidden">
-					<div className="pt-2 pb-3 space-y-1">
-						<MobileNavLink href="/">Home</MobileNavLink>
-						<MobileNavLink href="/about-us">About</MobileNavLink>
-						<MobileNavLink href="/projects">Projects</MobileNavLink>
-						<MobileNavLink href="/contact-us">Contact</MobileNavLink>
+				<div className="sm:hidden glass-panel border-t border-glass-border">
+					<div className="pt-2 pb-3 space-y-1 px-4">
+						<MobileScrollLink href="#home">Home</MobileScrollLink>
+						<MobileScrollLink href="#experience">Experience</MobileScrollLink>
+						<MobileScrollLink href="#education">Education</MobileScrollLink>
+						<MobileScrollLink href="#skills">Skills</MobileScrollLink>
+						<MobileScrollLink href="#achievements">Work</MobileScrollLink>
+						<MobileScrollLink href="#projects">Projects</MobileScrollLink>
+						<MobileScrollLink href="#contact">Contact</MobileScrollLink>
 					</div>
 				</div>
 			)}
@@ -56,20 +66,31 @@ const Navigation = () => {
 	);
 };
 
-const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
-	<Link href={href}>
-		<a className="border-transparent text-gray-500 hover:border-primary hover:text-primary inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-			{children}
-		</a>
-	</Link>
+const ScrollLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+	<a 
+		href={href}
+		className="relative px-4 py-2 text-foreground-muted hover:text-primary font-medium transition-all duration-200 rounded-lg hover:bg-glass group cursor-pointer"
+		onClick={(e) => {
+			e.preventDefault();
+			document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+		}}
+	>
+		{children}
+		<span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
+	</a>
 );
 
-const MobileNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
-	<Link href={href}>
-		<a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-primary hover:text-primary block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
-			{children}
-		</a>
-	</Link>
+const MobileScrollLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+	<a 
+		href={href}
+		className="block px-4 py-3 text-foreground-muted hover:text-primary hover:bg-glass font-medium transition-all duration-200 rounded-lg cursor-pointer"
+		onClick={(e) => {
+			e.preventDefault();
+			document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+		}}
+	>
+		{children}
+	</a>
 );
 
 export default Navigation;

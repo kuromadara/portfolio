@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import Head from 'next/head';
 import Navigation from '../Components/Navigation';
-import { sanityClient } from '../lib/sanity';
+import sanityClient from '../lib/sanity';
 
 interface Project {
   _id: string;
@@ -55,7 +55,7 @@ export default function Home() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setVisibleSections(prev => new Set([...prev, entry.target.id]));
+            setVisibleSections(prev => new Set([...Array.from(prev), entry.target.id]));
           }
         });
       },

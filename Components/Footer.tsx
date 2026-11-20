@@ -1,39 +1,23 @@
-import Link from 'next/link';
+import { profile } from '../content/dev'
+import { POLARSTEPS_PROFILE_URL } from '../lib/polarsteps'
+import { usePersona } from './persona'
 
-const Footer = () => {
+export default function Footer() {
+  const persona = usePersona()
   return (
-    <footer className="bg-gray-800 text-white">
-      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <p className="text-sm">&copy; 2023 Dayananda Dowarah. All rights reserved.</p>
-          </div>
-          <div className="flex space-x-6">
-            <Link href="/">
-              <a className="text-sm hover:text-gray-300">Home</a>
-            </Link>
-            <Link href="/about-us">
-              <a className="text-sm hover:text-gray-300">About</a>
-            </Link>
-            <Link href="/projects">
-              <a className="text-sm hover:text-gray-300">Projects</a>
-            </Link>
-            <Link href="/contact-us">
-              <a className="text-sm hover:text-gray-300">Contact</a>
-            </Link>
-          </div>
-          <div className="mt-4 md:mt-0">
-            <a href="https://github.com/kuromadara" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gray-300">
-              GitHub
-            </a>
-            <a href="https://linkedin.com/in/dayd" target="_blank" rel="noopener noreferrer" className="ml-4 text-sm hover:text-gray-300">
-              LinkedIn
-            </a>
-          </div>
-        </div>
+    <footer className="mt-24 border-t border-line">
+      <div className="container-page flex flex-col gap-4 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
+        <p>
+          © {new Date().getFullYear()} {profile.name}
+          {persona === 'travel' && <> · trip data from Polarsteps</>}
+        </p>
+        <ul className="flex flex-wrap gap-x-5 gap-y-2">
+          <li><a className="hover:text-ink" href={`mailto:${profile.email}`}>Email</a></li>
+          <li><a className="hover:text-ink" href={profile.github} target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a className="hover:text-ink" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a className="hover:text-ink" href={POLARSTEPS_PROFILE_URL} target="_blank" rel="noreferrer">Polarsteps</a></li>
+        </ul>
       </div>
     </footer>
-  );
-};
-
-export default Footer;
+  )
+}

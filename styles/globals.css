@@ -2,170 +2,207 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+/*
+ * Design tokens. Colors are space-separated RGB so Tailwind can apply alpha
+ * (e.g. bg-accent/10). Each persona overrides the same token names, so every
+ * component restyles itself when [data-persona] flips.
+ */
 
-:root {
-  /* Dark theme by default */
-  --background: 216 27% 7%; /* #0D1117 */
-  --background-secondary: 215 25% 11%; /* #161B24 */
-  --foreground: 0 0% 95%; /* #F2F2F2 */
-  --foreground-muted: 0 0% 60%; /* #999999 */
-  
-  /* Neon accent colors */
-  --primary: 180 100% 50%; /* #00FFFF - Cyan */
-  --primary-foreground: 216 27% 7%;
-  --primary-glow: 180 100% 70%; /* Lighter cyan for glow */
-  
-  --accent: 270 100% 60%; /* #9933FF - Purple */
-  --accent-secondary: 300 100% 50%; /* #FF00FF - Magenta */
-  --accent-tertiary: 210 100% 56%; /* #0080FF - Blue */
-  
-  /* Glassmorphism */
-  --glass: 0 0% 100% / 0.05; /* Semi-transparent white */
-  --glass-border: 0 0% 100% / 0.1;
+/* ── Dev persona (default) ─────────────────────────────── */
+:root,
+[data-persona='dev'] {
+  --bg: 250 250 249;
+  --surface: 255 255 255;
+  --ink: 17 17 19;
+  --muted: 98 98 108;
+  --line: 228 228 231;
+  --accent: 79 70 229;
+  --accent-2: 13 148 136;
+  --accent-ink: 255 255 255;
+  --font-display: var(--font-grotesk);
+  --radius: 10px;
 }
 
-* {
-  scroll-behavior: smooth;
+.dark,
+.dark [data-persona='dev'] {
+  --bg: 10 10 12;
+  --surface: 19 19 23;
+  --ink: 236 236 240;
+  --muted: 150 150 162;
+  --line: 38 38 46;
+  --accent: 140 146 255;
+  --accent-2: 45 212 191;
+  --accent-ink: 10 10 12;
 }
 
-html {
-  scroll-behavior: smooth;
+/* ── Traveler persona ──────────────────────────────────── */
+[data-persona='travel'] {
+  --bg: 244 239 230;
+  --surface: 251 248 242;
+  --ink: 38 31 25;
+  --muted: 112 100 86;
+  --line: 222 211 194;
+  --accent: 190 80 44;
+  --accent-2: 47 93 80;
+  --accent-ink: 255 250 244;
+  --font-display: var(--font-serif);
+  --radius: 4px;
 }
 
-body {
-  font-family: 'Inter', system-ui, sans-serif;
-  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
-  background: hsl(var(--background));
-  color: hsl(var(--foreground));
-  line-height: 1.6;
-  min-height: 100vh;
-  overflow-x: hidden;
+.dark [data-persona='travel'] {
+  --bg: 21 19 16;
+  --surface: 31 28 24;
+  --ink: 240 232 220;
+  --muted: 170 157 140;
+  --line: 56 50 43;
+  --accent: 235 129 92;
+  --accent-2: 126 178 156;
+  --accent-ink: 21 19 16;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    background-color: rgb(var(--bg));
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgb(var(--accent) / 0.25);
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
 }
 
-::-webkit-scrollbar-track {
-  background: hsl(var(--background-secondary));
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.18em] text-muted;
+  }
+
+  .card {
+    @apply border border-line bg-surface;
+    border-radius: var(--radius);
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-line px-2.5 py-0.5 font-mono text-[11px] text-muted;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-2 border px-4 py-2.5 text-sm font-medium transition-colors;
+    border-radius: var(--radius);
+  }
+  .btn-primary {
+    @apply btn border-accent bg-accent text-accent-ink hover:bg-accent/90;
+  }
+  .btn-ghost {
+    @apply btn border-line text-ink hover:border-ink/40;
+  }
 }
 
-::-webkit-scrollbar-thumb {
-  background: hsl(var(--primary) / 0.6);
-  border-radius: 8px;
+/* Dev persona: faint engineering grid behind the hero */
+.grid-bg {
+  background-image:
+    linear-gradient(rgb(var(--line) / 0.7) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--line) / 0.7) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 30% 40%, black 20%, transparent 70%);
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--primary) / 0.8);
+/* Traveler persona: topographic contour texture */
+.topo-bg {
+  background-image: repeating-radial-gradient(
+    circle at 70% 30%,
+    transparent 0 22px,
+    rgb(var(--accent-2) / 0.09) 22px 23px
+  );
+  mask-image: radial-gradient(ellipse at 70% 30%, black 10%, transparent 65%);
 }
 
-/* Glassmorphism utilities */
-.glass-panel {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background: hsl(var(--glass));
-  border: 1px solid hsl(var(--glass-border));
-  box-shadow: 0 8px 32px hsl(var(--glass) / 0.1);
-}
-
-.glass-card {
-  backdrop-filter: blur(12px) saturate(150%);
-  -webkit-backdrop-filter: blur(12px) saturate(150%);
-  background: hsl(var(--glass));
-  border: 1px solid hsl(var(--glass-border));
-  border-radius: 16px;
-  box-shadow: 0 8px 32px hsl(var(--glass) / 0.1);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.glass-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 64px hsl(var(--glass) / 0.15);
-  border-color: hsl(var(--primary) / 0.3);
-}
-
-/* Gradient text utilities */
-.gradient-text {
-  background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--accent-secondary)));
-  background-size: 200% 200%;
-  animation: gradientShift 4s ease-in-out infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.gradient-text-glow {
-  background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  filter: drop-shadow(0 0 10px hsl(var(--primary-glow) / 0.5));
-}
-
-/* Neon glow effects */
-.neon-glow {
-  text-shadow: 
-    0 0 5px hsl(var(--primary-glow)),
-    0 0 10px hsl(var(--primary-glow)),
-    0 0 20px hsl(var(--primary-glow));
-}
-
-.cyber-border {
-  position: relative;
-  border: 1px solid hsl(var(--primary) / 0.3);
-}
-
-.cyber-border::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid hsl(var(--primary));
-  border-radius: inherit;
+/* Scroll reveal (see Components/Reveal.tsx) */
+.reveal {
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transform: translateY(16px);
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
-
-.cyber-border:hover::before {
+.reveal.is-visible {
   opacity: 1;
+  transform: none;
 }
 
-/* Particle background */
-.particles-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -1;
-  background: 
-    radial-gradient(circle at 20% 80%, hsl(var(--accent) / 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, hsl(var(--primary) / 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 40% 40%, hsl(var(--accent-secondary) / 0.1) 0%, transparent 50%);
+/* Alter-ego switch: circular reveal from the toggle (View Transitions API) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-new(root) {
+  animation: persona-reveal 0.7s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+@keyframes persona-reveal {
+  from {
+    clip-path: circle(0 at var(--vt-x, 90%) var(--vt-y, 2rem));
+  }
+  to {
+    clip-path: circle(150vmax at var(--vt-x, 90%) var(--vt-y, 2rem));
+  }
 }
 
-/* Timeline styles */
-.timeline-line {
-  background: linear-gradient(to bottom, 
-    transparent 0%, 
-    hsl(var(--primary) / 0.5) 20%, 
-    hsl(var(--primary)) 50%, 
-    hsl(var(--primary) / 0.5) 80%, 
-    transparent 100%);
+/* MapLibre map (Components/TravelMap.tsx) */
+.maplibregl-map {
+  font-family: inherit;
+}
+.trip-tip .maplibregl-popup-content {
+  @apply rounded border border-line bg-surface px-2.5 py-1.5 font-sans text-xs text-ink shadow-md;
+}
+.trip-tip .maplibregl-popup-tip {
+  display: none;
+}
+.maplibregl-ctrl-group {
+  @apply border border-line shadow-none !important;
+  background: rgb(var(--surface)) !important;
+}
+.dark .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+  filter: invert(1);
+}
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+.dark .maplibregl-ctrl-attrib {
+  background: rgb(var(--surface) / 0.8) !important;
+  color: rgb(var(--muted));
+}
+.dark .maplibregl-ctrl-attrib a {
+  color: rgb(var(--muted));
+}
+.maplibregl-cooperative-gesture-screen {
+  @apply font-sans text-sm;
 }
 
-/* Typewriter effect */
-.typewriter {
-  border-right: 2px solid hsl(var(--primary));
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typewriter 4s steps(40) infinite, 
-             blink 1s linear infinite;
-}
-
-@keyframes blink {
-  0%, 50% { border-color: hsl(var(--primary)); }
-  51%, 100% { border-color: transparent; }
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  ::view-transition-new(root) {
+    animation: none;
+  }
 }

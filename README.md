@@ -51,7 +51,7 @@ npm run sync:travel
 
 The sync fetches the public profile and every trip from Polarsteps' unofficial API, uploads any new photos to Sanity (dataset `projects`, tagged with source `polarsteps`), computes the stats for the "By the numbers" section, and rewrites the JSON only when something changed. Photos are then served from Sanity's CDN, resized per use through `lib/image.ts`.
 
-A GitHub Action (`.github/workflows/sync-travel.yml`) runs the sync daily and commits the snapshot when it changes, which triggers a Vercel deploy. You can also start it from the **Actions** tab, or run the sync locally and commit after a trip. It needs the repo secret `SANITY_WRITE_TOKEN`.
+A GitHub Action (`.github/workflows/sync-travel.yml`) runs the sync every three months (1 Jan, Apr, Jul and Oct) and commits the snapshot when it changes, which triggers a Vercel deploy. You can also start it from the **Actions** tab, or run the sync locally and commit after a trip. It needs the repo secret `SANITY_WRITE_TOKEN`.
 
 If Polarsteps is down or rate-limits the sync (HTTP 429), the run fails and the snapshot is left as it was.
 

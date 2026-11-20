@@ -1,12 +1,12 @@
-# Pulls new Polarsteps trips/photos daily, mirrors photos to Sanity and commits
+# Pulls new Polarsteps trips/photos, mirrors photos to Sanity and commits
 # content/travel.json when it changed — that commit triggers the Vercel deploy.
 # Needs the repo secret SANITY_WRITE_TOKEN (Settings → Secrets and variables → Actions).
 name: Sync travel data
 
 on:
   schedule:
-    - cron: '30 1 * * *' # daily, 07:00 IST
-  workflow_dispatch: # "Run workflow" button in the Actions tab
+    - cron: '30 1 1 1,4,7,10 *' # every 3 months: 1 Jan, Apr, Jul, Oct at 07:00 IST
+  workflow_dispatch: # "Run workflow" button in the Actions tab — run any time
 
 permissions:
   contents: write

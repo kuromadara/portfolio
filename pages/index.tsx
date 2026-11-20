@@ -127,31 +127,24 @@ export default function DevHome({ projects, travel }: Props) {
                 <Reveal key={p._id} delay={(i % 3) * 80}>
                   <Wrapper
                     {...(p.link ? { href: p.link, target: '_blank', rel: 'noreferrer' } : {})}
-                    className="card group flex h-full flex-col overflow-hidden transition-colors hover:border-ink/30"
+                    title={p.detail ?? undefined}
+                    className="card group flex h-full flex-col p-5 transition-colors hover:border-accent/60"
                   >
-                    {p.image && (
-                      <div className="aspect-[16/10] overflow-hidden border-b border-line bg-bg">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
-                          src={`${p.image}?w=800&auto=format`}
-                          alt=""
-                          loading="lazy"
-                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                        />
-                      </div>
+                    <h3 className="flex items-start justify-between gap-3 font-display text-lg font-semibold leading-snug">
+                      {p.title.trim()}
+                      {p.link && (
+                        <span aria-hidden className="mt-0.5 text-muted transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent">
+                          ↗
+                        </span>
+                      )}
+                    </h3>
+                    {p.description && <p className="mt-2 text-sm leading-relaxed text-ink/80">{p.description.trim()}</p>}
+                    {p.detail && (
+                      <p className={`mt-2 text-sm leading-relaxed text-muted ${p.description ? 'line-clamp-2' : 'line-clamp-4'}`}>
+                        {p.detail.trim()}
+                      </p>
                     )}
-                    <div className="flex flex-1 flex-col p-5">
-                      <h3 className="flex items-center justify-between gap-3 font-display text-lg font-semibold">
-                        {p.title}
-                        {p.link && (
-                          <span aria-hidden className="text-muted transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent">
-                            ↗
-                          </span>
-                        )}
-                      </h3>
-                      {p.description && <p className="mt-2 text-sm leading-relaxed text-muted">{p.description}</p>}
-                      {p.detail && <p className="mt-3 font-mono text-xs text-muted">{p.detail}</p>}
-                    </div>
+                    {p.link && <p className="mt-auto pt-4 font-mono text-[11px] text-muted">{host(p.link)}</p>}
                   </Wrapper>
                 </Reveal>
               )
@@ -238,4 +231,13 @@ function Fact({ k, v }: { k: string; v: string }) {
       <p className="mt-1 text-[15px] font-medium">{v}</p>
     </div>
   )
+}
+
+/** "https://www.github.com/x/y" → "github.com" */
+function host(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return url
+  }
 }

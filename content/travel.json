@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-20T17:19:13.341Z",
+ "syncedAt": "2026-11-20T18:49:57.963Z",
  "profile": {
   "name": "Dayananda Dowarah",
   "bio": "I'm a full-time software engineer thinking of changing my career paths.",
@@ -8,7 +8,7 @@
   "stats": {
    "km": 10729,
    "trips": 10,
-   "steps": 195,
+   "steps": 197,
    "countries": 2,
    "countryCodes": [
     "IN",
@@ -28,7 +28,7 @@
     "start": "2026-09-04T18:30:00+00:00",
     "end": "2026-09-20T18:29:59+00:00",
     "km": 2880,
-    "stepCount": 63,
+    "stepCount": 65,
     "timezone": "Asia/Kolkata",
     "cover": {
      "id": "31285c23-b024-4b0d-89bb-34d713765555",
@@ -292,6 +292,14 @@
      [
       26.714,
       88.3659
+     ],
+     [
+      26.6854,
+      88.3257
+     ],
+     [
+      27.4846,
+      95.023
      ]
     ]
    },
@@ -1022,7 +1030,7 @@
    "start": "2026-09-04T18:30:00+00:00",
    "end": "2026-09-20T18:29:59+00:00",
    "km": 2880,
-   "stepCount": 63,
+   "stepCount": 65,
    "timezone": "Asia/Kolkata",
    "cover": {
     "id": "31285c23-b024-4b0d-89bb-34d713765555",
@@ -4826,6 +4834,50 @@
       "temp": 30
      },
      "photos": []
+    },
+    {
+     "id": 269817491,
+     "title": "Last airport of the trip",
+     "description": null,
+     "time": "2026-09-20T01:43:57.687000+00:00",
+     "place": "Bagdogra, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.6854,
+     "lon": 88.3257,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 33
+     },
+     "photos": [
+      {
+       "id": "49117078-2745-4257-a343-7e66c09ff029",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a271a83f7de3b13a4e188c1f0122d068c5204641-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 269837153,
+     "title": "Everything that a beginning has an end",
+     "description": null,
+     "time": "2026-09-20T05:13:13.664000+00:00",
+     "place": "Dibrugarh, India",
+     "tz": "Asia/Kolkata",
+     "lat": 27.4846,
+     "lon": 95.023,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 33
+     },
+     "photos": [
+      {
+       "id": "4b7c54e7-558c-4c1f-97c9-afd65c4ce077",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9ecab3307a468a3567f57e246ec0f98187d79ea2-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
     }
    ]
   },
@@ -8830,7 +8882,7 @@
   }
  ],
  "insights": {
-  "photos": 749,
+  "photos": 751,
   "earthPct": 26.8,
   "longestLeg": {
    "km": 1458,
@@ -8978,8 +9030,8 @@
     "timezone": "Asia/Kolkata",
     "km": 2880,
     "days": 16,
-    "steps": 63,
-    "photos": 464
+    "steps": 65,
+    "photos": 466
    }
   ],
   "months": [
@@ -9104,10 +9156,10 @@
    0,
    0,
    2,
-   5,
+   6,
    6,
    7,
-   16,
+   17,
    20,
    16,
    27,
@@ -9129,7 +9181,7 @@
    },
    {
     "label": "Partly cloudy",
-    "count": 93
+    "count": 95
    },
    {
     "label": "Cloudy",
@@ -9197,6 +9249,11 @@
     "trips": 1
    },
    {
+    "name": "Dibrugarh",
+    "steps": 4,
+    "trips": 2
+   },
+   {
     "name": "Dima Hasao",
     "steps": 4,
     "trips": 1
@@ -9207,7 +9264,7 @@
     "trips": 1
    },
    {
-    "name": "Dibrugarh",
+    "name": "Bagdogra",
     "steps": 3,
     "trips": 2
    },
@@ -9218,11 +9275,6 @@
    },
    {
     "name": "Kamrup Metropolitan",
-    "steps": 2,
-    "trips": 2
-   },
-   {
-    "name": "Bagdogra",
     "steps": 2,
     "trips": 2
    },

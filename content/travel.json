@@ -1,14 +1,14 @@
 {
- "syncedAt": "2026-11-20T19:40:28.018Z",
+ "syncedAt": "2026-11-25T14:48:17.322Z",
  "profile": {
   "name": "Dayananda Dowarah",
   "bio": "I'm a full-time software engineer thinking of changing my career paths.",
   "avatar": "https://polarsteps.s3.amazonaws.com/user_images/profile/large_thumb/u_14808924/710c3f39-dc4a-423b-962e-6f4ef9ee237e_0c688f12-14da-4e3c-ae26-0f2e6edd19b4.jpg",
   "home": "Dibrugarh",
   "stats": {
-   "km": 10729,
-   "trips": 10,
-   "steps": 197,
+   "km": 11122,
+   "trips": 11,
+   "steps": 209,
    "countries": 2,
    "countryCodes": [
     "IN",
@@ -21,6 +21,75 @@
    }
   },
   "trips": [
+   {
+    "id": 29846608,
+    "slug": "29846608-rakh",
+    "name": "Rakh",
+    "start": "2026-11-23T18:30:00+00:00",
+    "end": "2026-11-25T18:29:59+00:00",
+    "km": 393,
+    "stepCount": 12,
+    "timezone": "Asia/Kolkata",
+    "cover": {
+     "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    "countries": [
+     "India"
+    ],
+    "route": [
+     [
+      27.3862,
+      94.8702
+     ],
+     [
+      27.1911,
+      94.5148
+     ],
+     [
+      26.9913,
+      94.1527
+     ],
+     [
+      26.9919,
+      94.1531
+     ],
+     [
+      26.9653,
+      94.2665
+     ],
+     [
+      26.9141,
+      94.2673
+     ],
+     [
+      26.9556,
+      94.1724
+     ],
+     [
+      26.9374,
+      94.1234
+     ],
+     [
+      26.9492,
+      94.1991
+     ],
+     [
+      26.9892,
+      94.1593
+     ],
+     [
+      27.2146,
+      94.5357
+     ],
+     [
+      27.3808,
+      94.7963
+     ]
+    ]
+   },
    {
     "id": 28746062,
     "slug": "28746062-nepal",
@@ -1023,6 +1092,580 @@
   ]
  },
  "trips": [
+  {
+   "id": 29846608,
+   "slug": "29846608-rakh",
+   "name": "Rakh",
+   "start": "2026-11-23T18:30:00+00:00",
+   "end": "2026-11-25T18:29:59+00:00",
+   "km": 393,
+   "stepCount": 12,
+   "timezone": "Asia/Kolkata",
+   "cover": {
+    "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
+    "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+    "w": 960,
+    "h": 1280
+   },
+   "countries": [
+    "India"
+   ],
+   "summary": null,
+   "steps": [
+    {
+     "id": 283105695,
+     "title": "Staring with an anxious mood as always 😅",
+     "description": null,
+     "time": "2026-11-24T04:40:03.518000+00:00",
+     "place": "Burahazar Gaon No. 1, India",
+     "tz": "Asia/Kolkata",
+     "lat": 27.3862,
+     "lon": 94.8702,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 24
+     },
+     "elev": 101,
+     "photos": [
+      {
+       "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5f908b35-1f4e-44f2-9acc-0c7e523974ea",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a020b3cc15db53faea24f4955455821c771585e8-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "1f671a0d-dd59-42c7-b68d-fc6a531c127a",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3c0201a370c2cdd876e6519f1df5817bd2c70f72-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283113408,
+     "title": "Tea stop",
+     "description": null,
+     "time": "2026-11-24T06:26:15.126000+00:00",
+     "place": "Lakhimpur, India",
+     "tz": "Asia/Kolkata",
+     "lat": 27.1911,
+     "lon": 94.5148,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 25
+     },
+     "elev": 93,
+     "photos": [
+      {
+       "id": "e90314a3-f276-4913-a643-177bca8062f0",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/009a919ca14b745afca9620cf0519db345f16a87-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "2e73b336-8cfa-49ac-9a9a-3b2dad164e9e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4ec850775bbd5935b3720d0dbf94d746aa29316d-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "cdd1bec1-e1b0-4a93-ab1f-e5c5f88e89ae",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f9b3ebdbcb21fe80d78bfc4eeb8136d71828738-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283145577,
+     "title": "Dekachang Resort",
+     "description": null,
+     "time": "2026-11-24T08:28:46.636000+00:00",
+     "place": "Garamur, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9913,
+     "lon": 94.1527,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 85,
+     "photos": [
+      {
+       "id": "252afd9b-2187-4055-b54f-6c569c766858",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ccbe885578c1976872103bdce7439e298242aa78-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "4b0dd902-4f71-4c7a-9e02-53357ce9326a",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/109ff319298f2cee91baac71b66da827a1446a46-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "8fa35b61-b5cf-4194-bc69-61bd7bfbd985",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3702d78330c65d51a3b73ee1852fa6edba29c0c4-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "8db68043-773b-4ad7-8eff-893678975b81",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/55be9b9d5eae1a508edc52487d6b486d6039b440-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "54cc6f87-4128-4218-bc44-71d7a3adc48c",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/2b7be18b56f70d11e07076262c4f154ea6d9ffe4-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "100c02ee-77fb-4dd9-bc17-95fe0ecb2917",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a338a41a2b078f2d8e011fc3fa35aaf14ce49fcf-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "dd5162a3-2dee-4dd4-8021-48027e54ad8e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/52d82a2e4c67d286c2a70c543c6dc66b823c000d-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c38378ad-35ed-405e-9466-67d6515433aa",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f239ed2c59e6138059520189c1f033079cc4e0cb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "41287447-3456-4593-bae3-070eb17b0723",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/921255f9dfcf0a5dc7dfc74d10e539cdf9a26868-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "58c5486c-5382-45e1-adfd-2ea3a39387c0",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/2d7c980d7345ac4813530fd5635594714ee7fe08-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "4a885183-216f-478d-8300-95677f992c73",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9525a0fe2ab57ead9e678f79a07a3b135f09dd83-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c8901ab8-6bef-4d72-aba9-be640a10ad79",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/dc5a0a41ce163c40bc0ccc705b80e3d30997d4f3-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283145578,
+     "title": "Lunch",
+     "description": null,
+     "time": "2026-11-24T09:18:48.077000+00:00",
+     "place": "Garamur, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9919,
+     "lon": 94.1531,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 81,
+     "photos": [
+      {
+       "id": "67bf9eba-3b3c-44ca-894f-a9dcaa1bb17b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/2fc16fdd6efd1c487bdfc5dd481450c9f0a6bdfd-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283158493,
+     "title": "Samuguri Satra",
+     "description": null,
+     "time": "2026-11-24T11:39:22.404000+00:00",
+     "place": "Majuli, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9653,
+     "lon": 94.2665,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 94,
+     "photos": [
+      {
+       "id": "3912f49a-acc7-4032-81d2-e13d237d8369",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/346dd2967714b7e313d0e362973e403d453a7bb9-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c8863f30-3418-4306-bb0e-8d8acebcc53b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/95b5b8d5132cb8014052c73e7fe65967fcc7365a-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "faf5ce6d-055b-4add-8b84-8f703934ebf3",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5d6085043a4d3cad3e04eec9b663a3e33045dabe-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "e65f5e32-0644-41cc-8cdd-ade74b748ed1",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c58ba3128f322b0787b4d1113266a08c894f04ee-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "efc8fd88-0bc1-43c1-a425-5244794bdcd7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ac80c93463e9038e9b540c3177dc37ffe3aa3703-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "ebe48598-1af0-4a47-8fc0-5e3fe7c82547",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cbb29bd33e2aae61fa337ac3465e127b945be621-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283158533,
+     "title": "Dakhinpat satra",
+     "description": null,
+     "time": "2026-11-24T13:28:36.200000+00:00",
+     "place": "Dakhinpat, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9141,
+     "lon": 94.2673,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 87,
+     "photos": [
+      {
+       "id": "fc800a27-84db-49af-bf8f-ca2778307a82",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ef883342db1d4c1d628e669a7718c88d8863e8e6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "153c191b-cf7a-4208-866e-baa543c94d02",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/de819f6c6956e3698c80262fdac13c40a05743f7-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c5385576-4446-456c-bd62-9d4ffc94c284",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/63303216a11ffae9c20c2700722132b4f30bf88f-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "d2119d09-3d70-4b86-a848-e98ac1c7c469",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6942a12d95263f30968dca3d3e68935a97909995-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "d6a3d06a-35ce-4293-aad5-da8f457dd16a",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/be3919a3181f33c312ef8bd4f6e83f36ea16b122-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283184958,
+     "title": "Uttar Kamalabari Satra",
+     "description": null,
+     "time": "2026-11-24T16:57:54.782000+00:00",
+     "place": "Deodia, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9556,
+     "lon": 94.1724,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 87,
+     "photos": [
+      {
+       "id": "53f35aea-b56a-40ae-947d-dafdd7328d4e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/fe71cafd909f31759b0f7311b2f56c60e6b774de-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "368d3996-bb80-43af-b316-d5368806fd0f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/13a4c2bf4a6c6fc7f4a3946f84ee24b29fd6d519-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283248638,
+     "title": "Auniati satra",
+     "description": null,
+     "time": "2026-11-25T05:39:26.405000+00:00",
+     "place": "Auniati, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9374,
+     "lon": 94.1234,
+     "weather": {
+      "condition": "clear-day",
+      "temp": 25
+     },
+     "elev": 82,
+     "photos": [
+      {
+       "id": "e8ca6e0f-669a-4e60-95f4-e6d4ad16a0c2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e862fb16f489bacd5e1e924de05a2461231a1c9d-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "349ea1f7-b8f4-4458-8aea-d9ea4d0de363",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/74df77658c2a76ce29433d5859f9232da6242ce9-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c71214bf-6422-42e3-9bc4-111fb974063d",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e10fa6858bcb9b4653532736fe37dde80c2a2c5-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "915c42eb-29bc-4492-8f7e-5d837000b289",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0f0bfccc42661f881437cbae1e7617411a8f7c54-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "1ebe3ddd-4d12-4172-a9a6-57db2e6b33e4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e55d2edfb1fbfa5caf2eef5c23eaec7fa05d8224-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "e533f050-b20e-4bd2-ae19-955f58715bc7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ffba1f50abf25665bdc381909d99d681bcef0e6e-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283259171,
+     "title": "Begena ati",
+     "description": null,
+     "time": "2026-11-25T07:50:49.830000+00:00",
+     "place": "Kamalabari, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9492,
+     "lon": 94.1991,
+     "weather": {
+      "condition": "clear-day",
+      "temp": 27
+     },
+     "elev": 93,
+     "photos": [
+      {
+       "id": "e8a004f0-5c2d-4bac-b777-90775abfdef7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/74aa21c16a71fbc23b8c250d2a619d8c81583315-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "4f45540a-dea5-4086-95d2-31ad2569c10c",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/10a516266c74d684a81fe3505a56ee2259d77944-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "b0d2fa47-9a74-49b9-a9af-d1e7fa841378",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d012ef5b6ec94428d3df37bb6c4e361f4763f0e9-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "ee0a088b-aaed-4351-ab76-06e2f7d7c2a7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bc2da330c8075ff19910862533873416e96683ac-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "0e3708a2-c211-45da-a606-ed24e4f769bc",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9133b1838e0b407cf770ff4e142eb8f8f171290c-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "df0d0414-e6ef-4565-942d-5c763ca800f4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c011891e4f520140dfa051e9680c80237a727a9d-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "097ff6ed-73d0-40ee-b444-52f7cfd8675f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b009a6d8b940ff19ed8709dad651ed78f2bd7e6b-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "bb28b3ac-e607-4dc1-826c-1cd6c4332aec",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/97adc85d4e77bfc0b8e4d8400b582ebf095ef894-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "406438cd-b92c-4b11-98c8-dd6806d6e8d1",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/62a22325c3a26d794f04c7dd0ad10b0bec9fff75-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5ace5d35-ca18-41a6-8631-71449d127a48",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/77f46ded8f8df1aa04c0a5dfccbd99c4eb213fe1-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "991f560e-b93f-41d5-8cbf-bb8f3be184a1",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/8b5f7c6d04bc973f92ac89ba520f49e90ad041e9-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "83b1a4af-cdcb-46cb-89ce-d4c13dd5c55e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/487ceed318f3904d857981863e3feef843684e05-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283276251,
+     "title": "Majuli ethnic kitchen",
+     "description": null,
+     "time": "2026-11-25T08:41:25.824000+00:00",
+     "place": "Jorhat, India",
+     "tz": "Asia/Kolkata",
+     "lat": 26.9892,
+     "lon": 94.1593,
+     "weather": {
+      "condition": "clear-day",
+      "temp": 28
+     },
+     "elev": 88,
+     "photos": [
+      {
+       "id": "fc0ed2f5-e741-401f-b068-64b0146ca210",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bf7f3ff6155ffee4873c2cd2c9d5fc7a74c44851-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283276289,
+     "title": "Bahpara ghat",
+     "description": null,
+     "time": "2026-11-25T10:36:50.037000+00:00",
+     "place": "Bahpara, India",
+     "tz": "Asia/Kolkata",
+     "lat": 27.2146,
+     "lon": 94.5357,
+     "weather": {
+      "condition": "clear-day",
+      "temp": 28
+     },
+     "elev": 93,
+     "photos": [
+      {
+       "id": "61f09b82-7fd2-4166-a354-f968b53de9ad",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/41b99e3c2769ef6d422cb485680b9bf879eb24c6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c8aff613-8435-4561-b1fa-19bcf0d20249",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a9b18005344ca17696b8cb31f5d288195185535e-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "a26e2d21-4c68-42bb-9ebc-1d9a0d7d51d0",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/941c3a3502eba29f2f61b5bd70e3cde4144dd66a-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c9063656-dc3b-457f-85e8-b06611b77fb9",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/440a63e83cb7ab52d347d24f0bf9f5a3920f5a1a-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "31018f30-9858-4fe4-a8ec-bc83b27ce0ef",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/751a0ebbd4de08a0a9f54f21953a5cb9e14bca78-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 283285256,
+     "title": "Tea stop",
+     "description": null,
+     "time": "2026-11-25T11:55:43.718000+00:00",
+     "place": "Dibrugarh, India",
+     "tz": "Asia/Kolkata",
+     "lat": 27.3808,
+     "lon": 94.7963,
+     "weather": {
+      "condition": "clear-day",
+      "temp": 27
+     },
+     "elev": 101,
+     "photos": [
+      {
+       "id": "0f92a055-20ee-488f-8da7-62983d6139f4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/14fb97654397a98c3d8455070458fc61208868bc-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5f8b3810-e0e3-4de5-8c75-03f686edb782",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/dec39fbf3e4e32323bda38c87880f1122d6e0c17-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": 28746062,
    "slug": "28746062-nepal",
@@ -9079,8 +9722,8 @@
   }
  ],
  "insights": {
-  "photos": 751,
-  "earthPct": 26.8,
+  "photos": 809,
+  "earthPct": 27.8,
   "longestLeg": {
    "km": 1458,
    "from": "Kamrup Metropolitan, India",
@@ -9234,6 +9877,17 @@
     "days": 16,
     "steps": 65,
     "photos": 466
+   },
+   {
+    "id": 29846608,
+    "slug": "29846608-rakh",
+    "name": "Rakh",
+    "start": "2026-11-23T18:30:00+00:00",
+    "timezone": "Asia/Kolkata",
+    "km": 393,
+    "days": 2,
+    "steps": 12,
+    "photos": 58
    }
   ],
   "months": [
@@ -9348,6 +10002,18 @@
     "trips": [
      "Nepal"
     ]
+   },
+   {
+    "key": "2026-10",
+    "days": 0,
+    "trips": []
+   },
+   {
+    "key": "2026-11",
+    "days": 2,
+    "trips": [
+     "Rakh"
+    ]
    }
   ],
   "hours": [
@@ -9361,29 +10027,29 @@
    6,
    6,
    7,
-   17,
-   20,
-   16,
-   27,
+   18,
    22,
+   16,
+   29,
+   24,
    19,
-   10,
-   12,
-   10,
+   11,
+   14,
+   11,
    10,
    8,
    2,
-   0,
+   1,
    2
   ],
   "weather": [
    {
-    "label": "Clear",
-    "count": 96
+    "label": "Partly cloudy",
+    "count": 102
    },
    {
-    "label": "Partly cloudy",
-    "count": 95
+    "label": "Clear",
+    "count": 101
    },
    {
     "label": "Cloudy",
@@ -9431,6 +10097,11 @@
     "trips": 5
    },
    {
+    "name": "Dibrugarh",
+    "steps": 5,
+    "trips": 3
+   },
+   {
     "name": "Darjeeling",
     "steps": 5,
     "trips": 2
@@ -9449,11 +10120,6 @@
     "name": "Kullu",
     "steps": 5,
     "trips": 1
-   },
-   {
-    "name": "Dibrugarh",
-    "steps": 4,
-    "trips": 2
    },
    {
     "name": "Dima Hasao",
@@ -9522,6 +10188,11 @@
    },
    {
     "name": "Parbat",
+    "steps": 2,
+    "trips": 1
+   },
+   {
+    "name": "Garamur",
     "steps": 2,
     "trips": 1
    },
@@ -9677,6 +10348,51 @@
    },
    {
     "name": "Jibiko Parjan Sikshya Tatha Bikash Samaj",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Burahazar Gaon No. 1",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Lakhimpur",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Majuli",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Dakhinpat",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Deodia",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Auniati",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Kamalabari",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Jorhat",
+    "steps": 1,
+    "trips": 1
+   },
+   {
+    "name": "Bahpara",
     "steps": 1,
     "trips": 1
    }

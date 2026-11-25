@@ -31,6 +31,8 @@ export interface TravelInsights {
   longestLeg: (PlaceRef & { km: number; from: string }) | null
   hottest: (PlaceRef & { temp: number }) | null
   coolest: (PlaceRef & { temp: number }) | null
+  /** Highest step by ground elevation (m). */
+  highest: (PlaceRef & { elev: number }) | null
   /** Northern-, southern-, eastern- and westernmost steps. */
   compass: { dir: 'N' | 'S' | 'E' | 'W'; place: string; coord: string }[]
   /** Chronological, oldest first. */
@@ -53,6 +55,7 @@ export function computeTravelInsights(details: TripDetail[]): TravelInsights {
   let longestLeg: TravelInsights['longestLeg'] = null
   let hottest: TravelInsights['hottest'] = null
   let coolest: TravelInsights['coolest'] = null
+  let highest: TravelInsights['highest'] = null
   const hours = Array<number>(24).fill(0)
   const weather = new Map<string, number>()
   const places = new Map<string, { steps: number; trips: Set<number> }>()
@@ -96,6 +99,7 @@ export function computeTravelInsights(details: TripDetail[]): TravelInsights {
         if (!hottest || s.weather.temp > hottest.temp) hottest = { temp: s.weather.temp, place: s.place, trip: t.name }
         if (!coolest || s.weather.temp < coolest.temp) coolest = { temp: s.weather.temp, place: s.place, trip: t.name }
       }
+      if (s.elev != null && (!highest || s.elev > highest.elev)) highest = { elev: s.elev, place: s.place, trip: t.name }
 
       const town = s.place.split(',')[0].trim()
       if (town && town !== 'Somewhere') {
@@ -121,6 +125,7 @@ export function computeTravelInsights(details: TripDetail[]): TravelInsights {
     longestLeg,
     hottest,
     coolest,
+    highest,
     compass: compass(allSteps),
     trips: bars,
     months: monthRange(Array.from(monthDays.keys())).map((key) => ({

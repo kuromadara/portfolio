@@ -4,8 +4,9 @@
  * 1. Fetches the public Polarsteps profile + every trip.
  * 2. Mirrors each photo (Polarsteps' public 960px version) into Sanity, once —
  *    photos already uploaded are found by their Polarsteps id and skipped.
- * 3. Computes the /travel analytics.
- * 4. Writes content/travel.json — only if something actually changed, so the
+ * 3. Looks up each step's ground elevation (Open-Meteo, Copernicus DEM).
+ * 4. Computes the /travel analytics.
+ * 5. Writes content/travel.json — only if something actually changed, so the
  *    scheduled GitHub Action doesn't commit (and redeploy) for nothing.
  *
  * Needs SANITY_WRITE_TOKEN (Editor) in .env.local or the environment. Without
@@ -15,7 +16,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { loadEnvConfig } from '@next/env'
 import { createClient } from '@sanity/client'
-import { fetchTravelProfile, fetchTrip, mapLimit, type Photo } from '../lib/polarsteps'
+import { fetchTravelProfile, fetchTrip, mapLimit, type Photo, type Step, type TripDetail } from '../lib/polarsteps'
 import { computeTravelInsights } from '../lib/travelInsights'
 import type { TravelSnapshot } from '../lib/travelData'
 
@@ -49,6 +50,7 @@ async function main() {
   const prev = readSnapshot()
   reusePreviousUploads(photos, prev)
   await mirrorToSanity(photos)
+  await addElevations(trips, prev)
 
   const next: Omit<TravelSnapshot, 'syncedAt'> = {
     profile,
@@ -150,6 +152,40 @@ async function mirrorToSanity(photos: Map<string, Photo[]>) {
       p.h = a.h ?? p.h
     })
   })
+}
+
+/**
+ * Ground elevation for every step. Steps already in the last snapshot (same
+ * place) reuse their value; the rest are looked up 100 at a time. A failure
+ * just leaves `elev: null` — it never fails the sync.
+ */
+async function addElevations(trips: TripDetail[], prev: TravelSnapshot | null) {
+  const key = (s: Step) => `${s.lat},${s.lon}`
+  const known = new Map<string, number>()
+  prev?.trips.forEach((t) => t.steps.forEach((s) => s.elev != null && known.set(key(s), s.elev)))
+
+  const steps = trips.flatMap((t) => t.steps)
+  steps.forEach((s) => (s.elev = known.get(key(s)) ?? null))
+  const todo = steps.filter((s) => s.elev == null)
+  if (!todo.length) {
+    console.log(`→ Elevation: all ${steps.length} steps already known`)
+    return
+  }
+  console.log(`→ Elevation: looking up ${todo.length} steps`)
+  for (let i = 0; i < todo.length; i += 100) {
+    const batch = todo.slice(i, i + 100)
+    const url = `https://api.open-meteo.com/v1/elevation?latitude=${batch.map((s) => s.lat).join(',')}&longitude=${batch
+      .map((s) => s.lon)
+      .join(',')}`
+    try {
+      const res = await fetch(url)
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      const { elevation } = (await res.json()) as { elevation: number[] }
+      batch.forEach((s, j) => (s.elev = Number.isFinite(elevation[j]) ? Math.round(elevation[j]) : null))
+    } catch (err) {
+      console.warn(`  ! elevation lookup failed (${(err as Error).message}) — will retry next sync`)
+    }
+  }
 }
 
 function readSnapshot(): TravelSnapshot | null {

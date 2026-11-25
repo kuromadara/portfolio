@@ -1,5 +1,6 @@
 import { profile } from '../content/dev'
 import { POLARSTEPS_PROFILE_URL } from '../lib/polarsteps'
+import { COFFEE_URL } from './CoffeeCard'
 import { usePersona } from './persona'
 
 export default function Footer() {
@@ -16,6 +17,7 @@ export default function Footer() {
           <li><a className="hover:text-ink" href={profile.github} target="_blank" rel="noreferrer">GitHub</a></li>
           <li><a className="hover:text-ink" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></li>
           <li><a className="hover:text-ink" href={POLARSTEPS_PROFILE_URL} target="_blank" rel="noreferrer">Polarsteps</a></li>
+          <li><a className="hover:text-ink" href={COFFEE_URL} target="_blank" rel="noreferrer">☕ Buy me a coffee</a></li>
         </ul>
       </div>
     </footer>

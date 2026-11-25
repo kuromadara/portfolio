@@ -1,6 +1,7 @@
 import type { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import { COFFEE_URL } from '../Components/CoffeeCard'
 import Reveal from '../Components/Reveal'
 import Section from '../Components/Section'
 import { education, experience, facts, featured, profile, skills } from '../content/dev'
@@ -218,6 +219,17 @@ export default function DevHome({ projects, travel }: Props) {
           >
             {profile.email}
           </a>
+          <p className="mt-10 text-sm text-muted">
+            Found a repo or write-up here useful?{' '}
+            <a
+              href={COFFEE_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-ink underline decoration-accent decoration-2 underline-offset-4 transition-colors hover:text-accent"
+            >
+              ☕ Buy me a coffee
+            </a>
+          </p>
         </Reveal>
       </Section>
     </>

@@ -101,11 +101,17 @@ function Tiles({ data, stats }: { data: Insights; stats: TravelStats }) {
     })
   if (data.hottest) tiles.push({ value: `${data.hottest.temp}`, unit: '°C', label: 'hottest step', sub: short(data.hottest.place) })
   if (data.coolest) tiles.push({ value: `${data.coolest.temp}`, unit: '°C', label: 'coolest step', sub: short(data.coolest.place) })
-  const longest = data.trips.reduce<Insights['trips'][number] | null>((b, t) => (!b || t.days > b.days ? t : b), null)
+  if (data.highest)
+    tiles.push({ value: fmtNumber(data.highest.elev), unit: 'm', label: 'highest step', sub: short(data.highest.place) })
+  // most days; a tie goes to the trip that covered more distance
+  const longest = data.trips.reduce<Insights['trips'][number] | null>(
+    (b, t) => (!b || t.days > b.days || (t.days === b.days && t.km > b.km) ? t : b),
+    null,
+  )
   if (longest) tiles.push({ value: `${longest.days}`, unit: 'days', label: 'longest trip', sub: longest.name })
 
   return (
-    <Reveal className="grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius)] border border-line bg-line lg:grid-cols-4">
+    <Reveal className="grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius)] border border-line bg-line sm:grid-cols-3">
       {tiles.map((t) => (
         <div key={t.label} className="min-w-0 bg-surface px-5 py-5">
           <p className="font-display text-3xl font-medium tracking-tight">

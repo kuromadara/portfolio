@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
+import CoffeeCard from '../../Components/CoffeeCard'
 import Reveal from '../../Components/Reveal'
 import TravelInsights from '../../Components/TravelInsights'
 import type { MapRoute } from '../../Components/TravelMap'
@@ -166,6 +167,10 @@ export default function TravelHome({ profile, insights }: Props) {
           </section>
         </>
       )}
+
+      <section className="container-page pt-20">
+        <CoffeeCard />
+      </section>
     </>
   )
 }

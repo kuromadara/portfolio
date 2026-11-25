@@ -190,6 +190,8 @@ export interface Step {
   lat: number
   lon: number
   weather: { condition: string; temp: number } | null
+  /** Ground elevation (m) at the step, from Copernicus DEM via Open-Meteo; filled by the sync. */
+  elev: number | null
   photos: Photo[]
 }
 
@@ -309,6 +311,7 @@ export async function fetchTrip(id: number): Promise<TripDetail> {
         s.weather_condition && s.weather_temperature != null
           ? { condition: s.weather_condition, temp: Math.round(s.weather_temperature) }
           : null,
+      elev: null,
       photos: (s.media ?? []).map(toPhoto).filter((p): p is Photo => p !== null),
     }))
   return { ...summary, summary: clean(t.summary), steps }

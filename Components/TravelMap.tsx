@@ -12,6 +12,7 @@ import maplibregl, { type ExpressionSpecification, type GeoJSONSource, type Styl
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
+import { afterPersonaTransition } from './persona'
 
 export interface MapRoute {
   id: number | string
@@ -25,6 +26,73 @@ type RGB = [number, number, number]
 const STYLE_URL = {
   light: 'https://tiles.openfreemap.org/styles/positron',
   dark: 'https://tiles.openfreemap.org/styles/dark',
+  streets: 'https://tiles.openfreemap.org/styles/liberty',
+}
+const GLYPHS = 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf'
+
+/** Base-map choices. "site" is recoloured with the persona tokens and follows light/dark. */
+export const MAP_THEMES = [
+  { id: 'site', label: 'Site' },
+  { id: 'streets', label: 'Streets' },
+  { id: 'topo', label: 'Topo' },
+  { id: 'satellite', label: 'Satellite' },
+] as const
+export type MapTheme = (typeof MAP_THEMES)[number]['id']
+const THEME_KEY = 'map-theme'
+
+function readTheme(): MapTheme {
+  try {
+    const v = localStorage.getItem(THEME_KEY)
+    if (MAP_THEMES.some((t) => t.id === v)) return v as MapTheme
+  } catch {}
+  return 'site'
+}
+
+/** A one-layer raster style (topo / satellite). */
+function rasterStyle(tiles: string[], attribution: string, maxzoom: number): StyleSpecification {
+  return {
+    version: 8,
+    glyphs: GLYPHS, // the numbered step badges need fonts
+    sources: { base: { type: 'raster', tiles, tileSize: 256, maxzoom, attribution } },
+    layers: [{ id: 'base', type: 'raster', source: 'base' }],
+  }
+}
+const RASTER: Record<'topo' | 'satellite', () => StyleSpecification> = {
+  topo: () =>
+    rasterStyle(
+      ['a', 'b', 'c'].map((s) => `https://${s}.tile.opentopomap.org/{z}/{x}/{y}.png`),
+      'Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, SRTM · Style © <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA)',
+      17,
+    ),
+  satellite: () =>
+    rasterStyle(
+      ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+      'Imagery © <a href="https://www.esri.com">Esri</a>, Maxar, Earthstar Geographics',
+      18,
+    ),
+}
+
+/** Globe projection + a soft atmosphere that fades out as you zoom in. */
+function withGlobe(style: StyleSpecification, bg: RGB, accent2: RGB) {
+  style.projection = { type: 'globe' }
+  style.sky = {
+    'sky-color': rgb(bg),
+    'horizon-color': rgb(mix(bg, accent2, 0.25)),
+    'fog-color': rgb(bg),
+    'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 1, 5, 1, 7, 0],
+  }
+  return style
+}
+
+/** Untinted vector style: just force English/Latin labels. */
+function englishLabels(style: StyleSpecification) {
+  const english: ExpressionSpecification = ['coalesce', ['get', 'name:en'], ['get', 'name:latin'], ['get', 'name']]
+  style.layers.forEach((layer) => {
+    const l = layer as typeof layer & { layout?: Record<string, unknown> }
+    if (l.type === 'symbol' && JSON.stringify(l.layout?.['text-field'] ?? '').includes('name:latin'))
+      l.layout = { ...l.layout, 'text-field': english }
+  })
+  return style
 }
 
 /* ── helpers ──────────────────────────────────────────────────────────── */
@@ -96,15 +164,7 @@ function themeStyle(style: StyleSpecification, t: { bg: RGB; surface: RGB; ink: 
     return l
   }) as StyleSpecification['layers']
 
-  style.projection = { type: 'globe' }
-  // soft atmosphere around the globe, fading out as you zoom in
-  style.sky = {
-    'sky-color': rgb(t.bg),
-    'horizon-color': rgb(mix(t.bg, t.accent2, 0.25)),
-    'fog-color': rgb(t.bg),
-    'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 1, 5, 1, 7, 0],
-  }
-  return style
+  return withGlobe(style, t.bg, t.accent2)
 }
 
 const toGeo = (routes: MapRoute[]) => ({
@@ -162,7 +222,11 @@ export default function TravelMap({
   const activeRef = useRef(activeId)
   const onSelectRef = useRef(onSelect)
   const [ready, setReady] = useState(false)
+  const [failed, setFailed] = useState(false)
   const [isGlobe, setIsGlobe] = useState(intro)
+  const [theme, setTheme] = useState<MapTheme>('site')
+  const themeRef = useRef<MapTheme>('site')
+  themeRef.current = theme
   const { resolvedTheme } = useTheme()
   const router = useRouter()
 
@@ -272,8 +336,12 @@ export default function TravelMap({
   }, [tokens])
 
   const buildStyle = useCallback(async () => {
+    const t = tokens()
+    const which = themeRef.current
+    if (which === 'topo' || which === 'satellite') return withGlobe(RASTER[which](), t.bg, t.accent2)
+    if (which === 'streets') return withGlobe(englishLabels(await loadBaseStyle(STYLE_URL.streets)), t.bg, t.accent2)
     const dark = document.documentElement.classList.contains('dark')
-    return themeStyle(await loadBaseStyle(dark ? STYLE_URL.dark : STYLE_URL.light), tokens())
+    return themeStyle(await loadBaseStyle(dark ? STYLE_URL.dark : STYLE_URL.light), t)
   }, [tokens])
 
   // create the map once
@@ -281,11 +349,17 @@ export default function TravelMap({
     let cancelled = false
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     ;(async () => {
+      const saved = readTheme()
+      themeRef.current = saved
+      setTheme(saved)
       const style = await buildStyle()
+      await afterPersonaTransition() // don't init WebGL mid-reveal
       if (cancelled || !el.current) return
       const b = boundsOf(routesRef.current)
       const animateIn = intro && !reduced
-      const m = new maplibregl.Map({
+      let m: maplibregl.Map
+      try {
+        m = new maplibregl.Map({
         container: el.current,
         style,
         // no intro: open already framed on the routes (no waiting for tiles)
@@ -295,7 +369,11 @@ export default function TravelMap({
         cooperativeGestures: true, // page scroll isn't hijacked; ctrl/⌘ + scroll zooms
         attributionControl: { compact: true },
         maxPitch: 60,
-      })
+        })
+      } catch {
+        setFailed(true) // e.g. WebGL disabled / unavailable
+        return
+      }
       map.current = m
       m.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left')
 
@@ -363,6 +441,18 @@ export default function TravelMap({
     buildStyle().then((s) => map.current?.setStyle(s, { diff: false }))
   }, [resolvedTheme, buildStyle])
 
+  const pickTheme = (next: MapTheme) => {
+    if (next === themeRef.current) return
+    themeRef.current = next
+    setTheme(next)
+    try {
+      localStorage.setItem(THEME_KEY, next)
+    } catch {}
+    buildStyle()
+      .then((s) => map.current?.setStyle(s, { diff: false }))
+      .catch(() => undefined)
+  }
+
   // data changes
   useEffect(() => {
     const m = map.current
@@ -388,7 +478,13 @@ export default function TravelMap({
   return (
     <div className={`relative h-full w-full ${className}`}>
       <div ref={el} className="h-full w-full bg-bg" />
-      {!ready && <div className="absolute inset-0 animate-pulse bg-line/40" />}
+      {failed ? (
+        <p className="absolute inset-0 grid place-items-center p-6 text-center text-sm text-muted">
+          The map needs WebGL, which is turned off in this browser.
+        </p>
+      ) : (
+        !ready && <div className="absolute inset-0 animate-pulse bg-line/40" />
+      )}
       <button
         type="button"
         onClick={toggleGlobe}
@@ -396,6 +492,26 @@ export default function TravelMap({
       >
         {isGlobe ? '⌖ Zoom to routes' : '◍ Globe view'}
       </button>
+      <div
+        role="radiogroup"
+        aria-label="Map style"
+        className="absolute bottom-3 left-3 z-10 flex gap-0.5 rounded-full border border-line bg-surface/90 p-0.5 font-mono text-[10px] uppercase tracking-wider shadow-sm backdrop-blur"
+      >
+        {MAP_THEMES.map((t) => (
+          <button
+            key={t.id}
+            type="button"
+            role="radio"
+            aria-checked={theme === t.id}
+            onClick={() => pickTheme(t.id)}
+            className={`rounded-full px-2.5 py-1 transition-colors ${
+              theme === t.id ? 'bg-ink text-bg' : 'text-muted hover:text-ink'
+            }`}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
     </div>
   )
 }

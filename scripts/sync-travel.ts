@@ -17,6 +17,7 @@ import path from 'node:path'
 import { loadEnvConfig } from '@next/env'
 import { createClient } from '@sanity/client'
 import { fetchTravelProfile, fetchTrip, mapLimit, type Photo, type Step, type TripDetail } from '../lib/polarsteps'
+import { computeRewinds } from '../lib/rewind'
 import { computeTravelInsights } from '../lib/travelInsights'
 import type { TravelSnapshot } from '../lib/travelData'
 
@@ -56,6 +57,7 @@ async function main() {
     profile,
     trips: trips.sort((a, b) => b.start.localeCompare(a.start)),
     insights: computeTravelInsights(trips),
+    rewind: computeRewinds(trips),
   }
 
   if (prev && JSON.stringify(withoutSyncedAt(prev)) === JSON.stringify(next)) {

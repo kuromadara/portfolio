@@ -11,8 +11,8 @@ import type { MapRoute } from '../../Components/TravelMap'
 import { fmtNumber, fmtRange } from '../../lib/format'
 import { img, srcSet } from '../../lib/image'
 import { POLARSTEPS_PROFILE_URL, type TravelProfile } from '../../lib/polarsteps'
-import { getRewinds, getTravelInsights, getTravelProfile } from '../../lib/travelData'
-import type { YearRewind } from '../../lib/rewind'
+import { getRewindIndex, getTravelInsights, getTravelProfile } from '../../lib/travelData'
+import type { RewindIndex } from '../../lib/rewind'
 import type { TravelInsights as Insights } from '../../lib/travelInsights'
 
 const TravelMap = dynamic(() => import('../../Components/TravelMap'), {
@@ -23,11 +23,11 @@ const TravelMap = dynamic(() => import('../../Components/TravelMap'), {
 interface Props {
   profile: TravelProfile | null
   insights: Insights | null
-  rewinds: Record<string, YearRewind>
+  rewinds: RewindIndex[]
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
-  props: { profile: getTravelProfile(), insights: getTravelInsights(), rewinds: getRewinds() },
+  props: { profile: getTravelProfile(), insights: getTravelInsights(), rewinds: getRewindIndex() },
 })
 
 export default function TravelHome({ profile, insights, rewinds }: Props) {
@@ -67,7 +67,7 @@ export default function TravelHome({ profile, insights, rewinds }: Props) {
               trail or a ridge somewhere in the Northeast and the Himalaya — and logging every step.
             </p>
           </Reveal>
-          <RewindLauncher rewinds={rewinds} />
+          <RewindLauncher index={rewinds} />
 
           {profile && (
             <Reveal delay={150} className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius)] border border-line bg-line sm:grid-cols-5">

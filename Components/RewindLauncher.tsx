@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import type { YearRewind } from '../lib/rewind'
+import { loadRewind, type RewindIndex, type YearRewind } from '../lib/rewind'
 import { afterPersonaTransition } from './persona'
 
 const Rewind = dynamic(() => import('./Rewind'), { ssr: false })
@@ -16,7 +16,8 @@ const seenKey = (year: number) => `rewind-seen-${year}`
  *   once per visitor (remembered in localStorage).
  * `?rewind=all` / `?rewind=2025` / `?rewind=1` (this year) open one directly.
  */
-export default function RewindLauncher({ rewinds }: { rewinds: Record<string, YearRewind> }) {
+export default function RewindLauncher({ index }: { index: RewindIndex[] }) {
+  const rewinds = Object.fromEntries(index.map((r) => [r.key, r])) as Record<string, RewindIndex>
   const [now, setNow] = useState<Date | null>(null) // client-only: the page is static
   const [openKey, setOpenKey] = useState<string | null>(null)
   const [archiveOpen, setArchiveOpen] = useState(false)
@@ -24,7 +25,7 @@ export default function RewindLauncher({ rewinds }: { rewinds: Record<string, Ye
 
   const thisYear = now?.getFullYear() ?? 0
   const inSeason = now ? SEASON.includes(now.getMonth()) : false
-  const archive = Object.values(rewinds)
+  const archive = index
     .filter((r) => r.kind === 'year' && (r.year < thisYear || (r.year === thisYear && inSeason)))
     .sort((a, b) => b.year - a.year)
 
@@ -58,7 +59,7 @@ export default function RewindLauncher({ rewinds }: { rewinds: Record<string, Ye
     return () => {
       cancelled = true
     }
-  }, [rewinds])
+  }, [index]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // close the archive menu on outside click
   useEffect(() => {
@@ -72,10 +73,20 @@ export default function RewindLauncher({ rewinds }: { rewinds: Record<string, Ye
 
   const close = useCallback(() => setOpenKey(null), [])
 
+  // the story itself is a separate chunk, fetched on first open
+  const [story, setStory] = useState<YearRewind | null>(null)
+  useEffect(() => {
+    if (!openKey) return setStory(null)
+    let live = true
+    loadRewind(openKey).then((r) => live && setStory(r))
+    return () => {
+      live = false
+    }
+  }, [openKey])
+
   if (!rewinds.all) return null
   const current = inSeason ? rewinds[thisYear] : undefined
-  const firstYear = Math.min(...Object.values(rewinds).map((r) => r.since))
-  const open = openKey ? rewinds[openKey] : undefined
+  const firstYear = Math.min(...index.map((r) => r.since))
 
   return (
     <>
@@ -120,7 +131,7 @@ export default function RewindLauncher({ rewinds }: { rewinds: Record<string, Ye
                       className="flex w-full items-baseline justify-between gap-4 px-4 py-2 text-left text-sm hover:bg-accent/10"
                     >
                       <span className="font-medium">{r.year} rewind</span>
-                      <span className="font-mono text-[11px] text-muted">{r.trips.length} trips</span>
+                      <span className="font-mono text-[11px] text-muted">{r.trips} trips</span>
                     </button>
                   </li>
                 ))}
@@ -129,7 +140,9 @@ export default function RewindLauncher({ rewinds }: { rewinds: Record<string, Ye
           </div>
         )}
       </div>
-      {open && <Rewind key={open.key} data={open} firstYear={open.year === firstYear} open onClose={close} />}
+      {openKey && story?.key === openKey && (
+        <Rewind key={story.key} data={story} firstYear={story.year === firstYear} open onClose={close} />
+      )}
     </>
   )
 }

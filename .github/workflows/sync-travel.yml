@@ -1,5 +1,5 @@
 # Pulls new Polarsteps trips/photos, mirrors photos to Sanity and commits
-# content/travel.json when it changed — that commit triggers the Vercel deploy.
+# content/travel.json (+ content/rewind.json) when they changed — that commit triggers the Vercel deploy.
 # Needs the repo secret SANITY_WRITE_TOKEN (Settings → Secrets and variables → Actions).
 name: Sync travel data
 
@@ -37,12 +37,12 @@ jobs:
 
       - name: Commit snapshot if it changed
         run: |
-          if git diff --quiet -- content/travel.json; then
+          if git diff --quiet -- content/travel.json content/rewind.json; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          git add content/travel.json
+          git add content/travel.json content/rewind.json
           git commit -m "chore: sync travel data from Polarsteps"
           git push

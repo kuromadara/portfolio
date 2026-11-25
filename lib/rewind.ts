@@ -7,7 +7,23 @@
  * follow Polarsteps' convention (calendar dates in UTC, start and end
  * inclusive) so they add up to the same total as the Polarsteps profile.
  */
+import type { Outline } from './outlines'
 import type { Photo, TripDetail } from './polarsteps'
+
+/** A rewind's entry in the button row (the full story is loaded on demand). */
+export interface RewindIndex {
+  key: string
+  kind: 'year' | 'all'
+  year: number
+  since: number
+  trips: number
+}
+
+/** Fetch one rewind in the browser. content/rewind.json becomes its own lazy-loaded chunk. */
+export async function loadRewind(key: string): Promise<YearRewind | null> {
+  const all = (await import('../content/rewind.json')).default as unknown as Record<string, YearRewind>
+  return all[key] ?? null
+}
 
 export interface YearRewind {
   /** "2025", "2026"… or "all" for the everything-so-far rewind. */
@@ -41,6 +57,8 @@ export interface YearRewind {
   travelDays: number[]
   /** Days spent travelling per month, keyed YYYY-MM. */
   monthDays: Record<string, number>
+  /** Country borders around the routes (added by the sync; may be empty). */
+  outlines?: Outline[]
   /** Step coordinates inside each country in `newCountries`. */
   countryPoints: Record<string, [number, number][]>
 }

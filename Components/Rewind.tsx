@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { fmtNumber } from '../lib/format'
 import { img } from '../lib/image'
 import type { Photo } from '../lib/polarsteps'
+import { parseRing, type Outline } from '../lib/outlines'
 import type { YearRewind } from '../lib/rewind'
 import { COFFEE_URL } from './CoffeeCard'
 
@@ -171,9 +172,7 @@ interface Slide {
   body: (animate: boolean) => React.ReactNode
 }
 
-const Kicker = ({ children }: { children: React.ReactNode }) => (
-  <p className="font-mono text-xs uppercase tracking-[0.2em] opacity-75">{children}</p>
-)
+const Kicker = ({ children }: { children: React.ReactNode }) => <p className="font-mono text-xs uppercase tracking-[0.2em] opacity-75">{children}</p>
 const Big = ({ children }: { children: React.ReactNode }) => (
   <p className="mt-3 font-display text-6xl font-medium leading-[0.95] tracking-tight sm:text-7xl">{children}</p>
 )
@@ -191,11 +190,14 @@ function PhotoBg({ photo, dim = 'from-black/85 via-black/40 to-black/20' }: { ph
 }
 
 function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Slide[] {
-  const month = (key: string) =>
-    new Intl.DateTimeFormat('en', { month: 'long', timeZone: 'UTC' }).format(new Date(`${key}-01T00:00:00Z`))
+  const month = (key: string) => new Intl.DateTimeFormat('en', { month: 'long', timeZone: 'UTC' }).format(new Date(`${key}-01T00:00:00Z`))
   const all = d.kind === 'all'
   const tripMonth = (iso: string) =>
-    new Intl.DateTimeFormat('en', { month: 'short', ...(all && { year: '2-digit' }), timeZone: 'Asia/Kolkata' }).format(new Date(iso))
+    new Intl.DateTimeFormat('en', {
+      month: 'short',
+      ...(all && { year: '2-digit' }),
+      timeZone: 'Asia/Kolkata',
+    }).format(new Date(iso))
   const monthName = (key: string) => (all ? `${month(key)} ${key.slice(0, 4)}` : month(key))
   // long lists (the all-time rewind): newest few + a count
   const listed = d.trips.length > 7 ? d.trips.slice(-6) : d.trips
@@ -223,9 +225,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
         {all ? (
           <>
             <p className="mt-4 font-display text-[5.5rem] font-medium leading-[0.85] tracking-tighter sm:text-[6.5rem]">So far.</p>
-            <p className="mt-2 font-display text-4xl italic text-accent">
-              {d.since} → today
-            </p>
+            <p className="mt-2 font-display text-4xl italic text-accent">{d.since} → today</p>
             <Line>Every step since my first trip — {fmtNumber(d.trips.length)} trips and counting. Tap to start →</Line>
           </>
         ) : (
@@ -274,7 +274,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
       <>
         <div aria-hidden className="topo-bg absolute inset-0" />
         <Art>
-          <Signature routes={d.routes} />
+          <Signature routes={d.routes} outlines={d.outlines} />
         </Art>
       </>
     ),
@@ -286,8 +286,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
           <span className="ml-2 text-3xl text-muted">km</span>
         </Big>
         <Line>
-          That&rsquo;s <strong className="text-accent">{d.earthPct}%</strong> of the way around the Earth. Above: every route I
-          took, drawn to scale.
+          That&rsquo;s <strong className="text-accent">{d.earthPct}%</strong> of the way around the Earth. Above: every route I took, drawn to scale.
         </Line>
       </>
     ),
@@ -295,11 +294,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
 
   slides.push({
     tone: 'bg-ink text-bg',
-    bg: (
-      <Art>
-        {all ? <MonthBlocks since={d.since} until={d.year} monthDays={d.monthDays} /> : <DayDots year={d.year} days={d.travelDays} />}
-      </Art>
-    ),
+    bg: <Art>{all ? <MonthBlocks since={d.since} until={d.year} monthDays={d.monthDays} /> : <DayDots year={d.year} days={d.travelDays} />}</Art>,
     body: (animate) => (
       <>
         <Kicker>Days on the road</Kicker>
@@ -423,7 +418,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
         <>
           <div aria-hidden className="topo-bg absolute inset-0" />
           <Art>
-            <Signature routes={d.newCountries.map((c) => d.countryPoints?.[c] ?? [])} dots />
+            <Signature routes={d.newCountries.map((c) => d.countryPoints?.[c] ?? [])} outlines={d.outlines} dots />
           </Art>
         </>
       ),
@@ -432,9 +427,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
           <Kicker>{all ? 'Flags collected' : `New flag${d.newCountries.length > 1 ? 's' : ''} collected`}</Kicker>
           <p className="mt-4 text-7xl">{d.newCountries.map(flagFor).join(' ')}</p>
           <Big>{d.newCountries.join(' · ')}</Big>
-          <Line>
-            {all ? 'Every step I’ve ever logged, joined up.' : 'First time on the map — every step I logged there, joined up.'}
-          </Line>
+          <Line>{all ? 'Every step I’ve ever logged, joined up.' : 'First time on the map — every step I logged there, joined up.'}</Line>
         </>
       ),
     })
@@ -481,11 +474,7 @@ function buildSlides(d: YearRewind, firstYear: boolean, onClose: () => void): Sl
         <Kicker>{all ? 'The story so far' : `That was ${d.year}`}</Kicker>
         <Big>{all ? 'More trails ahead.' : `See you on the trail in ${d.year + 1}.`}</Big>
         <div className="pointer-events-auto relative z-30 mt-8 flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={onClose}
-            className="rounded-full bg-accent-ink px-4 py-2 text-sm font-medium text-accent"
-          >
+          <button type="button" onClick={onClose} className="rounded-full bg-accent-ink px-4 py-2 text-sm font-medium text-accent">
             Explore the trips
           </button>
           <a
@@ -522,7 +511,7 @@ const Art = ({ children }: { children: React.ReactNode }) => (
  * Routes drawn to scale with no map underneath (equirectangular, x scaled by
  * cos(latitude)), each line drawing itself in. `dots` also marks every point.
  */
-function Signature({ routes, dots = false }: { routes: [number, number][][]; dots?: boolean }) {
+function Signature({ routes, outlines = [], dots = false }: { routes: [number, number][][]; outlines?: Outline[]; dots?: boolean }) {
   const pts = routes.flat()
   if (!pts.length) return null
   const k = Math.cos((pts.reduce((n, [lat]) => n + lat, 0) / pts.length) * (Math.PI / 180))
@@ -536,29 +525,96 @@ function Signature({ routes, dots = false }: { routes: [number, number][][]; dot
   const r = span * 0.008
 
   return (
-    <svg viewBox={vb} className="h-full w-full overflow-visible text-accent" preserveAspectRatio="xMidYMid meet">
-      {routes.map((route, i) =>
-        route.length > 1 ? (
-          <path
-            key={i}
-            d={route.map(([la, lo], j) => `${j ? 'L' : 'M'}${xy(la, lo).join(',')}`).join(' ')}
-            pathLength={1}
-            fill="none"
-            stroke="currentColor"
-            // width in map units (not non-scaling-stroke, which breaks pathLength-based drawing)
-            strokeWidth={span * (dots ? 0.004 : 0.009)}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="rewind-draw"
-            style={{ animationDelay: `${i * 250}ms`, opacity: dots ? 0.5 : 1 }}
-          />
-        ) : null,
+    <div className="relative h-full w-full">
+      {outlines.length > 0 && (
+        // borders: own layer so only they fade out toward the edges, not the routes
+        <svg
+          viewBox={vb}
+          className="absolute inset-0 h-full w-full overflow-hidden text-muted"
+          preserveAspectRatio="xMidYMid meet"
+          style={{
+            maskImage: 'radial-gradient(ellipse farthest-side at center, black 72%, transparent)',
+            WebkitMaskImage: 'radial-gradient(ellipse farthest-side at center, black 72%, transparent)',
+          }}
+        >
+          {outlines.map((o) =>
+            o.rings.map((ring, j) => (
+              <path
+                key={`${o.name}-${j}`}
+                d={`${parseRing(ring)
+                  .map(([la, lo], i) => `${i ? 'L' : 'M'}${xy(la, lo).join(',')}`)
+                  .join(' ')}Z`}
+                fill="currentColor"
+                fillOpacity={0.05}
+                stroke="currentColor"
+                strokeOpacity={0.45}
+                strokeWidth={span * 0.003}
+                strokeLinejoin="round"
+              />
+            )),
+          )}
+          {outlines.map((o) => {
+            if (!o.label) return null
+            const [x, y] = xy(o.label[0], o.label[1])
+            return (
+              <text
+                key={o.name}
+                x={x}
+                y={y}
+                textAnchor="middle"
+                fontSize={span * 0.032}
+                letterSpacing={span * 0.004}
+                fill="currentColor"
+                opacity={0.6}
+                className="font-mono uppercase"
+              >
+                {SHORT_NAMES[o.name] ?? o.name}
+              </text>
+            )
+          })}
+        </svg>
       )}
-      {(dots ? pts : routes.flatMap((rt) => (rt.length ? [rt[0], rt[rt.length - 1]] : []))).map(([la, lo], i) => {
-        const [x, y] = xy(la, lo)
-        return <circle key={i} cx={x} cy={y} r={dots ? r : r * 1.4} fill="currentColor" className="rewind-pop" style={{ animationDelay: `${300 + i * 12}ms`, transformBox: 'fill-box', transformOrigin: 'center' }} />
-      })}
-    </svg>
+      <svg viewBox={vb} className="relative h-full w-full overflow-visible text-accent" preserveAspectRatio="xMidYMid meet">
+        {routes.map((route, i) =>
+          route.length > 1 ? (
+            <path
+              key={i}
+              d={route.map(([la, lo], j) => `${j ? 'L' : 'M'}${xy(la, lo).join(',')}`).join(' ')}
+              pathLength={1}
+              fill="none"
+              stroke="currentColor"
+              // width in map units (not non-scaling-stroke, which breaks pathLength-based drawing)
+              strokeWidth={span * (dots ? 0.004 : 0.009)}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="rewind-draw"
+              style={{
+                animationDelay: `${i * 250}ms`,
+                opacity: dots ? 0.5 : 1,
+              }}
+            />
+          ) : null,
+        )}
+        {(dots ? pts : routes.flatMap((rt) => (rt.length ? [rt[0], rt[rt.length - 1]] : []))).map(([la, lo], i) => {
+          const [x, y] = xy(la, lo)
+          return (
+            <circle
+              key={i}
+              cx={x}
+              cy={y}
+              r={dots ? r : r * 1.4}
+              fill="currentColor"
+              className="rewind-pop"
+              style={{
+                animationDelay: `${300 + i * 12}ms`,
+                transformBox: 'fill-box',
+                transformOrigin: 'center',
+              }}
+            />
+          )
+        })}
+      </svg>
+    </div>
   )
 }
 
@@ -591,6 +647,10 @@ function DayDots({ year, days }: { year: number; days: number[] }) {
       })}
     </div>
   )
+}
+
+const SHORT_NAMES: Record<string, string> = {
+  "People's Republic of China": 'China',
 }
 
 /** All-time days: one row per year, one block per month, shaded by days away. */
@@ -637,7 +697,16 @@ function Icon({ name }: { name: 'pin' | 'sun' | 'snow' }) {
     snow: 'M12 2v20 M4 6.5l16 11 M4 17.5l16-11 M9 3.5l3 2.5 3-2.5 M9 20.5l3-2.5 3 2.5',
   }
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.8}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
       <path d={paths[name]} />
     </svg>
   )

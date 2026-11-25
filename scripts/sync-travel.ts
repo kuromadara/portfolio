@@ -17,13 +17,16 @@ import path from 'node:path'
 import { loadEnvConfig } from '@next/env'
 import { createClient } from '@sanity/client'
 import { fetchTravelProfile, fetchTrip, mapLimit, type Photo, type Step, type TripDetail } from '../lib/polarsteps'
-import { computeRewinds } from '../lib/rewind'
+import { loadCountries, outlinesFor } from '../lib/outlines'
+import { computeRewinds, type YearRewind } from '../lib/rewind'
 import { computeTravelInsights } from '../lib/travelInsights'
 import type { TravelSnapshot } from '../lib/travelData'
 
 loadEnvConfig(process.cwd())
 
 const OUT = path.join(process.cwd(), 'content', 'travel.json')
+/** Rewind stories live in their own file: the browser loads it only when one is opened. */
+const REWIND_OUT = path.join(process.cwd(), 'content', 'rewind.json')
 const SOURCE = 'polarsteps'
 
 async function main() {
@@ -57,8 +60,10 @@ async function main() {
     profile,
     trips: trips.sort((a, b) => b.start.localeCompare(a.start)),
     insights: computeTravelInsights(trips),
-    rewind: computeRewinds(trips),
   }
+  const rewind = computeRewinds(trips)
+  await addOutlines(rewind)
+  writeIfChanged(REWIND_OUT, `${JSON.stringify(rewind)}\n`)
 
   if (prev && JSON.stringify(withoutSyncedAt(prev)) === JSON.stringify(next)) {
     console.log('✓ No changes — content/travel.json left as is.')
@@ -187,6 +192,25 @@ async function addElevations(trips: TripDetail[], prev: TravelSnapshot | null) {
     } catch (err) {
       console.warn(`  ! elevation lookup failed (${(err as Error).message}) — will retry next sync`)
     }
+  }
+}
+
+/** Country borders behind each rewind's route drawing. Never fails the sync. */
+function writeIfChanged(file: string, text: string) {
+  const rel = path.relative(process.cwd(), file)
+  if (fs.existsSync(file) && fs.readFileSync(file, 'utf8') === text) return console.log(`✓ ${rel} unchanged`)
+  fs.writeFileSync(file, text)
+  console.log(`✓ Wrote ${rel} (${Math.round(text.length / 1024)} KB)`)
+}
+
+async function addOutlines(rewinds: Record<string, YearRewind>) {
+  try {
+    const countries = await loadCountries()
+    Object.values(rewinds).forEach((r) => (r.outlines = outlinesFor(r, countries)))
+    const n = Object.values(rewinds).reduce((sum, r) => sum + (r.outlines?.length ?? 0), 0)
+    console.log(`→ Outlines: ${n} country shapes across ${Object.keys(rewinds).length} rewinds`)
+  } catch (err) {
+    console.warn(`  ! country outlines skipped (${(err as Error).message})`)
   }
 }
 

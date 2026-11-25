@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-11-25T16:58:54.810Z",
+ "syncedAt": "2026-11-25T17:53:09.865Z",
  "profile": {
   "name": "Dayananda Dowarah",
   "bio": "I'm a full-time software engineer thinking of changing my career paths.",
@@ -8,7 +8,7 @@
   "stats": {
    "km": 11122,
    "trips": 11,
-   "steps": 209,
+   "steps": 212,
    "countries": 2,
    "countryCodes": [
     "IN",
@@ -31,8 +31,8 @@
     "stepCount": 12,
     "timezone": "Asia/Kolkata",
     "cover": {
-     "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+     "id": "e65f5e32-0644-41cc-8cdd-ade74b748ed1",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/c58ba3128f322b0787b4d1113266a08c894f04ee-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -97,11 +97,11 @@
     "start": "2026-09-04T18:30:00+00:00",
     "end": "2026-09-20T18:29:59+00:00",
     "km": 2880,
-    "stepCount": 65,
+    "stepCount": 68,
     "timezone": "Asia/Kolkata",
     "cover": {
-     "id": "31285c23-b024-4b0d-89bb-34d713765555",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/527e6c7d64705d84fc63e4a2f2795d3e3ec4472c-960x1280.jpg",
+     "id": "77b3ff59-5e9d-4087-9498-522a960f7c55",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/551c5536f56ce291c62fd3d0d78e9dd957abbb01-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -169,6 +169,18 @@
      [
       27.7155,
       85.3106
+     ],
+     [
+      27.673,
+      85.3246
+     ],
+     [
+      27.6735,
+      85.3249
+     ],
+     [
+      27.6724,
+      85.3248
      ],
      [
       27.6724,
@@ -603,10 +615,10 @@
     "stepCount": 19,
     "timezone": "Asia/Kolkata",
     "cover": {
-     "id": "9be9e3e0-9e2c-416b-a0e6-4462718e266b",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb80b02d7bc4cf4a48ca198d0457d3f12e5fc94f-960x1283.jpg",
+     "id": "f741b1eb-3581-4c7f-8fb1-0ff30251b63d",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/cdd9725fc7d426c64677aa8fd09ef83a602e4cf3-960x1280.jpg",
      "w": 960,
-     "h": 1283
+     "h": 1280
     },
     "countries": [
      "India"
@@ -1058,10 +1070,10 @@
     "stepCount": 5,
     "timezone": "Asia/Kolkata",
     "cover": {
-     "id": "4861a8a1-56b6-4a45-b79e-aa454719bdd0",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/3f1b2614be557abf30339b7ed36518b6af033560-3508x1973.jpg",
-     "w": 3508,
-     "h": 1973
+     "id": "bfec6b06-6e89-4792-953d-f8271ce17883",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/cca1b91b0fbecf80e9aeb7f755fc10c6cf142705-960x1280.jpg",
+     "w": 960,
+     "h": 1280
     },
     "countries": [
      "India"
@@ -1102,8 +1114,8 @@
    "stepCount": 12,
    "timezone": "Asia/Kolkata",
    "cover": {
-    "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
-    "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+    "id": "e65f5e32-0644-41cc-8cdd-ade74b748ed1",
+    "src": "https://cdn.sanity.io/images/qw7500aq/projects/c58ba3128f322b0787b4d1113266a08c894f04ee-960x1280.jpg",
     "w": 960,
     "h": 1280
    },
@@ -1163,14 +1175,14 @@
      "elev": 93,
      "photos": [
       {
-       "id": "e90314a3-f276-4913-a643-177bca8062f0",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/009a919ca14b745afca9620cf0519db345f16a87-960x1280.jpg",
+       "id": "2e73b336-8cfa-49ac-9a9a-3b2dad164e9e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4ec850775bbd5935b3720d0dbf94d746aa29316d-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "2e73b336-8cfa-49ac-9a9a-3b2dad164e9e",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4ec850775bbd5935b3720d0dbf94d746aa29316d-960x1280.jpg",
+       "id": "e90314a3-f276-4913-a643-177bca8062f0",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/009a919ca14b745afca9620cf0519db345f16a87-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -1197,6 +1209,12 @@
      },
      "elev": 85,
      "photos": [
+      {
+       "id": "c38378ad-35ed-405e-9466-67d6515433aa",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f239ed2c59e6138059520189c1f033079cc4e0cb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "252afd9b-2187-4055-b54f-6c569c766858",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/ccbe885578c1976872103bdce7439e298242aa78-960x1280.jpg",
@@ -1236,12 +1254,6 @@
       {
        "id": "dd5162a3-2dee-4dd4-8021-48027e54ad8e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/52d82a2e4c67d286c2a70c543c6dc66b823c000d-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "c38378ad-35ed-405e-9466-67d6515433aa",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f239ed2c59e6138059520189c1f033079cc4e0cb-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -1310,6 +1322,12 @@
      "elev": 94,
      "photos": [
       {
+       "id": "ebe48598-1af0-4a47-8fc0-5e3fe7c82547",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cbb29bd33e2aae61fa337ac3465e127b945be621-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "3912f49a-acc7-4032-81d2-e13d237d8369",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/346dd2967714b7e313d0e362973e403d453a7bb9-960x1280.jpg",
        "w": 960,
@@ -1338,12 +1356,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/ac80c93463e9038e9b540c3177dc37ffe3aa3703-960x1280.jpg",
        "w": 960,
        "h": 1280
-      },
-      {
-       "id": "ebe48598-1af0-4a47-8fc0-5e3fe7c82547",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cbb29bd33e2aae61fa337ac3465e127b945be621-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       }
      ]
     },
@@ -1363,6 +1375,12 @@
      "elev": 87,
      "photos": [
       {
+       "id": "d2119d09-3d70-4b86-a848-e98ac1c7c469",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6942a12d95263f30968dca3d3e68935a97909995-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "fc800a27-84db-49af-bf8f-ca2778307a82",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/ef883342db1d4c1d628e669a7718c88d8863e8e6-960x1280.jpg",
        "w": 960,
@@ -1377,12 +1395,6 @@
       {
        "id": "c5385576-4446-456c-bd62-9d4ffc94c284",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/63303216a11ffae9c20c2700722132b4f30bf88f-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "d2119d09-3d70-4b86-a848-e98ac1c7c469",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6942a12d95263f30968dca3d3e68935a97909995-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -1409,6 +1421,12 @@
      },
      "elev": 87,
      "photos": [
+      {
+       "id": "033b599c-40b3-4b04-b2c6-d2eaf96e8b63",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d2ed1fa306aeb2989e42a891e27e8536b6f088bb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "53f35aea-b56a-40ae-947d-dafdd7328d4e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/fe71cafd909f31759b0f7311b2f56c60e6b774de-960x1280.jpg",
@@ -1478,7 +1496,7 @@
     },
     {
      "id": 283259171,
-     "title": "Begena ati",
+     "title": "Begena Ati Satra",
      "description": null,
      "time": "2026-11-25T07:50:49.830000+00:00",
      "place": "Kamalabari, India",
@@ -1604,14 +1622,14 @@
      "elev": 93,
      "photos": [
       {
-       "id": "61f09b82-7fd2-4166-a354-f968b53de9ad",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/41b99e3c2769ef6d422cb485680b9bf879eb24c6-960x1280.jpg",
+       "id": "c8aff613-8435-4561-b1fa-19bcf0d20249",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a9b18005344ca17696b8cb31f5d288195185535e-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "c8aff613-8435-4561-b1fa-19bcf0d20249",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a9b18005344ca17696b8cb31f5d288195185535e-960x1280.jpg",
+       "id": "61f09b82-7fd2-4166-a354-f968b53de9ad",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/41b99e3c2769ef6d422cb485680b9bf879eb24c6-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -1673,11 +1691,11 @@
    "start": "2026-09-04T18:30:00+00:00",
    "end": "2026-09-20T18:29:59+00:00",
    "km": 2880,
-   "stepCount": 65,
+   "stepCount": 68,
    "timezone": "Asia/Kolkata",
    "cover": {
-    "id": "31285c23-b024-4b0d-89bb-34d713765555",
-    "src": "https://cdn.sanity.io/images/qw7500aq/projects/527e6c7d64705d84fc63e4a2f2795d3e3ec4472c-960x1280.jpg",
+    "id": "77b3ff59-5e9d-4087-9498-522a960f7c55",
+    "src": "https://cdn.sanity.io/images/qw7500aq/projects/551c5536f56ce291c62fd3d0d78e9dd957abbb01-960x1280.jpg",
     "w": 960,
     "h": 1280
    },
@@ -1778,14 +1796,14 @@
      "elev": 95,
      "photos": [
       {
-       "id": "8ccb5ff0-0f70-4876-920f-c31e6cef5b70",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/8aa7b9e464e34d1438da16af8af09bccc6108196-960x1280.jpg",
+       "id": "064db207-4d1e-456e-a7d8-de56685de4ab",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e71cc7cf95ba0a613a9d73f0c34315cb0e6cc726-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "064db207-4d1e-456e-a7d8-de56685de4ab",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e71cc7cf95ba0a613a9d73f0c34315cb0e6cc726-960x1280.jpg",
+       "id": "8ccb5ff0-0f70-4876-920f-c31e6cef5b70",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/8aa7b9e464e34d1438da16af8af09bccc6108196-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -1941,6 +1959,12 @@
      "elev": 1327,
      "photos": [
       {
+       "id": "faacdaf2-35ec-48ca-a0cd-7338c3845cdb",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d45d8db7e91f3c9e0019122375a8644bdd1462dd-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "3e34e32a-1a32-4378-8929-bf4a57cb33f5",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/968fa6c01a157ece931416d1d64548ad087626c6-960x1280.jpg",
        "w": 960,
@@ -1979,12 +2003,6 @@
       {
        "id": "77b3ff59-5e9d-4087-9498-522a960f7c55",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/551c5536f56ce291c62fd3d0d78e9dd957abbb01-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "faacdaf2-35ec-48ca-a0cd-7338c3845cdb",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d45d8db7e91f3c9e0019122375a8644bdd1462dd-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -2087,6 +2105,12 @@
      "elev": 1306,
      "photos": [
       {
+       "id": "59cbefa6-ec9a-4cfc-b7f5-23531b090e7b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ebc4eac6bd579a47d9a6326c331250ad7e9fcfc4-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "3e70d0dd-0436-4952-8810-2c03a9c1949b",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/e034fc704e4e7ee66c48b2bead416d3510439d5b-899x1599.jpg",
        "w": 899,
@@ -2095,12 +2119,6 @@
       {
        "id": "28983444-2a5e-4cdc-b58e-bee98ef0d014",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/b6f386bc485d9ede69ef5de61f9024ce5e809b0f-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "59cbefa6-ec9a-4cfc-b7f5-23531b090e7b",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ebc4eac6bd579a47d9a6326c331250ad7e9fcfc4-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -2170,6 +2188,12 @@
      "elev": 1311,
      "photos": [
       {
+       "id": "7822a4ac-1eff-4b40-8e50-734e842e0688",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/66669ce9e78182edcd2ffbfe0aadfe2431a0b8d9-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "fbe52b25-f5fd-42b1-8996-09e513efeb29",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/b4ae43dc6ff9478cfc600d4ead8814e0dbec1a9f-960x1280.jpg",
        "w": 960,
@@ -2190,12 +2214,6 @@
       {
        "id": "8c03f509-6d5f-4a34-94e6-c34d3ed1164e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/d2e9c5082c5eb3e52db75e79d4bcf188c5681b65-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "7822a4ac-1eff-4b40-8e50-734e842e0688",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/66669ce9e78182edcd2ffbfe0aadfe2431a0b8d9-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -2247,6 +2265,12 @@
      "elev": 1312,
      "photos": [
       {
+       "id": "c7ddfcfc-641d-4e16-bad0-1946a41acef2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f3b6a0291879dd2dadcfc9803e2472292f291396-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "626739a8-c8f0-4237-9f5d-94cd7be8507e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/6d0eb46ecd7ff8f24ef8e75802296f374e41212f-960x1280.jpg",
        "w": 960,
@@ -2257,10 +2281,355 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/6c7ca6137b8a7275bb3aacf6b01ca394aeb3e2d1-960x1280.jpg",
        "w": 960,
        "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 266021384,
+     "title": "Patan Durbar Square",
+     "description": null,
+     "time": "2026-09-07T05:28:55.436000+00:00",
+     "place": "Lalitpur, Nepal",
+     "tz": "Asia/Kathmandu",
+     "lat": 27.673,
+     "lon": 85.3246,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 25
+     },
+     "elev": 1320,
+     "photos": [
+      {
+       "id": "cc2f49aa-094c-4dec-8f74-acc23415be5a",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d5ab7beb8afffc71cbe1bca330657c7d731b71b6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
       },
       {
-       "id": "c7ddfcfc-641d-4e16-bad0-1946a41acef2",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f3b6a0291879dd2dadcfc9803e2472292f291396-960x1280.jpg",
+       "id": "c13088c7-e623-45e7-9442-ca854206dfc6",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/81a9239c262e25dc435a66913873f493a3f0a8eb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c0ced87c-b2b6-43fc-adcf-e30aa020e0a8",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e3214a3169948cb18960403f96ac7a9c13f75ae1-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "f362def8-9928-4208-9f97-f6d118a96c46",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cd12cbbf20393239ea7f026cc6e801d2e7c27ea6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "ba8c1ed3-31ed-42dd-b5f9-ce2e032386c9",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb23dbfdcc4c25b59957cce5094a553c671e0155-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5f5f73cf-bfef-4bae-bbf9-bff592de37c4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/beab7916bd1bfd1c81a95ea9abe9fb20a34a6c0a-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "1f19c5bb-35b2-4a73-919e-9d021c70ec90",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c5c766f28ad72de51672fad66af380ad8469373e-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "2d811670-875c-474b-b671-592601449682",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/71ed6439579439ccc19873a5da672f54adc188f6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "9dbdce55-cc5d-4ee3-9391-c4ce50e72161",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/04db0bc5b648d44dc8f2bd21332c589dd231235b-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "ab6fa47e-157b-45cf-89ec-1bb41140710e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1ca3a2262be413ebf20282a1c6c2cd539b92c67e-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "0980ede9-3924-4d8f-bd3e-b6cfe90b1386",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/868f69ae887afaf1dc24b43b05299a4c122f6fb1-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5da88929-4639-42f2-9a17-b68b58c8b156",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1f4c08ab5614d0ef8800b57e73bfee4dc7ff97be-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c77c3b3a-2ad6-41eb-bff5-d50f2655e14e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/58427b432dc1999bb5639c07f452e34ff182ad14-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "4c98eb4b-ce66-40a6-93ca-8c9ccbd00d5a",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6bce7d843d8d29a08303460c36adad7845ce3521-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "a945c01b-e248-4cac-b1ce-e660d381de0b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bebe29c0ff2894c64c9717d7f0a6e0df652ce4db-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "d203e76a-223f-42d3-b7d4-d1b604ec9370",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4e54adc5a44e8fb3de5f8925d8219439dfd2510c-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "67afb8f0-7a3c-4001-ae08-6ce248eeab28",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4f012f668c308c0071b7e2bc94e48b2466b80d19-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 266081553,
+     "title": "Patan Museum",
+     "description": null,
+     "time": "2026-09-07T07:02:58+00:00",
+     "place": "Lalitpur, Nepal",
+     "tz": "Asia/Kathmandu",
+     "lat": 27.6735,
+     "lon": 85.3249,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 1319,
+     "photos": [
+      {
+       "id": "31c380a7-e82e-4805-a6c3-156e3198576b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/71f128a9d2769e52a35ae024a3872a3017a520fd-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "94bf3f6a-1909-448f-a420-a4d559dd8e73",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d09bece377609c376b16eb01cdd6613a83c009b8-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "33523980-6168-47de-95eb-7786e3bcd426",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5e1d57b618d519da921c1876e05abe9b6deac383-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "89d9a596-d73f-4a0e-a2e2-86629b679231",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/14334414abd7bb9ba3e47154d0bd7ee14970d59f-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "38b5fb82-2aa4-439b-ac42-d1a973382e85",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a64e8101a4045a476cdb44e20c87883a948aa1e1-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "d5e0d558-eda3-4fcf-a65e-789c292a922c",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3bbcd786debbd9f71b430f8d5156550f7040c54b-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "03b3f56c-b25a-4862-8f27-b8bef5b289d2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/81a992b634296c33026fb26d31d58786edd0a99a-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "a62ad90f-718b-48ec-b559-4255da8b74dc",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6b3d909e3b84f781f81d892b8c5af062a7f618e7-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "f166e304-fc2c-4b67-a3f0-aa73784d2d98",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f42f81edf5c9866612dc07e369545ae80aa45144-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "30444354-98aa-4cf2-a213-bfa32664bb55",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/55fbac2d8236f54d43d31974faac4dedfa52047b-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5863b2aa-e74f-4aa0-8546-0883c250aa0f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/612b281aef84edf3f0d0d3793265985d12bf23a6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "51f7a70e-6772-49fc-b134-332de07de29e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/88418efae7bc035402c87e79bd93b975bc9e66d8-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "078fb906-fe3c-4adf-90be-cb11f4ace5dc",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c53ae58f187e25edb2bdac91808c9316e7eaafb5-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "cb1039f2-fa84-4c63-8289-edfada143d9e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4e66b4986b1b983bae104cbc0cc6b78f398993bb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "395350d7-e9c6-4ff0-bd7c-46f301b1df17",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1d78c75963e231f62b1930a0f83690e5c6dbd3fb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "93860b7a-ebc4-447e-bcff-e714754104f3",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ecff945980b1f2c5c62c36bb3a54e58165ce4ec6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "2be82ec9-edd0-4527-b2ee-38d791c8c7d6",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/850ae5bdd4fe51e28d4f1438e238e162b763611f-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "d42c4b80-9a11-4e10-b175-ffa0a8f84025",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bd7974f748cb9620c37675242751e570d1d8266f-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "931b3c8d-425a-43b8-ae62-1ebee01e0800",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c0b2669e78046927964baad60ff7053ccc662479-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "7ab7c2c5-b747-4947-9e3b-555238923c17",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/7bf0f88f53b49174758729a5403f83bae8a1bfbb-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "799b1c7a-7b78-484a-ba34-96c55161cd8d",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4b89ef84e92ff0d39bacda6dc15dedf67b0be9f8-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "efb8d2f9-b697-41e2-ad26-78bc94d482bd",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/024e309fabf7ddd37aa394d4c81c4500c98371c2-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "863197fc-fe70-4230-a400-ff338a9638af",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/02347f783b9aacd11e5466aaf6ac142dedc3b23b-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "5b0f4bc6-e3ab-40db-8c66-e1427056cff2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a5341cb8735f76804c96221b281bb6ae4e47796a-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "4b63b558-3926-4f61-8a55-386c72e1a724",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cd936efad2df429e9e87b5c7634edeff4a3eadd2-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "8ad2aa38-9146-46d5-9ef8-867d9d1f7812",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/deeb2157e8baa5b3aa34f05b47b0fdfe4ad59465-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "8638787c-39df-4b45-826a-296d3f7f6fa0",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/fbb427671d718da5e1404a0892446eefb414c937-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "aa3516cc-3029-4c5d-aa12-62cb77561900",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/feb668b6da8fc3cfda3ef9d528734a5aac81442c-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "id": 266150018,
+     "title": "Wandering through Mangal bazar and local courtyards",
+     "description": null,
+     "time": "2026-09-07T07:48:06.973000+00:00",
+     "place": "Lalitpur, Nepal",
+     "tz": "Asia/Kathmandu",
+     "lat": 27.6724,
+     "lon": 85.3248,
+     "weather": {
+      "condition": "partly-cloudy-day",
+      "temp": 28
+     },
+     "elev": 1320,
+     "photos": [
+      {
+       "id": "60921921-6fe7-4dbb-90a7-a69d58c9e0ae",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/59bc609705668a3137c64e8da75f31ff69c4c926-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "f52c00d9-bd56-4ba4-9297-60b746929eed",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bd7e951c2031caaf31921a767a718a58ece117c3-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "d0819ce8-4cb3-4191-b345-64598613cee7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/68a11f60120b5c84719cc2351d38ac6a2d226707-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "5c073cbe-bb93-4216-8b74-ae22cd9825d4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6c8d9a7666b1f127c9b3b561457a2992e0717bde-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "ff03a168-d76c-4429-a203-039171bb48b6",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/2cf6e8fcafe8d56373bf5174df5397b6fece362a-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -2281,6 +2650,12 @@
      },
      "elev": 1341,
      "photos": [
+      {
+       "id": "deee7615-507a-4782-891a-7b47fe9755f7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c94f369f4405488c0ee54dce65d8ecec8b590a5e-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "7eaa35e0-b357-4fd3-bb65-0278d47682b0",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/c855a5e7373a11ca566d8a2775d199335c9d6099-960x1280.jpg",
@@ -2314,12 +2689,6 @@
       {
        "id": "48fb2e18-895c-4555-bc3a-2f4988460fd2",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb48179551eb47533a33c410ce7fbe51686a4eaf-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "deee7615-507a-4782-891a-7b47fe9755f7",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c94f369f4405488c0ee54dce65d8ecec8b590a5e-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -2539,14 +2908,14 @@
      "elev": 1339,
      "photos": [
       {
-       "id": "e4d18fbb-24f4-4ccf-a2c4-85da561d6b90",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4f744afb99ee628ac9970863565b9d74a3d753fb-960x1280.jpg",
+       "id": "64a2d03d-9abd-44aa-af6b-965fad4249b4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ede029db754e39a4c9567dd98383119a251af3c6-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "64a2d03d-9abd-44aa-af6b-965fad4249b4",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ede029db754e39a4c9567dd98383119a251af3c6-960x1280.jpg",
+       "id": "e4d18fbb-24f4-4ccf-a2c4-85da561d6b90",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/4f744afb99ee628ac9970863565b9d74a3d753fb-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -2913,14 +3282,14 @@
      "elev": 1311,
      "photos": [
       {
-       "id": "58d9b2f5-9596-48f2-872c-ba461b5c2899",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b4ffe28548eb11eb38b3dffd8a13d8b5d5be8458-960x1280.jpg",
+       "id": "035e8a49-b532-407c-816d-3c747acdb7bd",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c8c7b4531e0fb33fd7566f33eaa8043387e6fe85-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "035e8a49-b532-407c-816d-3c747acdb7bd",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c8c7b4531e0fb33fd7566f33eaa8043387e6fe85-960x1280.jpg",
+       "id": "58d9b2f5-9596-48f2-872c-ba461b5c2899",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b4ffe28548eb11eb38b3dffd8a13d8b5d5be8458-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -2954,14 +3323,14 @@
      "elev": 1498,
      "photos": [
       {
-       "id": "10803385-b2ce-4b45-9e02-2522959edc98",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f1c3f7cc9560b8269e7bc577d4e91f06dcee17b7-960x1280.jpg",
+       "id": "fd952267-38d0-4295-9ab5-a2582f63acd0",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e7b44cb8fa1b271586afea399f2f2650b101813c-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "fd952267-38d0-4295-9ab5-a2582f63acd0",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e7b44cb8fa1b271586afea399f2f2650b101813c-960x1280.jpg",
+       "id": "10803385-b2ce-4b45-9e02-2522959edc98",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f1c3f7cc9560b8269e7bc577d4e91f06dcee17b7-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -2983,16 +3352,16 @@
      "elev": 1392,
      "photos": [
       {
-       "id": "1c8ac4cd-69ec-4f16-883d-1ba22d7ffe1b",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e7e62e2500bba37d750a7ed040d45954a0bbcf75-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "f88ab093-1ebf-4dac-8dc9-dd25b6859e39",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/f80f0c1dd930d4c058811264d67e4eafa57bc8f9-1280x960.jpg",
        "w": 1280,
        "h": 960
+      },
+      {
+       "id": "1c8ac4cd-69ec-4f16-883d-1ba22d7ffe1b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e7e62e2500bba37d750a7ed040d45954a0bbcf75-960x1280.jpg",
+       "w": 960,
+       "h": 1280
       },
       {
        "id": "bebb5fb6-7f95-4b4c-9f09-45ce334bbce5",
@@ -3108,14 +3477,14 @@
      "elev": 1414,
      "photos": [
       {
-       "id": "c669a5b9-db59-4387-a0a5-60b940682a0c",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/53e62864c9d2be8b2a7d438b7921be47d1e2e516-1280x960.jpg",
+       "id": "9ec63cd5-d234-4e91-bcb5-89ffceff6b95",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5b68125bfffd3ba1fa3e297bb3754e273780209a-1280x960.jpg",
        "w": 1280,
        "h": 960
       },
       {
-       "id": "9ec63cd5-d234-4e91-bcb5-89ffceff6b95",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5b68125bfffd3ba1fa3e297bb3754e273780209a-1280x960.jpg",
+       "id": "c669a5b9-db59-4387-a0a5-60b940682a0c",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/53e62864c9d2be8b2a7d438b7921be47d1e2e516-1280x960.jpg",
        "w": 1280,
        "h": 960
       },
@@ -3173,6 +3542,12 @@
      "elev": 1405,
      "photos": [
       {
+       "id": "75a19434-b78c-451d-ac0d-093f01808ad8",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b88a44d4ed6d681f7e5c8af7a3671e11ba6e0e0b-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "f225087a-4240-429c-914f-792bf0dd7920",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/1f4bf17c956082e0815e7c153fd9695d0c4eba96-960x1280.jpg",
        "w": 960,
@@ -3199,12 +3574,6 @@
       {
        "id": "ae8ef6ad-dd02-4ee7-8abf-bf8e84fe3176",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/5e861aefc510527f0194f208b74d4136f025ffc2-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "75a19434-b78c-451d-ac0d-093f01808ad8",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b88a44d4ed6d681f7e5c8af7a3671e11ba6e0e0b-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -3238,6 +3607,12 @@
      "elev": 1402,
      "photos": [
       {
+       "id": "591b6ec6-8baf-4f4c-b543-616dd430a536",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/84faac182488aec1d9542880c2cfe6a4f08eb975-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "74ce7392-fc18-48c6-9291-e013079f2060",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/53a162049f5a5ae733ea116c95c1b19c25623028-960x1280.jpg",
        "w": 960,
@@ -3252,12 +3627,6 @@
       {
        "id": "63355561-458b-4434-a26d-be3971785d23",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/fe1859b45ea2ab44e8b10afa5ba9ca86efd4c13e-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "591b6ec6-8baf-4f4c-b543-616dd430a536",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/84faac182488aec1d9542880c2cfe6a4f08eb975-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -3307,6 +3676,24 @@
      },
      "elev": 1337,
      "photos": [
+      {
+       "id": "fffe33b6-7bb7-4205-9734-1d972d1afd7b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/77491738b4a2e5547b25167383ca524a84597d39-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "e87994a1-8613-48ad-a7e5-a09a2f4af7c7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/eae919604e8ad77c8626da38720619bffa6af462-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "4f21184d-ada2-4c37-a117-5dd60ffcd829",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ec91b5b6cbc56e83bb66878c148904a152f192ef-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "689b52bd-629b-460d-95d6-25a68266bb8e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/981156a35ac4e4b84bded2c2106a96d79cabe2ca-960x1280.jpg",
@@ -3386,12 +3773,6 @@
        "h": 1280
       },
       {
-       "id": "4f21184d-ada2-4c37-a117-5dd60ffcd829",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ec91b5b6cbc56e83bb66878c148904a152f192ef-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "22e776b6-a5e5-4262-8eb2-a0cbea8d4a69",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/84109e98e2a87bef3c8b41cf3f92bcde40f5f9cd-960x1280.jpg",
        "w": 960,
@@ -3416,12 +3797,6 @@
        "h": 1280
       },
       {
-       "id": "e87994a1-8613-48ad-a7e5-a09a2f4af7c7",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/eae919604e8ad77c8626da38720619bffa6af462-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "19d2320e-400a-47a0-a2f1-98948b1b9088",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/eeb6a4ae7ece6a38a1dabf349bfc572dd3e5ca44-960x1280.jpg",
        "w": 960,
@@ -3442,12 +3817,6 @@
       {
        "id": "bb33b9a8-b72a-4595-8be5-f1bfc3f197bf",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/fa0f9ab3e16bcec372ea068f3d5d5ac0342fd2e4-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "fffe33b6-7bb7-4205-9734-1d972d1afd7b",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/77491738b4a2e5547b25167383ca524a84597d39-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -3761,6 +4130,12 @@
      "elev": 1313,
      "photos": [
       {
+       "id": "6d058cd3-401c-4c94-a3fe-def2f5058f91",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/701d038db2f7f3fb2561f819fc835b201a342a4c-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "097ff46c-05db-45ba-b190-0912c48af399",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/61547a16da9d95ac0c8a248bd28528423080e3d9-960x1280.jpg",
        "w": 960,
@@ -3783,12 +4158,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3b82b6aca65ac43bd4f07b225bdf4c6d9afa30da-960x1280.jpg",
        "w": 960,
        "h": 1280
-      },
-      {
-       "id": "6d058cd3-401c-4c94-a3fe-def2f5058f91",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/701d038db2f7f3fb2561f819fc835b201a342a4c-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       }
      ]
     },
@@ -3808,14 +4177,14 @@
      "elev": 1328,
      "photos": [
       {
-       "id": "e242c49a-aa60-429f-ad84-f8562a7b14b9",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/805bb5e6f3f0e231917340d4a2b2d05e5f697c5f-1280x960.jpg",
+       "id": "6c7c800a-c1a5-4460-8e05-b7f422925902",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d464c310d0ccb00fac7e39cb82196e4f42e7f239-1280x960.jpg",
        "w": 1280,
        "h": 960
       },
       {
-       "id": "6c7c800a-c1a5-4460-8e05-b7f422925902",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d464c310d0ccb00fac7e39cb82196e4f42e7f239-1280x960.jpg",
+       "id": "e242c49a-aa60-429f-ad84-f8562a7b14b9",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/805bb5e6f3f0e231917340d4a2b2d05e5f697c5f-1280x960.jpg",
        "w": 1280,
        "h": 960
       }
@@ -3883,16 +4252,16 @@
      "elev": 915,
      "photos": [
       {
-       "id": "b7d0b2a9-257d-4847-8a49-23f047c9e528",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb31cbf87f01ff94f22bbe125bdd77e41e3e3b13-1280x960.jpg",
-       "w": 1280,
-       "h": 960
-      },
-      {
        "id": "ebe87050-195a-4d52-aea8-dbcc2c55931f",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/88330e0456d281f922542e2612fa7f630c7f63e2-960x1280.jpg",
        "w": 960,
        "h": 1280
+      },
+      {
+       "id": "b7d0b2a9-257d-4847-8a49-23f047c9e528",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb31cbf87f01ff94f22bbe125bdd77e41e3e3b13-1280x960.jpg",
+       "w": 1280,
+       "h": 960
       }
      ]
     },
@@ -3911,6 +4280,12 @@
      },
      "elev": 795,
      "photos": [
+      {
+       "id": "0668384d-35b9-448b-a4f6-23c41a0c3edf",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/595dd2f4e5f76b735651ffd4cf8d16ee156d84be-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "800cbdb0-f4d9-42d6-935d-86c199ad41d7",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/6fba7c638f68c11b283807beac8388cc6833694b-960x1280.jpg",
@@ -3942,12 +4317,6 @@
        "h": 1280
       },
       {
-       "id": "0668384d-35b9-448b-a4f6-23c41a0c3edf",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/595dd2f4e5f76b735651ffd4cf8d16ee156d84be-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "2f96f87d-fc4a-4e0f-b8cb-773bdabb0928",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/bf9d1abd436f8a2bf060ed7d6c0682cacb60bb4a-960x1280.jpg",
        "w": 960,
@@ -3971,6 +4340,12 @@
      "elev": 800,
      "photos": [
       {
+       "id": "eac1e575-5fb7-421b-af52-5c915f7505ae",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/34ced15d4111d8304c6cead4cc7620eddc5d323b-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "2432f143-c6c8-43d9-852a-dc2fb5fa92d5",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3e38d63b7e8912ccc428dca58ee6a40a465e298f-960x1280.jpg",
        "w": 960,
@@ -3979,12 +4354,6 @@
       {
        "id": "bfffc088-e9b7-4549-a078-2623cc6ab20d",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/8ead3a444bd3326444cfd56b6ef75e013426f544-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "eac1e575-5fb7-421b-af52-5c915f7505ae",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/34ced15d4111d8304c6cead4cc7620eddc5d323b-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -4129,6 +4498,12 @@
      "elev": 1535,
      "photos": [
       {
+       "id": "60f58a6c-b03d-4fa4-ad64-9934a1f81727",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/427071fbe2a01429d180ef3d40c0b295acc06491-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "7240a558-73cd-4364-bc16-d1e3f6021ad2",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/591724da33205d43e60e32220f26f88d4097023b-960x1280.jpg",
        "w": 960,
@@ -4207,12 +4582,6 @@
        "h": 1280
       },
       {
-       "id": "60f58a6c-b03d-4fa4-ad64-9934a1f81727",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/427071fbe2a01429d180ef3d40c0b295acc06491-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "2491e4c5-0db4-4b6f-b9b4-4c7464ed7458",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3af7b81f5b8df4d2e75e40cfcfddd84960c63d53-960x1280.jpg",
        "w": 960,
@@ -4272,6 +4641,12 @@
      "elev": 779,
      "photos": [
       {
+       "id": "d7b1c9bc-19a7-4eed-bf05-bcd8f6defe06",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/10e96412e0770df00e07d9d28c1614b8c347bb63-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "ebd9efd1-f65d-450d-9d22-8da2651c6c42",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/1559de9b42a5669d1e7b39c4b0366a24de7bf787-960x1280.jpg",
        "w": 960,
@@ -4286,12 +4661,6 @@
       {
        "id": "41e0c083-b2b3-4698-b714-49945530a601",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/6f5961ea12f140ee6a2c2082bf0efb5c6dd1b9d0-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "d7b1c9bc-19a7-4eed-bf05-bcd8f6defe06",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/10e96412e0770df00e07d9d28c1614b8c347bb63-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -4378,6 +4747,12 @@
      "elev": 1088,
      "photos": [
       {
+       "id": "4055f7a2-4045-485c-9666-33be6d9b4a10",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9d450c91b632db3f69d413ef1575f8974a75b592-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "7abecc11-d441-46ac-a9de-fdad9e2e6b0a",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/5031a05999783a94666b6ba9f5f854b2271e6c79-960x1280.jpg",
        "w": 960,
@@ -4386,12 +4761,6 @@
       {
        "id": "2fc0bebf-a1f9-4089-98eb-597416a4f3a3",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/6b4a244a26bdfbd899a8a9e65291d61495573131-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "4055f7a2-4045-485c-9666-33be6d9b4a10",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9d450c91b632db3f69d413ef1575f8974a75b592-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -4526,6 +4895,12 @@
      "elev": 1304,
      "photos": [
       {
+       "id": "2e605d7f-cb1a-4b53-9ff6-4b07879441fd",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f1583fece390d53d2e154ebdbaa69a46ddf22511-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "4430b8d7-a64a-4ffe-8057-482b258dd3b5",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/7288802299021e343a0e9f13d7a527c972277043-960x1280.jpg",
        "w": 960,
@@ -4540,12 +4915,6 @@
       {
        "id": "a1e9d4b8-f277-49c9-ae5f-ca9e4455a093",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/238fb76e5342f794596522396e550c59340669b1-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "2e605d7f-cb1a-4b53-9ff6-4b07879441fd",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f1583fece390d53d2e154ebdbaa69a46ddf22511-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -4573,18 +4942,6 @@
      "elev": 678,
      "photos": [
       {
-       "id": "ee7974d3-6368-4bb8-a82b-d02e5d0585fb",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9f9da30d396b90c51792c9e750383e8316775883-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "694bc0c1-c4fe-44ea-bf4e-c7eb49fd3cd5",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e21cc94cf875caa1b42144c746d66a539fc7a89a-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "3ec3c633-dd5f-41eb-b110-baf6fc0b0ad7",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/5c40bc7b245559cb494ff398a5f7d0a4eab7d4ca-960x1280.jpg",
        "w": 960,
@@ -4593,6 +4950,18 @@
       {
        "id": "56204ea4-c25b-43eb-a7a8-6bc2aabbc8e9",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/da155cafec1d6d28e6064fcd1cc648766c400fcb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "ee7974d3-6368-4bb8-a82b-d02e5d0585fb",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9f9da30d396b90c51792c9e750383e8316775883-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "694bc0c1-c4fe-44ea-bf4e-c7eb49fd3cd5",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e21cc94cf875caa1b42144c746d66a539fc7a89a-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -4643,6 +5012,12 @@
      },
      "elev": 722,
      "photos": [
+      {
+       "id": "af030fc9-b053-4657-b9b7-305d4bd2ecf2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/21fbe06c8d32b85525fe728b7b24fe3cbc8f42c6-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "8b70891d-3429-4018-8c3e-7fb8aeddb8b0",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/2d378009f6bde9023a4a7140937268d9e7357089-960x1280.jpg",
@@ -4700,12 +5075,6 @@
       {
        "id": "34504254-c07c-4dae-9561-52dcaf6950a5",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/b0a8016abd5520c437673d2d9afd497a1f8e6455-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "af030fc9-b053-4657-b9b7-305d4bd2ecf2",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/21fbe06c8d32b85525fe728b7b24fe3cbc8f42c6-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -4798,14 +5167,14 @@
      "elev": 917,
      "photos": [
       {
-       "id": "521405a7-adbe-4461-a388-e084ee68c79d",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5562e729d4e48429234e527558dea197d197cf90-960x1280.jpg",
+       "id": "4835a12a-9357-45f3-aba4-377d14392b49",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/145d8e7acaad2a25e7f7cf34f63c748288bb6ca9-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "4835a12a-9357-45f3-aba4-377d14392b49",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/145d8e7acaad2a25e7f7cf34f63c748288bb6ca9-960x1280.jpg",
+       "id": "521405a7-adbe-4461-a388-e084ee68c79d",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5562e729d4e48429234e527558dea197d197cf90-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -4987,14 +5356,14 @@
      "elev": 992,
      "photos": [
       {
-       "id": "18e2ff21-fda2-4e16-a38d-61a8a5033a83",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/124a14a65130ededdc655c18d81b2f104bbfccd4-960x1280.jpg",
+       "id": "d50646db-25fc-4f11-9816-d405bdcd50d4",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3b665e37c077ee563fbd24279bb8546915e4dbed-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "d50646db-25fc-4f11-9816-d405bdcd50d4",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3b665e37c077ee563fbd24279bb8546915e4dbed-960x1280.jpg",
+       "id": "18e2ff21-fda2-4e16-a38d-61a8a5033a83",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/124a14a65130ededdc655c18d81b2f104bbfccd4-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -5075,6 +5444,12 @@
      "elev": 1097,
      "photos": [
       {
+       "id": "bece3acf-c5ba-47ca-b3f8-68ac87179a46",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c8ab381bb2481f2dbf29eaeeed01a6b4588fd2c9-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "074a8816-d697-42cd-b013-619eb42925bf",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/11d648a33a818318435ac2406bb1e998ceb921f7-960x1280.jpg",
        "w": 960,
@@ -5119,12 +5494,6 @@
       {
        "id": "0d84d952-dbdf-48f3-bc49-1d6fbe6914db",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/57779883921e2e9887272fc87dbb6268a9b6c777-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "bece3acf-c5ba-47ca-b3f8-68ac87179a46",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c8ab381bb2481f2dbf29eaeeed01a6b4588fd2c9-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -5229,6 +5598,12 @@
      "elev": 802,
      "photos": [
       {
+       "id": "9ce21117-e61b-40f7-9310-5640d06ab286",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b884044f894421a10c36e8437f52a6536efd3df0-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "1cae554b-2891-4c7b-a0ba-015808d264f0",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/cca2f3b98d56b4ed8622da998366ed0844baa1a1-960x1280.jpg",
        "w": 960,
@@ -5287,12 +5662,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/1f96ac869c860d3f348c224216671ec5c79ca025-960x1280.jpg",
        "w": 960,
        "h": 1280
-      },
-      {
-       "id": "9ce21117-e61b-40f7-9310-5640d06ab286",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b884044f894421a10c36e8437f52a6536efd3df0-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       }
      ]
     },
@@ -5311,6 +5680,12 @@
      },
      "elev": 795,
      "photos": [
+      {
+       "id": "00328578-6e98-4fe3-aea6-508a205a0dd6",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f1d999a531b7ba0f25047cce504283c43abf86ed-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "9384f993-a5bb-4619-86fc-a54a8bde5bed",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/577bbd1d38838cb0c83e3f1645dc83390fcade84-960x1280.jpg",
@@ -5332,12 +5707,6 @@
       {
        "id": "91acfa6b-c405-430d-9e4a-5bef8aac7fd7",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3d0e818b035649c952b8ca4a6d1c1c01c2f8fcf2-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "00328578-6e98-4fe3-aea6-508a205a0dd6",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f1d999a531b7ba0f25047cce504283c43abf86ed-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -5441,6 +5810,12 @@
      "elev": 802,
      "photos": [
       {
+       "id": "6a58a9ca-7b6a-4e96-88a0-b55580001e77",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/075fe1dcda79bce3f38a85e4655cf969dac3a6fc-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "35e805f1-7c1e-4ecb-854b-468f68ba648a",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/4c37a801db0cd924f1979a03680fc685d85d69b1-960x1280.jpg",
        "w": 960,
@@ -5449,12 +5824,6 @@
       {
        "id": "124efc6f-7d8a-4f68-a96c-becdc375c411",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/2d5504f8b728c22ce23582a3a2aa5c0aa700923b-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "6a58a9ca-7b6a-4e96-88a0-b55580001e77",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/075fe1dcda79bce3f38a85e4655cf969dac3a6fc-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -5625,6 +5994,12 @@
      "elev": 105,
      "photos": [
       {
+       "id": "c1f71eea-c022-416b-ae61-79231e32aa0c",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c6c8e66a728cb2fde85affad10f1e8ca6105fbbc-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "a9aa393c-693b-464a-a989-f38be218a15a",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/76419189066146b43e814c1fb4011ef7d6679771-960x1280.jpg",
        "w": 960,
@@ -5645,12 +6020,6 @@
       {
        "id": "3b2845c8-9521-4886-8cd2-df37e2c077fa",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/62443561056db574ac2d3ef20732ba908ec3e72b-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "c1f71eea-c022-416b-ae61-79231e32aa0c",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c6c8e66a728cb2fde85affad10f1e8ca6105fbbc-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -5799,16 +6168,16 @@
      "elev": 2174,
      "photos": [
       {
-       "id": "bc4a8951-33e2-456b-9647-ee3b714829ee",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0c3a9f437a8add214758004b9eee642964cea6ce-899x1599.jpg",
-       "w": 899,
-       "h": 1599
-      },
-      {
        "id": "68494504-b106-4a79-b496-a0f2232b8eab",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/f30bbc3d0436398bbc8c4c041a102b88f6c3e7e0-960x1280.jpg",
        "w": 960,
        "h": 1280
+      },
+      {
+       "id": "bc4a8951-33e2-456b-9647-ee3b714829ee",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0c3a9f437a8add214758004b9eee642964cea6ce-899x1599.jpg",
+       "w": 899,
+       "h": 1599
       },
       {
        "id": "6b9e5b77-17f7-41b7-98ea-e1ce76f413b6",
@@ -5834,6 +6203,12 @@
      "elev": 2051,
      "photos": [
       {
+       "id": "452cdd74-bf81-451d-9817-c0e1a8288f73",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9146c446450e578f38a039983462d0b07080bf14-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "a8aacfea-ec99-452e-a1b5-a4394fcabf9e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/89effd3d4aed54686e555707c74ee28e75c127c1-960x1280.jpg",
        "w": 960,
@@ -5844,12 +6219,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/1d69eb7bf6d6c98213a5f22df77ef097b54212bf-899x1599.jpg",
        "w": 899,
        "h": 1599
-      },
-      {
-       "id": "452cdd74-bf81-451d-9817-c0e1a8288f73",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9146c446450e578f38a039983462d0b07080bf14-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       }
      ]
     },
@@ -5869,14 +6238,14 @@
      "elev": 1198,
      "photos": [
       {
-       "id": "22241c53-8962-4910-a5a9-8638e029f487",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f999e252ea992b5de5fac868780b4da4fc73e1c7-960x1280.jpg",
+       "id": "7d526110-586c-4c51-a810-1fa7891a2785",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/37602964df5508f61780acd3d57e38e95ec2eafc-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "7d526110-586c-4c51-a810-1fa7891a2785",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/37602964df5508f61780acd3d57e38e95ec2eafc-960x1280.jpg",
+       "id": "22241c53-8962-4910-a5a9-8638e029f487",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f999e252ea992b5de5fac868780b4da4fc73e1c7-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -6143,6 +6512,12 @@
      "elev": 1525,
      "photos": [
       {
+       "id": "1d00813f-b8d5-478a-b520-3daf7ed579cb",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ce9a0d902ae7897156cb61c8fd7977da46b5ce05-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "0163ec7a-69dc-406b-8229-74bccd386d00",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/37dde237e2d0c16011bdf9829c8f4fb2c6cc206e-960x1280.jpg",
        "w": 960,
@@ -6151,12 +6526,6 @@
       {
        "id": "27614822-08db-42ed-83ec-08b6a80b9cc5",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/f6e442ee4965ac64001abfb588292709abbe5d57-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "1d00813f-b8d5-478a-b520-3daf7ed579cb",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ce9a0d902ae7897156cb61c8fd7977da46b5ce05-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -6220,14 +6589,14 @@
      "elev": 1176,
      "photos": [
       {
-       "id": "7db22b44-54a7-4cb1-8dff-4aa2b0f06e97",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c84b93691f4b0d250c8dea44cbc9d27aeae787ed-960x1280.jpg",
+       "id": "8b42678f-0375-4dc6-9a7f-b520e454e42f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c47e52f26eca4905b2b0598671f6360ffba98060-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "8b42678f-0375-4dc6-9a7f-b520e454e42f",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c47e52f26eca4905b2b0598671f6360ffba98060-960x1280.jpg",
+       "id": "7db22b44-54a7-4cb1-8dff-4aa2b0f06e97",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c84b93691f4b0d250c8dea44cbc9d27aeae787ed-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -6249,6 +6618,12 @@
      "elev": 1279,
      "photos": [
       {
+       "id": "e6957d60-b1d0-45be-9ad2-680a7d8f807f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f726cfd1476df920e01d3b1489ddf8bcdd9b3bfb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "7265eb60-cea9-4d20-93e1-b9e9ec0214dd",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/7756296be3598bb8fe1e6004f981740911351fab-960x1280.jpg",
        "w": 960,
@@ -6269,12 +6644,6 @@
       {
        "id": "77aeb944-0971-4a5d-908d-e7929d5fe47a",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/1eb52ce0aea97285954465117f8bbac304ffeeee-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "e6957d60-b1d0-45be-9ad2-680a7d8f807f",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f726cfd1476df920e01d3b1489ddf8bcdd9b3bfb-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -6531,6 +6900,12 @@
      "elev": 1142,
      "photos": [
       {
+       "id": "339a9dac-bed3-44d7-925b-e19252c9151e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5ad25bc5ef05b02faac1886800b5292dafa804cb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "4c52a52f-fcb2-49f3-a62a-c6bf048c7d08",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/c063f0a5a7f1ac4a511d4794ec941db2dae97884-960x1280.jpg",
        "w": 960,
@@ -6539,12 +6914,6 @@
       {
        "id": "a3137fc7-252c-49a9-bedb-f1db759b2a1f",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/655e5e0cd20927c0b1c026160c077fdb250c7f65-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "339a9dac-bed3-44d7-925b-e19252c9151e",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5ad25bc5ef05b02faac1886800b5292dafa804cb-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -6595,14 +6964,14 @@
      "elev": 1560,
      "photos": [
       {
-       "id": "6f7a5ccf-2323-4143-9072-6b1b921a3c42",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/36a6401635dd9df5dcf7ea7d9d4acb50275557be-960x1280.jpg",
+       "id": "541fe2d0-156f-4743-a8c0-61e2bbfee8b2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6b76932015271aa643163a2a8bcc85b174430ff4-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "541fe2d0-156f-4743-a8c0-61e2bbfee8b2",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/6b76932015271aa643163a2a8bcc85b174430ff4-960x1280.jpg",
+       "id": "6f7a5ccf-2323-4143-9072-6b1b921a3c42",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/36a6401635dd9df5dcf7ea7d9d4acb50275557be-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -6682,14 +7051,14 @@
      "elev": 1790,
      "photos": [
       {
-       "id": "08a35020-fe98-456e-98c5-0ceb6372d1f5",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/2972d951cd2129c466486ec8960492b58b18e682-960x1280.jpg",
+       "id": "a33fc9d6-144b-4002-be24-c803119f6692",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/fee33fdb65ce235682afe3d4f85f5daff6b2a903-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "a33fc9d6-144b-4002-be24-c803119f6692",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/fee33fdb65ce235682afe3d4f85f5daff6b2a903-960x1280.jpg",
+       "id": "08a35020-fe98-456e-98c5-0ceb6372d1f5",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/2972d951cd2129c466486ec8960492b58b18e682-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -6729,6 +7098,12 @@
      "elev": 1827,
      "photos": [
       {
+       "id": "097689e8-e9f9-4468-95d5-4a1a7b492273",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b1fc9eb24073808808d2879e2a5ffef63bc1d6eb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "b32db375-5b67-4e4f-bd2e-65a63a6de305",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/688d710ca35f91dee6013d51eaf18dff01a23c86-960x1280.jpg",
        "w": 960,
@@ -6755,12 +7130,6 @@
       {
        "id": "78182acc-4fb9-4e83-b8a6-ab39439e1334",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/de039080b0bd874754c4311bf75b97c5c749ab86-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "097689e8-e9f9-4468-95d5-4a1a7b492273",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b1fc9eb24073808808d2879e2a5ffef63bc1d6eb-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -6880,6 +7249,12 @@
      "elev": 1626,
      "photos": [
       {
+       "id": "380cfd22-abbd-45c5-ab71-a063c6859b7c",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5937f6bd370fb4c5e72ce1534667dd9bfbe1393f-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "f12b811d-414f-498b-99ca-6174b0f5b714",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/b334b216fea4d57ce868e648a6c36e26771576f8-960x1280.jpg",
        "w": 960,
@@ -6888,12 +7263,6 @@
       {
        "id": "b8c344ef-c19e-41b4-bcf0-7890ed7b3899",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/0f7b7a5096840fd23ab64977798b2ee443c6d013-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "380cfd22-abbd-45c5-ab71-a063c6859b7c",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5937f6bd370fb4c5e72ce1534667dd9bfbe1393f-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -6945,16 +7314,16 @@
      "elev": 1651,
      "photos": [
       {
-       "id": "17d947f0-9e1a-424a-85d7-dccd9d21ac37",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e6fa24d35a94482950d17b28f8476c4e7ccee58-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "953276f8-7eee-4c2e-9344-2264b81db275",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/cb5f27001710ae34e942f2cb7a22569d74de7f4c-899x1599.jpg",
        "w": 899,
        "h": 1599
+      },
+      {
+       "id": "17d947f0-9e1a-424a-85d7-dccd9d21ac37",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e6fa24d35a94482950d17b28f8476c4e7ccee58-960x1280.jpg",
+       "w": 960,
+       "h": 1280
       }
      ]
     },
@@ -6974,6 +7343,12 @@
      "elev": 1406,
      "photos": [
       {
+       "id": "4f25a60f-0280-4590-8d90-6a405241b56e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1f9853ef1296ccf31d18a663a9eee609e77dfd54-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "f6fefe04-cff9-4f17-8e6b-d0950602238f",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/eb2211d0e13baf9c3c80c17a2b193826b8af2b36-960x1280.jpg",
        "w": 960,
@@ -6988,12 +7363,6 @@
       {
        "id": "fd12bb86-b72a-4dda-9972-56027759f61c",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/85f28a10947a7326c4791f3706e1b02a55b18329-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "4f25a60f-0280-4590-8d90-6a405241b56e",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1f9853ef1296ccf31d18a663a9eee609e77dfd54-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -7014,6 +7383,12 @@
      },
      "elev": 1526,
      "photos": [
+      {
+       "id": "54600ddb-ec2b-4b31-a53a-46745baf2d45",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0b6aaada1cf84667bf03dceef92bec1e2201f040-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
       {
        "id": "44f122a3-7710-458b-bc91-9e956e22bc7b",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/86e9e35539b196c5a2328ba4549ad732f4bad5e3-960x1280.jpg",
@@ -7047,12 +7422,6 @@
       {
        "id": "51fbecc1-f30a-4161-9f50-51b49b2c1eec",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/ca31c1cccee6130b989b98dd8b5e10869bad52b5-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "54600ddb-ec2b-4b31-a53a-46745baf2d45",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0b6aaada1cf84667bf03dceef92bec1e2201f040-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -7260,10 +7629,10 @@
    "stepCount": 19,
    "timezone": "Asia/Kolkata",
    "cover": {
-    "id": "9be9e3e0-9e2c-416b-a0e6-4462718e266b",
-    "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb80b02d7bc4cf4a48ca198d0457d3f12e5fc94f-960x1283.jpg",
+    "id": "f741b1eb-3581-4c7f-8fb1-0ff30251b63d",
+    "src": "https://cdn.sanity.io/images/qw7500aq/projects/cdd9725fc7d426c64677aa8fd09ef83a602e4cf3-960x1280.jpg",
     "w": 960,
-    "h": 1283
+    "h": 1280
    },
    "countries": [
     "India"
@@ -7371,6 +7740,12 @@
      "elev": 1012,
      "photos": [
       {
+       "id": "3770643d-e8fb-4938-b4de-28cb8e49db91",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f6bcb6f73e821df65f3f66e98d095e74634242e5-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "1445133b-e795-43b3-b452-809a23e61e51",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/e69aeaf020b6757bbe80829fbac114220af71fbc-960x1280.jpg",
        "w": 960,
@@ -7385,12 +7760,6 @@
       {
        "id": "d22084db-d768-4799-ac53-29c1bc263a6d",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/a15453b93ceb7729c76ed19cca85f8d05595b885-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "3770643d-e8fb-4938-b4de-28cb8e49db91",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/f6bcb6f73e821df65f3f66e98d095e74634242e5-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -7528,14 +7897,14 @@
      "elev": 608,
      "photos": [
       {
-       "id": "6e1e534b-55e7-4e28-a774-63001396bf86",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e777e627b1a79844742b692e2399609125ff31bc-960x1280.jpg",
+       "id": "e74d478c-72d3-43ab-addd-02fa5f4c3548",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9a19c831b4636f1ec1f32c321e383ffc1ee08cd8-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "e74d478c-72d3-43ab-addd-02fa5f4c3548",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9a19c831b4636f1ec1f32c321e383ffc1ee08cd8-960x1280.jpg",
+       "id": "6e1e534b-55e7-4e28-a774-63001396bf86",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/e777e627b1a79844742b692e2399609125ff31bc-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -7557,16 +7926,16 @@
      "elev": 1094,
      "photos": [
       {
-       "id": "48df0f1b-8c8c-4d85-9b42-d7587842875d",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c255eae533d705a0443ce72ad726e7117ecde3fb-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "9be9e3e0-9e2c-416b-a0e6-4462718e266b",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb80b02d7bc4cf4a48ca198d0457d3f12e5fc94f-960x1283.jpg",
        "w": 960,
        "h": 1283
+      },
+      {
+       "id": "48df0f1b-8c8c-4d85-9b42-d7587842875d",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c255eae533d705a0443ce72ad726e7117ecde3fb-960x1280.jpg",
+       "w": 960,
+       "h": 1280
       }
      ]
     },
@@ -7643,20 +8012,8 @@
      "elev": 1215,
      "photos": [
       {
-       "id": "f741b1eb-3581-4c7f-8fb1-0ff30251b63d",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cdd9725fc7d426c64677aa8fd09ef83a602e4cf3-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "b4a704d2-5326-462e-a43f-5dd23c41cb0a",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/455e6052a01534615fa9ff086cd572782dce690f-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "c6c04f96-4dca-47c2-907d-bf8f2873093e",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b94d35cbc0dda5061cb9d5f21fa900174ecd3eef-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -7665,6 +8022,18 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/c1c3d4257600af9e260e5168319bed5cc252fb59-1280x960.jpg",
        "w": 1280,
        "h": 960
+      },
+      {
+       "id": "f741b1eb-3581-4c7f-8fb1-0ff30251b63d",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cdd9725fc7d426c64677aa8fd09ef83a602e4cf3-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "c6c04f96-4dca-47c2-907d-bf8f2873093e",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b94d35cbc0dda5061cb9d5f21fa900174ecd3eef-960x1280.jpg",
+       "w": 960,
+       "h": 1280
       },
       {
        "id": "011e17b7-4ca2-4a38-808d-64a56ba0444b",
@@ -7708,6 +8077,12 @@
      "elev": 937,
      "photos": [
       {
+       "id": "ed8412e3-5dc6-418d-b64d-e82d5e3146ff",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9b785bdd8339b8d3f5b4bdcc61c6169201c4a160-960x964.jpg",
+       "w": 960,
+       "h": 964
+      },
+      {
        "id": "86be0eb1-8624-4424-bb65-5508958b141f",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3b4440220421d9f30885cc63cb332e5e154bde62-960x1280.jpg",
        "w": 960,
@@ -7718,12 +8093,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/2fa5d23ee56ff7d42dcc5485c10d870f271ffa56-960x1280.jpg",
        "w": 960,
        "h": 1280
-      },
-      {
-       "id": "ed8412e3-5dc6-418d-b64d-e82d5e3146ff",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/9b785bdd8339b8d3f5b4bdcc61c6169201c4a160-960x964.jpg",
-       "w": 960,
-       "h": 964
       },
       {
        "id": "6c203b99-daff-44f7-86e5-78846019b7e6",
@@ -7842,14 +8211,14 @@
      "elev": 1230,
      "photos": [
       {
-       "id": "606db13c-fb31-409e-9a92-077ec77695d2",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b63fa95a9ad37f45c98ac09e24faaa31f64de89a-960x1280.jpg",
+       "id": "a4f5746e-9ac3-4a06-851b-c8fa2d0ac7cf",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/25f664c2a68e77db3f6b19b56feca57b8ccc7bf4-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "a4f5746e-9ac3-4a06-851b-c8fa2d0ac7cf",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/25f664c2a68e77db3f6b19b56feca57b8ccc7bf4-960x1280.jpg",
+       "id": "606db13c-fb31-409e-9a92-077ec77695d2",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/b63fa95a9ad37f45c98ac09e24faaa31f64de89a-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -7883,6 +8252,12 @@
      "elev": 1231,
      "photos": [
       {
+       "id": "08e8eb6c-3934-4bdb-8e9f-2d09105f83a7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ec10eee7747408bdbd6aac4fbff8141ac48b913e-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "376bd5f9-5ac7-4c5b-a331-54afcc7aeecd",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/c7ba88c5147263a6445e4debbaf237a4eaef1490-960x1280.jpg",
        "w": 960,
@@ -7891,12 +8266,6 @@
       {
        "id": "d758dd46-bae9-4fc7-a74b-d3a6aa768f7a",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/ce72f0ce5fe1972b09ae621dcef4e31cd9fc94b5-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "08e8eb6c-3934-4bdb-8e9f-2d09105f83a7",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ec10eee7747408bdbd6aac4fbff8141ac48b913e-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -8004,8 +8373,8 @@
      "elev": 213,
      "photos": [
       {
-       "id": "f076ed74-9a4e-4179-8350-04c4bd1e2453",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a04fbbbac62dc42a2bc4be7d788bb5fd06efe4c9-960x1280.jpg",
+       "id": "f3972af9-d13d-4aa3-bea2-4723452f8000",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ed7a8535e9870e247b2df3bd31ea485e06754d2b-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -8020,12 +8389,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/676eec01042d7a7a70e272bd6d021af9160f92cf-1280x960.jpg",
        "w": 1280,
        "h": 960
-      },
-      {
-       "id": "f3972af9-d13d-4aa3-bea2-4723452f8000",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/ed7a8535e9870e247b2df3bd31ea485e06754d2b-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       },
       {
        "id": "82211022-cb34-4b6c-b765-8e6a99072525",
@@ -8048,6 +8411,12 @@
       {
        "id": "d51cf6de-5ac9-4a8a-a422-5dd6e1021458",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/da3001dab2f43fc84417ef09a1654156b4bda1e8-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "f076ed74-9a4e-4179-8350-04c4bd1e2453",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a04fbbbac62dc42a2bc4be7d788bb5fd06efe4c9-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -8154,6 +8523,12 @@
      "elev": 2013,
      "photos": [
       {
+       "id": "2bab70db-37fc-4ffc-ac07-b539d76851ee",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/48c881e01cb0ef7007d0916b4a83e6bb54a61135-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "c433b2de-ab28-4b16-b057-1239d7b73330",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3a72e96384df8ed679397ee8464f9ef7601063f5-1280x960.jpg",
        "w": 1280,
@@ -8192,12 +8567,6 @@
       {
        "id": "6b1b1753-3b81-418e-9ffc-989738c4471e",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/26e99b5227a5d06e9404a470104f054b049a6a0b-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "2bab70db-37fc-4ffc-ac07-b539d76851ee",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/48c881e01cb0ef7007d0916b4a83e6bb54a61135-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -8248,6 +8617,12 @@
      "elev": 1908,
      "photos": [
       {
+       "id": "5f7b2613-517a-4148-be6a-067acb751e4f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c116332bcf66cdcca718996100d68a56ee750e9a-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "6d79d595-db5a-4ca5-ae90-094dc19468a5",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/3ee034359ecca437e595f5119ce5a8ffb2be1bb7-960x1280.jpg",
        "w": 960,
@@ -8268,12 +8643,6 @@
       {
        "id": "68e5e6cd-a069-4bf6-9305-6309e311b6b7",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/8de2f7a8df7816a349b469a69f50667b2062ad93-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "5f7b2613-517a-4148-be6a-067acb751e4f",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c116332bcf66cdcca718996100d68a56ee750e9a-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -8318,14 +8687,14 @@
      "elev": 2661,
      "photos": [
       {
-       "id": "5c13c54d-6709-46db-8c2e-f15f716df94b",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3ee8c3b80b1d1634171e1e5b53e77444fe9f6dac-960x1280.jpg",
+       "id": "897f40eb-7764-4fd3-8174-21f5e7218783",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d63ba8623c7f07615075644c63f431105fc706ea-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "897f40eb-7764-4fd3-8174-21f5e7218783",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d63ba8623c7f07615075644c63f431105fc706ea-960x1280.jpg",
+       "id": "5c13c54d-6709-46db-8c2e-f15f716df94b",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/3ee8c3b80b1d1634171e1e5b53e77444fe9f6dac-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -8347,14 +8716,14 @@
      "elev": 3019,
      "photos": [
       {
-       "id": "88e89513-3642-4767-8ec1-38b3a631d664",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/fd8065742774ed10985738ab8691dd25ff2381e0-960x1280.jpg",
+       "id": "fcf4653f-3bf1-43d3-8a35-1b3bf596e9ae",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d5932ae0e6f33099ad4fffd60e8105e7f0dbc9a5-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "fcf4653f-3bf1-43d3-8a35-1b3bf596e9ae",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d5932ae0e6f33099ad4fffd60e8105e7f0dbc9a5-960x1280.jpg",
+       "id": "88e89513-3642-4767-8ec1-38b3a631d664",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/fd8065742774ed10985738ab8691dd25ff2381e0-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -8444,6 +8813,12 @@
      "elev": 3714,
      "photos": [
       {
+       "id": "172a6939-a867-4b8d-b758-79ea4a6ab19f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5a925d0a894da31bc35265c11901f461ec3997ed-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "936da9c9-c3b7-4746-8fd3-ec8dc21efb1b",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/b4d46b20f7805e12167d1b1863de4e6b2b1ef482-960x1280.jpg",
        "w": 960,
@@ -8454,12 +8829,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/68b5673ef3d738319fb17c22b14f8e40b2e7f11a-1280x960.jpg",
        "w": 1280,
        "h": 960
-      },
-      {
-       "id": "172a6939-a867-4b8d-b758-79ea4a6ab19f",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/5a925d0a894da31bc35265c11901f461ec3997ed-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       },
       {
        "id": "2b098cef-ae8b-42cd-bb51-fc9e08c8eeba",
@@ -9019,14 +9388,14 @@
      "elev": 1491,
      "photos": [
       {
-       "id": "29eae14c-35ea-4f28-b23b-9c7e4f90dc04",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c05d0d99525c1669ea1bad4e3c95052ee91c19ee-960x1280.jpg",
+       "id": "d99549ab-0774-478d-a5fa-1ba33e6313a7",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cacda2d3fbc8a0b3d35debe1f07230ff3f315d20-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "d99549ab-0774-478d-a5fa-1ba33e6313a7",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/cacda2d3fbc8a0b3d35debe1f07230ff3f315d20-960x1280.jpg",
+       "id": "29eae14c-35ea-4f28-b23b-9c7e4f90dc04",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c05d0d99525c1669ea1bad4e3c95052ee91c19ee-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -9423,6 +9792,12 @@
      "elev": 1798,
      "photos": [
       {
+       "id": "d847cded-e489-406e-b91c-baa813497a11",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a4cbe02f3f0e94546cff016061cfccffc6cd7877-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "df2864c6-4325-4152-a4d6-981cc5ef15f4",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/84a79e8d43a370a140e797bd7005e708fe0b2a23-960x1280.jpg",
        "w": 960,
@@ -9431,12 +9806,6 @@
       {
        "id": "ae7d4452-1f67-407c-b3be-4a1bd91e59ef",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/ce715547e0e3243ec79a2bc6e5a2e23d1e198296-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "d847cded-e489-406e-b91c-baa813497a11",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a4cbe02f3f0e94546cff016061cfccffc6cd7877-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -9503,6 +9872,12 @@
      "elev": 297,
      "photos": [
       {
+       "id": "62ee69f3-e623-451d-a7da-a9146f228e65",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d28ba77a3cbe5a3607f5464e113830dd76bed935-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "91e2ca57-3429-44eb-b703-13ef3d41d6e8",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/dabe6e106962df1e8b1aa7ec5bc7e6e7a27688da-960x1280.jpg",
        "w": 960,
@@ -9525,12 +9900,6 @@
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/e8a80bbaf13ba896624443907eebba4246362a0c-1280x960.jpg",
        "w": 1280,
        "h": 960
-      },
-      {
-       "id": "62ee69f3-e623-451d-a7da-a9146f228e65",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d28ba77a3cbe5a3607f5464e113830dd76bed935-960x1280.jpg",
-       "w": 960,
-       "h": 1280
       }
      ]
     }
@@ -9546,10 +9915,10 @@
    "stepCount": 5,
    "timezone": "Asia/Kolkata",
    "cover": {
-    "id": "4861a8a1-56b6-4a45-b79e-aa454719bdd0",
-    "src": "https://cdn.sanity.io/images/qw7500aq/projects/3f1b2614be557abf30339b7ed36518b6af033560-3508x1973.jpg",
-    "w": 3508,
-    "h": 1973
+    "id": "bfec6b06-6e89-4792-953d-f8271ce17883",
+    "src": "https://cdn.sanity.io/images/qw7500aq/projects/cca1b91b0fbecf80e9aeb7f755fc10c6cf142705-960x1280.jpg",
+    "w": 960,
+    "h": 1280
    },
    "countries": [
     "India"
@@ -9588,14 +9957,14 @@
      "elev": 1655,
      "photos": [
       {
-       "id": "81343e36-9e27-4bf5-9f42-aaeaf79cf945",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1d9acd7d420e304b5430cf7874d761cf0db8a1f0-960x1280.jpg",
+       "id": "07d8a48a-7905-44d1-9a17-8b99c6b5e4df",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e4ef2f032f9b5cb75b4447d707dc23131e40b6f-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "07d8a48a-7905-44d1-9a17-8b99c6b5e4df",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e4ef2f032f9b5cb75b4447d707dc23131e40b6f-960x1280.jpg",
+       "id": "81343e36-9e27-4bf5-9f42-aaeaf79cf945",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/1d9acd7d420e304b5430cf7874d761cf0db8a1f0-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
@@ -9623,6 +9992,24 @@
      "elev": 2455,
      "photos": [
       {
+       "id": "0e9f19ac-fec0-4bf2-a107-b4eaae182b1f",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d454f1f8a355ed01be9a766432bec11ac1d7f6dc-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
+       "id": "8cabe34c-d9ad-4042-b60a-c8cf05e45f33",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a504f625a26f049edf4e40719df75ffb912b87d7-1280x960.jpg",
+       "w": 1280,
+       "h": 960
+      },
+      {
+       "id": "09e3a49c-7a3c-4274-98e7-e7b933e63168",
+       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c905b8d828bbd86e02b7668d89368f5189708200-960x1280.jpg",
+       "w": 960,
+       "h": 1280
+      },
+      {
        "id": "9c3d26c7-d161-4693-a980-346c3a82b1af",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/c939df338ce3979470c0886497adc15478fb8a9a-960x1241.jpg",
        "w": 960,
@@ -9641,32 +10028,14 @@
        "h": 1280
       },
       {
-       "id": "0e9f19ac-fec0-4bf2-a107-b4eaae182b1f",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/d454f1f8a355ed01be9a766432bec11ac1d7f6dc-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
        "id": "87b8a16a-8798-4f48-b88a-c0de6df87354",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/517b0e74e61129fed3a77c311e07c8b96b9697c1-960x1280.jpg",
        "w": 960,
        "h": 1280
       },
       {
-       "id": "8cabe34c-d9ad-4042-b60a-c8cf05e45f33",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/a504f625a26f049edf4e40719df75ffb912b87d7-1280x960.jpg",
-       "w": 1280,
-       "h": 960
-      },
-      {
        "id": "bfec6b06-6e89-4792-953d-f8271ce17883",
        "src": "https://cdn.sanity.io/images/qw7500aq/projects/cca1b91b0fbecf80e9aeb7f755fc10c6cf142705-960x1280.jpg",
-       "w": 960,
-       "h": 1280
-      },
-      {
-       "id": "09e3a49c-7a3c-4274-98e7-e7b933e63168",
-       "src": "https://cdn.sanity.io/images/qw7500aq/projects/c905b8d828bbd86e02b7668d89368f5189708200-960x1280.jpg",
        "w": 960,
        "h": 1280
       }
@@ -9722,7 +10091,7 @@
   }
  ],
  "insights": {
-  "photos": 809,
+  "photos": 860,
   "earthPct": 27.8,
   "longestLeg": {
    "km": 1458,
@@ -9875,8 +10244,8 @@
     "timezone": "Asia/Kolkata",
     "km": 2880,
     "days": 16,
-    "steps": 65,
-    "photos": 466
+    "steps": 68,
+    "photos": 516
    },
    {
     "id": 29846608,
@@ -9887,7 +10256,7 @@
     "km": 393,
     "days": 2,
     "steps": 12,
-    "photos": 58
+    "photos": 59
    }
   ],
   "months": [
@@ -10028,9 +10397,9 @@
    6,
    7,
    18,
-   22,
-   16,
-   29,
+   23,
+   17,
+   30,
    24,
    19,
    11,
@@ -10045,7 +10414,7 @@
   "weather": [
    {
     "label": "Partly cloudy",
-    "count": 102
+    "count": 105
    },
    {
     "label": "Clear",
@@ -10138,6 +10507,11 @@
    },
    {
     "name": "Delhi",
+    "steps": 3,
+    "trips": 1
+   },
+   {
+    "name": "Lalitpur",
     "steps": 3,
     "trips": 1
    },
@@ -10412,10 +10786,10 @@
      "days": 4,
      "start": "2025-04-17T18:30:00+00:00",
      "cover": {
-      "id": "4861a8a1-56b6-4a45-b79e-aa454719bdd0",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/3f1b2614be557abf30339b7ed36518b6af033560-3508x1973.jpg",
-      "w": 3508,
-      "h": 1973
+      "id": "bfec6b06-6e89-4792-953d-f8271ce17883",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/cca1b91b0fbecf80e9aeb7f755fc10c6cf142705-960x1280.jpg",
+      "w": 960,
+      "h": 1280
      }
     },
     {
@@ -10550,8 +10924,8 @@
    },
    "collage": [
     {
-     "id": "81343e36-9e27-4bf5-9f42-aaeaf79cf945",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/1d9acd7d420e304b5430cf7874d761cf0db8a1f0-960x1280.jpg",
+     "id": "07d8a48a-7905-44d1-9a17-8b99c6b5e4df",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e4ef2f032f9b5cb75b4447d707dc23131e40b6f-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -10562,8 +10936,8 @@
      "h": 1280
     },
     {
-     "id": "ae7d4452-1f67-407c-b3be-4a1bd91e59ef",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/ce715547e0e3243ec79a2bc6e5a2e23d1e198296-960x1280.jpg",
+     "id": "df2864c6-4325-4152-a4d6-981cc5ef15f4",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/84a79e8d43a370a140e797bd7005e708fe0b2a23-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -10580,20 +10954,20 @@
      "h": 1280
     },
     {
-     "id": "f3972af9-d13d-4aa3-bea2-4723452f8000",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/ed7a8535e9870e247b2df3bd31ea485e06754d2b-960x1280.jpg",
+     "id": "82211022-cb34-4b6c-b765-8e6a99072525",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/091f7827b8df620057ae2204a4feaad1d5abc497-1280x960.jpg",
+     "w": 1280,
+     "h": 960
+    },
+    {
+     "id": "ef6adbbd-3220-4e1a-9252-134e6bedc574",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/95670a01ec94f1fe647605bf1b242a1aafeb856a-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "4e04c2ad-717a-4ae4-b5a4-8831ba2a884e",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/38d830fa42615c47c103a68b7879aa7df8d38794-960x1280.jpg",
-     "w": 960,
-     "h": 1280
-    },
-    {
-     "id": "5c13c54d-6709-46db-8c2e-f15f716df94b",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/3ee8c3b80b1d1634171e1e5b53e77444fe9f6dac-960x1280.jpg",
+     "id": "897f40eb-7764-4fd3-8174-21f5e7218783",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/d63ba8623c7f07615075644c63f431105fc706ea-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -11169,10 +11543,10 @@
      "days": 9,
      "start": "2026-04-11T18:30:00+00:00",
      "cover": {
-      "id": "9be9e3e0-9e2c-416b-a0e6-4462718e266b",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb80b02d7bc4cf4a48ca198d0457d3f12e5fc94f-960x1283.jpg",
+      "id": "f741b1eb-3581-4c7f-8fb1-0ff30251b63d",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/cdd9725fc7d426c64677aa8fd09ef83a602e4cf3-960x1280.jpg",
       "w": 960,
-      "h": 1283
+      "h": 1280
      }
     },
     {
@@ -11195,8 +11569,8 @@
      "days": 17,
      "start": "2026-09-04T18:30:00+00:00",
      "cover": {
-      "id": "31285c23-b024-4b0d-89bb-34d713765555",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/527e6c7d64705d84fc63e4a2f2795d3e3ec4472c-960x1280.jpg",
+      "id": "77b3ff59-5e9d-4087-9498-522a960f7c55",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/551c5536f56ce291c62fd3d0d78e9dd957abbb01-960x1280.jpg",
       "w": 960,
       "h": 1280
      }
@@ -11208,8 +11582,8 @@
      "days": 3,
      "start": "2026-11-23T18:30:00+00:00",
      "cover": {
-      "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+      "id": "e65f5e32-0644-41cc-8cdd-ade74b748ed1",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/c58ba3128f322b0787b4d1113266a08c894f04ee-960x1280.jpg",
       "w": 960,
       "h": 1280
      }
@@ -11218,8 +11592,8 @@
    "km": 5943,
    "earthPct": 14.8,
    "days": 46,
-   "steps": 146,
-   "photos": 712,
+   "steps": 149,
+   "photos": 763,
    "countries": [
     "India",
     "Nepal"
@@ -11234,8 +11608,8 @@
     "days": 17,
     "start": "2026-09-04T18:30:00+00:00",
     "cover": {
-     "id": "31285c23-b024-4b0d-89bb-34d713765555",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/527e6c7d64705d84fc63e4a2f2795d3e3ec4472c-960x1280.jpg",
+     "id": "77b3ff59-5e9d-4087-9498-522a960f7c55",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/551c5536f56ce291c62fd3d0d78e9dd957abbb01-960x1280.jpg",
      "w": 960,
      "h": 1280
     }
@@ -11275,44 +11649,44 @@
      "h": 1280
     },
     {
-     "id": "e933b7ef-7714-4169-82dc-b6b5ae57db3d",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f0389e7af991e7f696ea4ca047a838a49230982-899x1599.jpg",
-     "w": 899,
-     "h": 1599
-    },
-    {
-     "id": "4f25a60f-0280-4590-8d90-6a405241b56e",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/1f9853ef1296ccf31d18a663a9eee609e77dfd54-960x1280.jpg",
+     "id": "7ea11e36-1f0a-4603-a491-55105b20cec7",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/4fa3e6a20cacecfbe1f07ef9e1af79fef7c0005c-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "ba6ff775-629b-4437-8b47-bcb013206543",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/a717e88ae8ea3775795689108c4ad1e4eed903ba-960x1280.jpg",
+     "id": "de6ec007-9c7d-438a-a5cc-be22eadd8d77",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/73403778b4cafe24c19b614338a0202da5530fc5-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "a3605c45-5286-4609-bb45-bd92bfbaf53d",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/e4fd1d4ab1cecb2b5b45276e076813d8d7bfbcfd-960x1280.jpg",
+     "id": "aa3516cc-3029-4c5d-aa12-62cb77561900",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/feb668b6da8fc3cfda3ef9d528734a5aac81442c-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "020b9797-5d9b-4a6e-bd0e-c2dfd291584b",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/c7e34a158ab72734179124f3bef0a5ea506eddd7-960x1280.jpg",
+     "id": "6951f440-5242-4dd5-ad9c-0e2cf996367f",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/638d01b8f42ab2bb41ddbd873e1c9f4e16ab43e8-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "a1e9d4b8-f277-49c9-ae5f-ca9e4455a093",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/238fb76e5342f794596522396e550c59340669b1-960x1280.jpg",
+     "id": "ecea5964-480a-4ef4-9420-ba3c25db1da0",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/6c7f54656f73c72ad495ad43f23e1a1f23d88217-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "48d72203-b038-40b2-910a-0ca2f37e59d8",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/eb928d88333aef5eb612ea7b8eed880df506efd6-960x1280.jpg",
+     "id": "7629be1a-8d39-4906-aad8-4d7c3fef509e",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/e482022e2d1f0b88078c5de11b5d541bb1cdec56-960x1280.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "id": "9ce21117-e61b-40f7-9310-5640d06ab286",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/b884044f894421a10c36e8437f52a6536efd3df0-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -11664,6 +12038,18 @@
      [
       27.7155,
       85.3106
+     ],
+     [
+      27.673,
+      85.3246
+     ],
+     [
+      27.6735,
+      85.3249
+     ],
+     [
+      27.6724,
+      85.3248
      ],
      [
       27.6724,
@@ -12023,6 +12409,18 @@
       85.3106
      ],
      [
+      27.673,
+      85.3246
+     ],
+     [
+      27.6735,
+      85.3249
+     ],
+     [
+      27.6724,
+      85.3248
+     ],
+     [
       27.6724,
       85.4271
      ],
@@ -12226,10 +12624,10 @@
      "days": 4,
      "start": "2025-04-17T18:30:00+00:00",
      "cover": {
-      "id": "4861a8a1-56b6-4a45-b79e-aa454719bdd0",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/3f1b2614be557abf30339b7ed36518b6af033560-3508x1973.jpg",
-      "w": 3508,
-      "h": 1973
+      "id": "bfec6b06-6e89-4792-953d-f8271ce17883",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/cca1b91b0fbecf80e9aeb7f755fc10c6cf142705-960x1280.jpg",
+      "w": 960,
+      "h": 1280
      }
     },
     {
@@ -12317,10 +12715,10 @@
      "days": 9,
      "start": "2026-04-11T18:30:00+00:00",
      "cover": {
-      "id": "9be9e3e0-9e2c-416b-a0e6-4462718e266b",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/bb80b02d7bc4cf4a48ca198d0457d3f12e5fc94f-960x1283.jpg",
+      "id": "f741b1eb-3581-4c7f-8fb1-0ff30251b63d",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/cdd9725fc7d426c64677aa8fd09ef83a602e4cf3-960x1280.jpg",
       "w": 960,
-      "h": 1283
+      "h": 1280
      }
     },
     {
@@ -12343,8 +12741,8 @@
      "days": 17,
      "start": "2026-09-04T18:30:00+00:00",
      "cover": {
-      "id": "31285c23-b024-4b0d-89bb-34d713765555",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/527e6c7d64705d84fc63e4a2f2795d3e3ec4472c-960x1280.jpg",
+      "id": "77b3ff59-5e9d-4087-9498-522a960f7c55",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/551c5536f56ce291c62fd3d0d78e9dd957abbb01-960x1280.jpg",
       "w": 960,
       "h": 1280
      }
@@ -12356,8 +12754,8 @@
      "days": 3,
      "start": "2026-11-23T18:30:00+00:00",
      "cover": {
-      "id": "25728884-2ebb-484a-a9ff-5af190ccf235",
-      "src": "https://cdn.sanity.io/images/qw7500aq/projects/7f657d0f957192cf9795972021d1fde54a7ae543-960x1280.jpg",
+      "id": "e65f5e32-0644-41cc-8cdd-ade74b748ed1",
+      "src": "https://cdn.sanity.io/images/qw7500aq/projects/c58ba3128f322b0787b4d1113266a08c894f04ee-960x1280.jpg",
       "w": 960,
       "h": 1280
      }
@@ -12366,8 +12764,8 @@
    "km": 11123,
    "earthPct": 27.8,
    "days": 70,
-   "steps": 209,
-   "photos": 809,
+   "steps": 212,
+   "photos": 860,
    "countries": [
     "India",
     "Nepal"
@@ -12418,50 +12816,50 @@
    },
    "collage": [
     {
-     "id": "81343e36-9e27-4bf5-9f42-aaeaf79cf945",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/1d9acd7d420e304b5430cf7874d761cf0db8a1f0-960x1280.jpg",
+     "id": "07d8a48a-7905-44d1-9a17-8b99c6b5e4df",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/0e4ef2f032f9b5cb75b4447d707dc23131e40b6f-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "906a89ce-aa1d-4f9b-85f7-249a782cb28d",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/ce161d620f6e04da6798495e0b93280f227cfb74-960x1280.jpg",
+     "id": "75a1fb64-5a01-436d-a207-72747e42739c",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/b1005528d6ee2ef8abb5f114ba7da7ba9aae8631-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "72a2114a-6134-4844-89e8-160ce5af1f87",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/83ea9ec89ae2b144f8eaf845b0620e4759281095-899x1599.jpg",
-     "w": 899,
-     "h": 1599
-    },
-    {
-     "id": "038966bf-73c2-46f1-a003-99787044d503",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/78089e4727b03ff256cc1164ff2b7a973c7cfab5-960x1280.jpg",
+     "id": "769cc023-c39e-4b05-b116-8a07372f2344",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/3dbb08b3ec69b6fa35bea04847451cf2ae1b4838-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "1858eadf-c2d1-4de9-b67e-10ac042789bf",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/30a4fc94b326b7d8cf34e1c2339e19cbf2a39e1d-960x1280.jpg",
+     "id": "d5692e8d-d21c-4e8a-ac67-3a1ac9975954",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/8f6b0c564f1a9874765305b56cf02f2f6755c9a3-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "b2b93fc8-ffe1-438c-b327-0f6aff6ece82",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/2cd2722465235790a20841c0a3fb8c2620536c68-960x1280.jpg",
+     "id": "e4d18fbb-24f4-4ccf-a2c4-85da561d6b90",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/4f744afb99ee628ac9970863565b9d74a3d753fb-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "5f290148-03b4-4c44-82ee-cd98aba1d7f7",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/c56c199393455f078bf54369aaf64f79a874bec1-960x1280.jpg",
+     "id": "e3659735-0949-4708-b2af-7f7c93cfbdd6",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/457e1142c847e62a2465631785c2de07832ed3fb-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
     {
-     "id": "085f616e-c609-465b-a432-9c9ab4aea89a",
-     "src": "https://cdn.sanity.io/images/qw7500aq/projects/ff8841a284f6a6076e76ba104cc1b6c897fceca2-960x1280.jpg",
+     "id": "22ec597d-ad02-4e9d-93fe-2a3e068f3bcd",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/1cba36e6b03e1d2bf4d7878dbdf073f43d840cdb-960x1280.jpg",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "id": "0d84d952-dbdf-48f3-bc49-1d6fbe6914db",
+     "src": "https://cdn.sanity.io/images/qw7500aq/projects/57779883921e2e9887272fc87dbb6268a9b6c777-960x1280.jpg",
      "w": 960,
      "h": 1280
     },
@@ -13079,6 +13477,18 @@
      [
       27.7155,
       85.3106
+     ],
+     [
+      27.673,
+      85.3246
+     ],
+     [
+      27.6735,
+      85.3249
+     ],
+     [
+      27.6724,
+      85.3248
      ],
      [
       27.6724,
@@ -14040,6 +14450,18 @@
      [
       27.7155,
       85.3106
+     ],
+     [
+      27.673,
+      85.3246
+     ],
+     [
+      27.6735,
+      85.3249
+     ],
+     [
+      27.6724,
+      85.3248
      ],
      [
       27.6724,

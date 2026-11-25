@@ -17,6 +17,7 @@ import path from 'node:path'
 import { loadEnvConfig } from '@next/env'
 import { createClient } from '@sanity/client'
 import { fetchTravelProfile, fetchTrip, mapLimit, type Photo, type Step, type TripDetail } from '../lib/polarsteps'
+import { tripDays } from '../lib/format'
 import { computeTravelInsights } from '../lib/travelInsights'
 import type { TravelSnapshot } from '../lib/travelData'
 
@@ -36,6 +37,13 @@ async function main() {
     const detail = trips.find((d) => d.id === t.id)
     if (detail) t.cover = detail.cover ? { ...detail.cover } : null
   })
+
+  // Polarsteps' own "time traveled" stat skips ongoing trips and counts days
+  // differently from the trip pages; use the sum of the trips' own durations.
+  profile.stats.days = profile.trips.reduce(
+    (n, t) => n + (tripDays(t.start, t.end ?? new Date().toISOString()) ?? 0),
+    0,
+  )
 
   // Every photo object in the data (step photos + trip covers), grouped by id.
   const photos = new Map<string, Photo[]>()
